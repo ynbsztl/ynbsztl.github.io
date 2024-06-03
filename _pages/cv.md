@@ -31,6 +31,14 @@ Publications
 
 * Xu, Z., Chen, S., Guo, M., Zhang, T., Niu, X., Zhou, Y., Tan, J., & Wang, J. (2024). The impact of diet quality on cognitive ability of Chinese older adults: Evidence from the China Health and Nutrition Survey (CHNS). BMC Geriatrics, 24(1), 55. https://doi.org/10.1186/s12877-023-04630-6
 
+Award
+======
+* Wuhan University Academic and Technological Innovation Scholarship, 2021
+
+* The Second Golden Printing Cup National College Science and Technology Innovation Competition: Third Prize, 2019
+
+* The First Golden Printing Cup National College Science and Technology Innovation Competition: Third Prize, 2018
+
 Skills
 ======
 * **Languages:** English (Proficient) and Mandarin (Native)

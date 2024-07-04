@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* M. A., Health Economics, Wuhan University, 2025 (Expected)
-* B. A., Finance, Wuhan University, 2021
-* B. E., Priting Engineer, Wuhan University, 2021
+* M.A., Health Economics, Wuhan University, 2025 (Expected)
+* B.A., Finance, Wuhan University, 2021
+* B.E., Priting Engineer, Wuhan University, 2021
 
 
 
@@ -31,14 +31,6 @@ Publications
 
 * Xu, Z., Chen, S., Guo, M., Zhang, T., Niu, X., Zhou, Y., Tan, J., & Wang, J. (2024). The impact of diet quality on cognitive ability of Chinese older adults: Evidence from the China Health and Nutrition Survey (CHNS). BMC Geriatrics, 24(1), 55. https://doi.org/10.1186/s12877-023-04630-6
 
-Award
-======
-* Wuhan University Academic and Technological Innovation Scholarship, 2021
-
-* The Second Golden Printing Cup National College Science and Technology Innovation Competition: Third Prize, 2019
-
-* The First Golden Printing Cup National College Science and Technology Innovation Competition: Third Prize, 2018
-
 Skills
 ======
 * **Languages:** English (Proficient) and Mandarin (Native)
@@ -50,6 +42,6 @@ Skills
 Research Assistant
 ======
 
-* Public policies and Infectious Disease Assistant.
+* Public policies and Infectious Disease Assistant
   * Aug, 2023 -  Dec,2023: Dong Fureng Institute of Economics and Social Development
 

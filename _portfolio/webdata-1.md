@@ -1,6 +1,6 @@
 ---
 title: "Baidu Index"
-excerpt: "Baidu have a leading position in Chinese search engine marke, baidu index generated from which could be analogy to Google Trend.<br/><img src='/images/baidu_index_sample.png'>"
+excerpt: "a data analysis tool developed by Baidu that allows users to track and analyze keyword trends and search behavior on the Baidu search engine, analogy to Google Trend. <br/><img src='/images/baidu_index_sample.png'>"
 collection: Index
 ---
 

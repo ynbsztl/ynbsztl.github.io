@@ -1,8 +1,8 @@
 ---
 title: "People's Daily"
-excerpt: "Baidu have a leading position in Chinese search engine marke, baidu index generated from which could be analogy to Google Trend.<br/><img src='/images/baidu_index_sample.png'>"
+excerpt: "The People's Daily (Chinese: 人民日报; pinyin: Rénmín Rìbào) is the official newspaper of the Central Committee of the Chinese Communist Party (CCP). It provides direct information on the policies and viewpoints of the CCP in multiple languages.<br/><img src='/images/peopledaily.jpg'>"
 collection: Index
 ---
 
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+The People's Daily (Chinese: 人民日报; pinyin: Rénmín Rìbào) is the official newspaper of the Central Committee of the Chinese Communist Party (CCP). It provides direct information on the policies and viewpoints of the CCP in multiple languages.

@@ -15,16 +15,16 @@ My previous experiences were focused on:
 
 Fetal Origins Hypothesis: Mainly on Neglected Tropical Disease and Infectious Disease Control Compaign on long-term human capital and well-being outcomes.
 
-Environmental Economics: El Niño's short-term and long-term consequences; Correlation bewteen meteorological data and search trend.
+Environmental Economics: El Niño's short-term and long-term consequences; Correlation bewteen meteorological data and emotion analysis.
 
 Web scraper: This is the solution for data obtain. Successfully grab data from Baidu Index, Dianping, People's Daily.
 
-Structure Function Model: Still working on it. 
+Structure econometrics Model: Still working on it. 
 
 My personal Homepage can be visited by [This site](https://ynbsztl.github.io) to see My Publications, Education etc. And your can also walk around my github repositories by [This site](https://github.com/ynbsztl) to go through my latest solution codes.
 
 What you can find in this website:
 ======
 1. An overview of my profile
-1. My publications
-1. The earlier education experiences
+2. My publications
+3. The earlier education experiences

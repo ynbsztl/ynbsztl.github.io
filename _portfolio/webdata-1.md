@@ -1,8 +1,8 @@
 ---
 title: "Baidu Index"
-excerpt: "a data analysis tool developed by Baidu that allows users to track and analyze keyword trends and search behavior on the Baidu search engine, analogy to Google Trend. <br/><img src='/images/baidu_index_sample.png'>"
+excerpt: "A data analysis tool developed by Baidu that allows users to track and analyze keyword trends and search behavior on the Baidu search engine, analogy to Google Trend. <br/><img src='/images/baidu_index_sample.png'>"
 collection: Index
 ---
 
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+A data analysis tool developed by Baidu that allows users to track and analyze keyword trends and search behavior on the Baidu search engine, analogy to Google Trend.

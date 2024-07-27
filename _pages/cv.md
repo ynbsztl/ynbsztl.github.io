@@ -13,7 +13,7 @@ Education
 ======
 * M.A., Health Economics, Wuhan University, 2025 (Expected)
 * B.A., Finance, Wuhan University, 2021
-* B.E., Priting Engineer, Wuhan University, 2021
+* B.E., Printing Engineer, Wuhan University, 2021
 
 
 

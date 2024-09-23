@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+_<a href="/files/cv/main.pdf">[Curriculum Vitae]</a>_.
+
 Hi,
 
 I am currently pursuing a Master’s degree at Wuhan University. Prior to this, I got a Bachelor of Engineering in Printing from the School of Printing and Packaging and a Bachelor of Arts in Finance from the School of Economics and Management, both in June 2021 from Wuhan University.

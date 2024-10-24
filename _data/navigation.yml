@@ -6,17 +6,17 @@ main:
   - title: "Talks"
     url: /talks/    
 
-  - title: "Research"
-    url: /research/    
-    
-  - title: "Webdata"
+  # - title: "Research"
+  #   url: /research/    
+
+  - title: "Data"
     url: /portfolio/
         
-  - title: "Blog Posts"
+  - title: "Research"
     url: /year-archive/
     
   - title: "CV"
     url: /cv/
     
-  - title: "Guide"
-    url: /markdown/
+  # - title: "Guide"
+  #   url: /markdown/

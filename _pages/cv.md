@@ -21,7 +21,7 @@ Publications
 ======
 ## Working paper
 
-- Min Guo, Jingwei Huang*, Tianlei Zhang. (2024). White Death in Developing Countries: Evidence from a Tuberculosis Control Program in China. _Journal of Development Economics_, under review.
+- Min Guo, Jingwei Huang*, Tianlei Zhang. (2024). White Death in Developing Countries: Evidence from a Tuberculosis Control Program in China. _American Economic Journal: Economic Policy_, under review.
 
 - Min Guo, Jingwei Huang*, Tianlei Zhang. (2024). Tuberculosis Testing and Treatment: Long-Lasting Effects of In Utero Exposure. _Working paper_.
 

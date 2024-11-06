@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* M.A., Health Economics, Wuhan University, 2025 (Expected)
+* M.A., Health Economics, Wuhan University, 2025
 * B.A., Finance, Wuhan University, 2021
 * B.E., Printing Engineer, Wuhan University, 2021
 
@@ -46,6 +46,12 @@ Research Assistant
 
 * Public policies and Infectious Disease Assistant
   * Aug, 2023 -  Dec,2023: Dong Fureng Institute of Economics and Social Development
+
+Teaching Assistant
+======
+
+* 2024 MIB quantitativ analy
+  * Sep, 2024 -  Nov,2024: Economics and Management School
 
 Skills
 ======

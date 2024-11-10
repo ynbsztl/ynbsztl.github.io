@@ -1,32 +1,23 @@
 ---
 permalink: /
-title: "About me"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-_<a href="/files/cv/main.pdf">[Curriculum Vitae]</a>_.
+Hi! I am a third-year master student at [**Wuhan University**](https://whu.edu.cn). Where I am fortunate enough to be advised by Prof. Min Guo.
 
-Hi,
+Prior to Wuhan University, I earned my Bachelor's degree from [**Printing and Package School, Wuhan University**](https://pps.whu.edu.cn/zxgk/zxjj.htm) and [**Economics and Management School, Wuhan University**](https://ems.whu.edu.cn/English.htm) in June 2021. I am extremely grateful to [**Prof. Yihua Zhou**](https://sns.whu.edu.cn/info/1019/20143.htm), **Prof. Min Guo**, **Dr. Jingwei Huang**, and [**Prof. Xun Li**](https://sites.google.com/site/xlihomepage/) who introduced me to the world of Printing and Economics!
 
-I am currently pursuing a Master’s degree at Wuhan University. Prior to this, I got a Bachelor of Engineering in Printing from the School of Printing and Packaging and a Bachelor of Arts in Finance from the School of Economics and Management, both in June 2021 from Wuhan University.
+My research interests lie broadly in **Health Economics** -- check my [**publications**](publications) or [**CV (PDF)**](CV_Tianlei.pdf) for more information. I am open to other topics as well; feel free to shoot me an email if you'd like to chat!
 
-My previous experiences were focused on:
+## Recent News
+* *Nov, 2024.* [**White Death in Developing Countries: Evidence from a Tuberculosis Control Program in China**](https://ynbsztl.github.io/publications/) Under review at **American Economic Journal: Economic Policy**
+* *Nov, 2024.* [**Tuberculosis Testing and Treatment: Long-Lasting Effects of In Utero Exposure**](https://ynbsztl.github.io/publications/) waiting to submit **Somewhere**
+* *Oct, 2024.* **Postgraduate Excellent Academic Performance Scholarship** by Wuhan University
 
-Fetal Origins Hypothesis: Mainly on Neglected Tropical Disease and Infectious Disease Control Compaign on long-term human capital and well-being outcomes.
-
-Environmental Economics: El Niño's short-term and long-term consequences; Correlation bewteen meteorological data and emotion analysis.
-
-Web scraper: This is the solution for data obtain. Successfully grab data from Baidu Index, Dianping, People's Daily.
-
-Structure econometrics Model: Still working on it. 
-
-My personal Homepage can be visited by [This site](https://ynbsztl.github.io) to see My Publications, Education etc. And your can also walk around my github repositories by [This site](https://github.com/ynbsztl) to go through my latest solution codes.
-
-What you can find in this website:
-======
-1. An overview of my profile
-2. My publications
-3. The earlier education experiences
+<!-- ## Professional Services
+* **Journal Reviewing**: JMLR 2024.
+* **Conference Reviewing**: NeurIPS 2024 / 2023 / 2022, ICLR 2025 / 2024, ICML 2023, ALT 2023, AISTATS 2025 / 2023 / 2022. -->

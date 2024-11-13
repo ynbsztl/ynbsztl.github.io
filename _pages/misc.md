@@ -6,7 +6,8 @@ author_profile: true
 ---
 
 ## Undergrate
-* I have synthesized two types of carbon quantum dots: red-emitting and blue-emitting. By combining them, we can test the concentration of specific metal ions. <img src="/images/cds.png" alt="Two kinds of Cds" height="350"/>
+* We have synthesized two types of carbon quantum dots: red-emitting and blue-emitting. By combining them, we can test the concentration of specific metal ions. <img src="/images/cds.png" alt="Two kinds of Cds" height="350"/>
+* <a href="/miscellaneous/undergrate/">[Detailed Page]</a>
 
 <!-- This project was a collaborative effort with Yi Liu, Yufan Wang, and Maoyuan Ye, under the guidance of Yihua Zhou. -->
 

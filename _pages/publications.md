@@ -20,5 +20,5 @@ author_profile: true
 
 ## Paper in circulation
 *   **\[Nov 2024\] [White Death in Developing Countries: Evidence from a Tuberculosis Control Program in China](https://ynbsztl.github.io/publications/)**  
-    Min Guo, Jingwei Huang\*, **<font color="blue">Tianlei Zhang</font>**. *AEJ: Economics policy.* under review
+    Min Guo, Jingwei Huang\*, **<font color="blue">Tianlei Zhang</font>**. *AEJ: Economic policy.* under review
     <!-- Accepted to *the Annual Conference of the ACM Special Interest Group on Performance Evaluation*, 2025. -->

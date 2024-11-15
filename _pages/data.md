@@ -7,11 +7,19 @@ author_profile: true
 
 I have gathered data from various sources. Below are sample datasets. Feel free to reach out to me for more information!
 
-## Review
-*   **[Dianping (大众点评)]()**  <a href="/files/sample_data/select_review.csv">[Sample data]</a>
+## Dianping (大众点评)
+*  <a href="/files/sample_data/select_review.csv">[Sample data]</a>
+*  Time period: 2022 - 2024
+*  Obs: by user and restaurant level
+*  Location: can be located with latitude and longitude 
 
-## Newspaper
-*   **[People’s Daily (人民日报)]()**  <a href="/files/sample_data/select_review.csv">[Sample data]</a>
+## People’s Daily (人民日报)
+*   **[]()**  <a href="/files/sample_data/select_review.csv">[Sample data]</a>
+*   Time period: 1946 - 
+*   Obs: daily
 
-## Hot index
-*   **[Baidu Index (百度指数)]()**  <a href="/files/sample_data/Insurance.xlsx">[Sample data]</a>
+## Baidu Index (百度指数)
+*   <a href="/files/sample_data/Insurance.xlsx">[Sample data]</a>
+*   Time period: 2015 - 
+*   Obs: daily
+*   Location: city level

@@ -14,7 +14,7 @@ I have gathered data from various sources. Below are sample datasets. Feel free 
 *  Location: can be located with latitude and longitude 
 
 ## People’s Daily (人民日报)
-*   **[]()**  <a href="/files/peopledaily.zip">[Sample data. All reports during 2023]</a>
+*   **[]()**  <a href="/files/peopledaily.zip">[Sample data]</a>
 *   Time period: 1946 - 
 *   Obs: daily
 

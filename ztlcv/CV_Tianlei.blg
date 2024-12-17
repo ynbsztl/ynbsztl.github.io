@@ -1,0 +1,77 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: CV_Tianlei.aux
+The style file: biblatex.bst
+A level-1 auxiliary file: colors.aux
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: CV_Tianlei-blx.bib
+Database file #2: ref.bib
+You're missing a field name---line 33 of file ref.bib
+ :     
+ :     %url={https://example.com},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 91 of file ref.bib
+ : 
+ : %    title   = {{Poster Name here.}},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Biblatex version: 3.17
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 10 entries,
+            6399 wiz_defined-function locations,
+            1257 strings with 13319 characters,
+and the built_in function-call counts, 67673 in all, are:
+= -- 4255
+> -- 3112
+< -- 451
++ -- 3523
+- -- 2316
+* -- 3940
+:= -- 8083
+add.period$ -- 0
+call.type$ -- 10
+change.case$ -- 206
+chr.to.int$ -- 164
+cite$ -- 18
+duplicate$ -- 6459
+empty$ -- 5280
+format.name$ -- 686
+if$ -- 12539
+int.to.chr$ -- 0
+int.to.str$ -- 34
+missing$ -- 0
+newline$ -- 283
+num.names$ -- 439
+pop$ -- 3294
+preamble$ -- 1
+purify$ -- 262
+quote$ -- 0
+skip$ -- 1987
+stack$ -- 0
+substring$ -- 7179
+swap$ -- 1412
+text.length$ -- 308
+text.prefix$ -- 9
+top$ -- 1
+type$ -- 328
+warning$ -- 0
+while$ -- 820
+width$ -- 0
+write$ -- 274
+(There were 2 error messages)

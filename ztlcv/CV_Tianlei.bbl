@@ -1,0 +1,338 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{ydnt/global//global/global}
+  \entry{Working2}{misc}{}
+    \name{author}{3}{}{%
+      {{hash=GM}{%
+         family={Guo},
+         familyi={G\bibinitperiod},
+         given={Min},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Jingwei},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={\textbf{Tianlei, Zhang}},
+         familyi={t\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \keyw{R}
+    \strng{namehash}{GMHJt1}
+    \strng{fullhash}{GMHJt1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{abstract}{%
+    Despite decades of efforts, while tuberculosis (TB) has largely been
+  eliminated in developed countries, it remains a significant public health
+  concern in developing countries. This study evaluates the impact of a TB
+  control program in China. In the early 1990s, TB continued to pose a threat
+  in China, prompting the government to launch a comprehensive program
+  incorporating the Directly Observed Treatment Short-Course (DOTS) across 13
+  provinces between 1992 and 2001. Our findings show that the program not only
+  increased the diagnosis of new TB cases but also reduced overall TB mortality
+  and infection rates. The results related to sickness, employment, and child
+  care align with the requirements and consequences of TB treatment, revealing
+  varying patterns across age groups and urban-rural differences. The program's
+  benefits extended to the next generation, increasing high school completion
+  rates. A backof-the-envelope cost-benefit analysis confirms the program's
+  cost-effectiveness. In conclusion, our findings underscore the success of TB
+  control efforts and provide valuable lessons for other developing countries
+  facing similar public health challenges.%
+    }
+    \field{title}{Tuberculosis {Testing} and {Treatment}: {Lasting} {Effects}
+  of {In}-{Utero} {Exposure}.}
+    \field{journaltitle}{Working paper being prepared for submission to JHE}
+    \field{year}{2024}
+  \endentry
+
+  \entry{Conf1}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=GM}{%
+         family={Guo},
+         familyi={G\bibinitperiod},
+         given={Min},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Jingwei},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={\textbf{Tianlei, Zhang}},
+         familyi={t\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GMHJt1}
+    \strng{fullhash}{GMHJt1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{booktitle}{The Third Xiangjiang River Forum in Economics}
+    \field{title}{White {Death} in {Developing} {Countries}: {Evidence} from a
+  {Tuberculosis} {Control} {Program} in {China}.}
+    \field{year}{2024}
+  \endentry
+
+  \entry{Working1}{misc}{}
+    \name{author}{3}{}{%
+      {{hash=GM}{%
+         family={Guo},
+         familyi={G\bibinitperiod},
+         given={Min},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Jingwei},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={\textbf{Tianlei, Zhang}},
+         familyi={t\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {American Economic Journal: Economic Policy. Under review.}%
+    }
+    \keyw{R}
+    \strng{namehash}{GMHJt1}
+    \strng{fullhash}{GMHJt1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{abstract}{%
+    Despite decades of efforts, while tuberculosis (TB) has largely been
+  eliminated in developed countries, it remains a significant public health
+  concern in developing countries. This study evaluates the impact of a TB
+  control program in China. In the early 1990s, TB continued to pose a threat
+  in China, prompting the government to launch a comprehensive program
+  incorporating the Directly Observed Treatment Short-Course (DOTS) across 13
+  provinces between 1992 and 2001. Our findings show that the program not only
+  increased the diagnosis of new TB cases but also reduced overall TB mortality
+  and infection rates. The results related to sickness, employment, and child
+  care align with the requirements and consequences of TB treatment, revealing
+  varying patterns across age groups and urban-rural differences. The program's
+  benefits extended to the next generation, increasing high school completion
+  rates. A backof-the-envelope cost-benefit analysis confirms the program's
+  cost-effectiveness. In conclusion, our findings underscore the success of TB
+  control efforts and provide valuable lessons for other developing countries
+  facing similar public health challenges.%
+    }
+    \field{title}{White {Death} in {Developing} {Countries}: {Evidence} from a
+  {Tuberculosis} {Control} {Program} in {China}.}
+    \verb{file}
+    \verb PDF:/Users/ynbsztl/Library/Mobile Documents/com~apple~CloudDocs/Zoter
+    \verb o_duplication/storage/D65GQCAV/Guo et al. - White Death in Developing
+    \verb  Countries Evidence from a Tuberculosis Control Program in China.pdf:
+    \verb application/pdf
+    \endverb
+    \field{journaltitle}{American Economic Journal: Economic Policy, under
+  review}
+    \field{year}{2024}
+  \endentry
+
+  \entry{Talk1}{misc}{}
+    \keyw{T}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \true{singletitle}
+    \field{howpublished}{Economics and Management School (Wuhan, Hubei, China)}
+  \field{title}{\textbf{\href{https://ynbsztl.github.io/miscellaneous/talk/python/}{A
+  simple python tutorial.}} At Wuhan University (invited by Prof. Xun Li).}
+    \field{month}{07}
+    \field{year}{2024}
+  \endentry
+
+  \entry{Working3}{misc}{}
+    \name{author}{5}{}{%
+      {{hash=GM}{%
+         family={Guo},
+         familyi={G\bibinitperiod},
+         given={Min},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Jingwei},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LF}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Fenghang},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=LX}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Xun},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={\textbf{Zhang, Tianlei}},
+         familyi={t\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {Previously under review at American Journal of Agricultural Economics}%
+    }
+    \keyw{R}
+    \strng{namehash}{GMHJLFLXt1}
+    \strng{fullhash}{GMHJLFLXt1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \true{singletitle}
+    \field{abstract}{%
+    This study investigates the long and short-term effects of China's
+  comprehensive control and prevention policy implemented in 2006 ("2006
+  policy" hereafter) targeting schistosomiasis, one of the seven most prevalent
+  Neglected Tropical Diseases (NTDs). The 2006 policy, a public health policy
+  that emphasizes infectious source control, improves living environmental
+  conditions and reduces schistosomiasis prevalence. Regarding long-term
+  outcomes, we observe mixed results with significant gender heterogeneity
+  including a decrease in hospitalization likelihood among males while an
+  increase in feeling sick incidence, a decrease in junior high school
+  completion probability and an increase in employment rates among females.
+  Short-term analysis reveals that boys exhibit lower sickness likelihood while
+  girls show higher sickness likelihood. Furthermore, girls are less likely to
+  enroll in school and more likely to work. An increased access to toilets may
+  be a potential explanation for the observed effects.%
+    }
+    \field{title}{Living {Environment} {Improvement} and {Human} {Capital}
+  {Accumulation}: {Evidence} from {A} {Schistosomiasis} {Control} {Policy} in
+  {China}.}
+    \verb{file}
+    \verb Guo et al. - Living Environment Improvement and Human Capital Accumul
+    \verb ation Evidence from A Schistosomiasis Contr.pdf:/Users/ynbsztl/Librar
+    \verb y/Mobile Documents/com~apple~CloudDocs/Zotero_duplication/storage/3AW
+    \verb CTQ6J/Guo et al. - Living Environment Improvement and Human Capital A
+    \verb ccumulation Evidence from A Schistosomiasis Contr.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{Previously under review at American Journal of
+  Agricultural Economics}
+    \field{year}{2023}
+  \endentry
+
+  \entry{demo1}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=t}{%
+         family={\textbf{Smith, John}},
+         familyi={t\bibinitperiod},
+      }}%
+    }
+    \keyw{D}
+    \strng{namehash}{t1}
+    \strng{fullhash}{t1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{howpublished}{\ul{Another Cool Conference} Workshop on Technical
+  Things (Cambridge, MA, USA)}
+    \field{title}{Exciting demonstration.}
+    \field{month}{04}
+    \field{year}{2022}
+  \endentry
+
+  \entry{demo2}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=t}{%
+         family={\textbf{Smith, John}},
+         familyi={t\bibinitperiod},
+      }}%
+    }
+    \keyw{D}
+    \strng{namehash}{t1}
+    \strng{fullhash}{t1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{note}{Include links this way for the \href{https://example.com}{Cool
+  Organization}}
+    \field{title}{CoVaxxy: Linking COVID-19 vaccine adoption and online
+  (mis)information.}
+    \field{month}{06}
+    \field{year}{2021}
+  \endentry
+
+  \entry{art1}{article}{}
+    \name{author}{3}{}{%
+      {{hash=t}{%
+         family={\textbf{Zhang, Tianlei}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Yihua},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Cao},
+         familyi={C\bibinitperiod},
+         given={Sheng},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{J}
+    \strng{namehash}{tZYCS1}
+    \strng{fullhash}{tZYCS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \true{singletitle}
+    \verb{doi}
+    \verb 10.19554/j.cnki.1001-3563.2020.03.013
+    \endverb
+    \field{issn}{1001-3563}
+    \field{number}{03}
+    \field{pages}{82\bibrangedash 91}
+    \field{title}{Advances in {Application} of {CDs} {Fluorescent} {Probe} in
+  {Rapid} {Detection} of {Agriculture} {Products}}
+    \field{volume}{41}
+    \field{journaltitle}{Packaging Engineering (In Chinese)}
+    \field{year}{2020}
+  \endentry
+
+  \entry{Poster1}{misc}{}
+    \field{sortinit}{9}
+    \field{sortinithash}{9}
+  \endentry
+\enddatalist
+\endinput

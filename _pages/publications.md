@@ -24,4 +24,4 @@ author_profile: true
 ## Research assistant
 
 - **[Neglected Tropical Diseases, Health, Education, and Cognition: Evidence from China](https://ynbsztl.github.io/publications/)**. 
-    Li, Fenghang, Zeng, Kangni, Guo, Min, and Huang, Jingwei\*. (2025). **Health Economics**. 3<sup>rd</sup> round review.
+    Fenghang Li, Zeng Kangni, Guo Min, and Huang Jingwei\*. (2025). **Health Economics**. 3<sup>rd</sup> round review.

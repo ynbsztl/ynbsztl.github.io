@@ -14,8 +14,9 @@ Prior to [**Dong Fureng Institute of Economics and Social Development**](http://
 My research interests lie broadly in **Health Economics** -- check my [**publications**](publications) or [**CV (PDF)**](CV_Tianlei.pdf) for more information. I am open to other topics as well; feel free to shoot me an email if you'd like to chat!
 
 ## Recent News
-* *Dec, 2024.* [**White Death in Developing Countries: Evidence from a Tuberculosis Control Program in China**](https://ynbsztl.github.io/publications/) Under review at **American Economic Journal: Economic Policy**
-* *Nov, 2024.* **Postgraduate Excellent Academic Performance Scholarship** by Wuhan University
+* *Jan, 2025.* [**White Death in Developing Countries: Evidence from a Tuberculosis Control Program in China**](https://ynbsztl.github.io/publications/). Under review at **American Economic Journal: Economic Policy**
+
+
 
 <!-- ## Professional Services
 * **Journal Reviewing**: JMLR 2024.

@@ -13,13 +13,23 @@ author_profile: true
 (The authors contributed equally and are listed in alphabetical order.)
 
 1. **[White Death in Developing Countries: Evidence from a Tuberculosis Control Program in China](https://ynbsztl.github.io/publications/)**  
-    Min Guo, Jingwei Huang\*, and **<font color="black">Tianlei Zhang</font>**. **<font color="red">American Economic Journal: Economic Policy.</font>** Under review.
+    Min Guo, Jingwei Huang\*, and **<font color="black">Tianlei Zhang</font>**. 
+
+    Peer-Review History
+    
+    1. **<font color="red">Journal of Development Economics.</font>** 
+    2. **<font color="red">American Economic Journal: Economic Policy.</font>**
+    
 
 2. **[Tuberculosis Testing and Treatment: Long-Lasting Effects of In Utero Exposure](https://ynbsztl.github.io/publications/)**  
     Min Guo, Jingwei Huang\*, and **<font color="black">Tianlei Zhang</font>**. Working paper.
     
 3. **[Living Environment Improvement and Human Capital Accumulation: Evidence from A Schistosomiasis Control Policy in China](https://ynbsztl.github.io/publications/)**  
-    Min Guo, Jingwei Huang\*, Fenghang Li, Xun Li, and **<font color="black">Tianlei Zhang</font>**. Previously under review at **<font color="red">American Journal of Agricultural Economics.</font>**
+    Min Guo, Jingwei Huang\*, Fenghang Li, Xun Li, and **<font color="black">Tianlei Zhang</font>**. 
+
+    Peer-Review History
+
+    1. **<font color="red">American Journal of Agricultural Economics.</font>**
 
 ## Research assistant
 

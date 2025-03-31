@@ -114,3 +114,48 @@ I have gathered datasets from various sources. Below are sample datasets. Feel f
         <td>Sep-04-2017</td>
     </tr>
 </table>
+
+## Fang Tianxia (房天下)
+*   <a href="/files/Pre_owned_house_price.csv">[Sample data]</a>
+*   Accuracy: Precise to the community or individual housing unit
+ 
+**<font color="black">Data structure: </font>** 
+
+<table border="1" cellspacing="0" cellpadding="5">  
+    <tr>  
+        <th>Title</th>  
+        <th>Type</th>  
+        <th>Area</th>  
+        <th>Floor</th>  
+        <th>Orientation</th>  
+        <th>Year Built</th>  
+        <th>Total Price (10,000 CNY)</th>  
+        <th>Unit Price (CNY/㎡)</th>  
+        <th>Address</th>  
+        <th>Community</th>  
+    </tr>  
+    <tr>  
+        <td>Huabo Hui Taoli Chunfeng, Traditional-Style Villa, Private Courtyard with Parking, 150㎡ Yard</td>  
+        <td>3 Bedrooms</td>  
+        <td>90㎡</td>  
+        <td>—</td>  
+        <td>South</td>  
+        <td>—</td>  
+        <td>240.0</td>  
+        <td>26,666</td>  
+        <td>Houguan Zhiyin Lake - Zhiyin Lake Avenue, near Huabo Hui</td>  
+        <td>Huabo Hui Taoli Chunfeng</td>  
+    </tr>  
+    <tr>  
+        <td>600m from Line 4, Buy a Central SOE Property! Changchun Street at Your Doorstep, One-Stop Education</td>  
+        <td>3 Bedrooms, 2 Living Rooms</td>  
+        <td>108㎡</td>  
+        <td>(33 Floors)</td>  
+        <td>South-North</td>  
+        <td>2021</td>  
+        <td>65.0</td>  
+        <td>6,018</td>  
+        <td>Caidian - Lianhua Lake Avenue (Opposite Hanyang No.1 High School)</td>  
+        <td>China State Construction Jinxiuchucheng</td>  
+    </tr> 
+</table>

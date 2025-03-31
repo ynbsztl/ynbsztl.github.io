@@ -66,8 +66,8 @@
     }
     \field{title}{Tuberculosis {Testing} and {Treatment}: {Lasting} {Effects}
   of {In}-{Utero} {Exposure}.}
-    \field{journaltitle}{Working paper being prepared for submission to JHE}
-    \field{year}{2024}
+    \field{journaltitle}{Working Paper}
+    \field{year}{2025}
   \endentry
 
   \entry{Conf1}{inproceedings}{}
@@ -98,7 +98,7 @@
     \field{booktitle}{The Third Xiangjiang River Forum in Economics}
     \field{title}{White {Death} in {Developing} {Countries}: {Evidence} from a
   {Tuberculosis} {Control} {Program} in {China}.}
-    \field{year}{2024}
+    \field{year}{2025}
   \endentry
 
   \entry{Working1}{misc}{}
@@ -121,7 +121,7 @@
       }}%
     }
     \list{language}{1}{%
-      {American Economic Journal: Economic Policy. Under review.}%
+      {Working Paper}%
     }
     \keyw{R}
     \strng{namehash}{GMHJt1}
@@ -156,9 +156,8 @@
     \verb  Countries Evidence from a Tuberculosis Control Program in China.pdf:
     \verb application/pdf
     \endverb
-    \field{journaltitle}{American Economic Journal: Economic Policy, under
-  review}
-    \field{year}{2024}
+    \field{journaltitle}{Working Paper}
+    \field{year}{2025}
   \endentry
 
   \entry{Talk1}{misc}{}
@@ -206,7 +205,7 @@
       }}%
     }
     \list{language}{1}{%
-      {Previously under review at American Journal of Agricultural Economics}%
+      {Working Paper}%
     }
     \keyw{R}
     \strng{namehash}{GMHJLFLXt1}
@@ -242,8 +241,7 @@
     \verb CTQ6J/Guo et al. - Living Environment Improvement and Human Capital A
     \verb ccumulation Evidence from A Schistosomiasis Contr.pdf:application/pdf
     \endverb
-    \field{journaltitle}{Previously under review at American Journal of
-  Agricultural Economics}
+    \field{journaltitle}{Working Paper}
     \field{year}{2023}
   \endentry
 

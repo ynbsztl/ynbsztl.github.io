@@ -22,7 +22,7 @@ author_profile: true
     
     1. **<font color="red">Journal of Development Economics.</font>** 
     2. **<font color="red">American Economic Journal: Economic Policy.</font>**
-    
+    3. **<font color="red">Journal of Population Economics.</font>**
 
 2. **[Tuberculosis Testing and Treatment: Long-Lasting Effects of In Utero Exposure$^\dagger$](https://ynbsztl.github.io/publications/)**  
     Min Guo, Jingwei Huang\*, and **<font color="black">Tianlei Zhang</font>**. Working paper.

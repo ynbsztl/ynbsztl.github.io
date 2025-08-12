@@ -160,6 +160,77 @@
     \field{year}{2025}
   \endentry
 
+  \entry{art2}{article}{}
+    \name{author}{6}{}{%
+      {{hash=LF}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Fenghang},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=YP}{%
+         family={Yan},
+         familyi={Y\bibinitperiod},
+         given={Peizhe},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Jia},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Hou},
+         familyi={H\bibinitperiod},
+         given={Jiao},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ZT}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Tianlei},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Guo},
+         familyi={G\bibinitperiod},
+         given={Min},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \keyw{J}
+    \strng{namehash}{LFYPLJHJZTGM1}
+    \strng{fullhash}{LFYPLJHJZTGM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \true{singletitle}
+    \verb{doi}
+    \verb 10.1061/JUPDDM.UPENG-4971
+    \endverb
+    \field{issn}{0733-9488, 1943-5444}
+    \field{number}{4}
+    \field{pages}{04025052}
+    \field{shorttitle}{Urban {Land} {Marketization} in {China}}
+    \field{title}{Urban {Land} {Marketization} in {China}: {The}
+  {Spatiotemporal} {Evolution} {Characteristics} and {Convergence} {Trends}}
+    \verb{url}
+    \verb https://ascelibrary.org/doi/10.1061/JUPDDM.UPENG-4971
+    \endverb
+    \field{volume}{151}
+    \field{journaltitle}{Journal of Urban Planning and Development}
+    \field{month}{12}
+    \field{year}{2025}
+    \field{urlday}{11}
+    \field{urlmonth}{08}
+    \field{urlyear}{2025}
+  \endentry
+
   \entry{Talk1}{misc}{}
     \keyw{T}
     \field{labeltitlesource}{title}
@@ -171,6 +242,106 @@
   simple python tutorial.}} At Wuhan University (invited by Prof. Xun Li).}
     \field{month}{07}
     \field{year}{2024}
+  \endentry
+
+  \entry{xu_impact_2024}{article}{}
+    \name{author}{8}{}{%
+      {{hash=XZ}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Ziwei},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Shuaizhen},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Guo},
+         familyi={G\bibinitperiod},
+         given={Min},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ZT}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Tianlei},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=NX}{%
+         family={Niu},
+         familyi={N\bibinitperiod},
+         given={Xiaoxuan},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Yuxin},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=TJ}{%
+         family={Tan},
+         familyi={T\bibinitperiod},
+         given={Jialong},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Jian},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{J}
+    \strng{namehash}{XZCSGMZTNXZYTJWJ1}
+    \strng{fullhash}{XZCSGMZTNXZYTJWJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \true{singletitle}
+    \field{abstract}{%
+    Numerous studies have demonstrated a positive correlation between diet
+  quality and cognitive performance, indicating that improving diet quality may
+  be beneficial in preventing cognitive decline in older adults. However, few
+  study has investigated the causal relationship between diet quality and
+  cognitive performance. The purpose of this study is to evaluate the causal
+  effects of diet quality on cognitive performance in Chinese adults aged 55
+  years and older. Particularly, we utilize the Chinese Diet Quality Index
+  (CHEI), a dietary assessment tool tailored for Chinese populations, as a
+  proxy for older adults’ diet quality.%
+    }
+    \verb{doi}
+    \verb 10.1186/s12877-023-04630-6
+    \endverb
+    \field{issn}{1471-2318}
+    \field{number}{1}
+    \field{pages}{55}
+    \field{shorttitle}{The impact of diet quality on cognitive ability of
+  {Chinese} older adults}
+    \field{title}{The impact of diet quality on cognitive ability of {Chinese}
+  older adults: evidence from the {China} {Health} and {Nutrition} {Survey}
+  ({CHNS})}
+    \verb{url}
+    \verb https://doi.org/10.1186/s12877-023-04630-6
+    \endverb
+    \field{volume}{24}
+    \verb{file}
+    \verb Full Text PDF:/Users/ynbsztl/Library/Mobile Documents/com~apple~Cloud
+    \verb Docs/Zotero_duplication/storage/H5PWKVK2/Xu 等 - 2024 - The impact o
+    \verb f diet quality on cognitive ability of.pdf:application/pdf;Snapshot:/
+    \verb Users/ynbsztl/Library/Mobile Documents/com~apple~CloudDocs/Zotero_dup
+    \verb lication/storage/7CQ5829X/s12877-023-04630-6.html:text/html
+    \endverb
+    \field{journaltitle}{BMC Geriatrics}
+    \field{month}{01}
+    \field{year}{2024}
+    \field{urlday}{12}
+    \field{urlmonth}{01}
+    \field{urlyear}{2024}
   \endentry
 
   \entry{Working3}{misc}{}
@@ -290,9 +461,11 @@
 
   \entry{art1}{article}{}
     \name{author}{3}{}{%
-      {{hash=t}{%
-         family={\textbf{Zhang, Tianlei}},
-         familyi={t\bibinitperiod},
+      {{hash=ZT}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Tianlei},
+         giveni={T\bibinitperiod},
       }}%
       {{hash=ZY}{%
          family={Zhou},
@@ -308,8 +481,8 @@
       }}%
     }
     \keyw{J}
-    \strng{namehash}{tZYCS1}
-    \strng{fullhash}{tZYCS1}
+    \strng{namehash}{ZTZYCS1}
+    \strng{fullhash}{ZTZYCS1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{7}

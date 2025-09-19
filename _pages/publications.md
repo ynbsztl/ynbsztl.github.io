@@ -58,8 +58,8 @@ author_profile: true
 <div class="publications-container">
   <h2>Publications</h2>
   <ul>
-    <li><a href="#">Urban Land Marketization in China: The Spatiotemporal Evolution Characteristics and Convergence Trends</a> (with Fenghang Li, Peizhe Yan, Jia Li, Jiao Hou, and Min Guo), <span class="journal">Journal of Urban Planning and Development</span>, 2025.</li>
-    <li><a href="#">The impact of diet quality on cognitive ability of Chinese older adults: evidence from the China Health and Nutrition Survey (CHNS)</a> (with Ziwei Xu, Shuaizhen Chen, Min Guo, Xiaoxuan Niu, Yuxin Zhou, Jialong Tan, and Jian Wang), <span class="journal">BMC Geriatrics</span>, 2024.</li>
+    <li><a href="#">Urban Land Marketization in China: The Spatiotemporal Evolution Characteristics and Convergence Trends</a> (with Fenghang Li, Peizhe Yan, Jia Li, et al.), <span class="journal">Journal of Urban Planning and Development</span>, 2025.</li>
+    <li><a href="#">The impact of diet quality on cognitive ability of Chinese older adults: evidence from the China Health and Nutrition Survey (CHNS)</a> (with Ziwei Xu, Shuaizhen Chen, Min Guo, et al.), <span class="journal">BMC Geriatrics</span>, 2024.</li>
     <li><a href="https://doi.org/10.19554/j.cnki.1001-3563.2020.03.013">Advances in Application of CDs Fluorescent Probe in Rapid Detection of Agriculture Products</a> (with Yihua Zhou and Sheng Cao), <span class="journal">Packaging Engineering</span>, 2020.</li>
   </ul>
 
@@ -67,6 +67,6 @@ author_profile: true
   <ul>
     <li><a href="https://ynbsztl.github.io/publications/">White Death in Developing Countries: Evidence from a Tuberculosis Control Program in China</a> (with Min Guo and Jingwei Huang), under review. <span class="journal">Journal of Population Economics</span>.</li>
     <li><a href="https://ynbsztl.github.io/publications/">Tuberculosis Testing and Treatment: Long-Lasting Effects of In Utero Exposure</a> (with Min Guo and Jingwei Huang), Working paper.</li>
-    <li><a href="https://ynbsztl.github.io/publications/">Living Environment Improvement and Human Capital Accumulation: Evidence from A Schistosomiasis Control Policy in China</a> (with Min Guo, Jingwei Huang, Fenghang Li, and Xun Li).</li>
+    <li><a href="https://ynbsztl.github.io/publications/">Living Environment Improvement and Human Capital Accumulation: Evidence from A Schistosomiasis Control Policy in China</a> (with Min Guo, Jingwei Huang, Fenghang Li, et al.).</li>
   </ul>
 </div>

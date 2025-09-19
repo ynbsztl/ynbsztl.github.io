@@ -18,7 +18,7 @@ My research interests lie broadly in **Health Economics** -- check my [**Researc
 
 - M.A., Health Economics, Wuhan University, 2025
 - B.A., Finance, Wuhan University, 2021
-- B.E., Printing Engineering, Wuhan University, 2021
+- B.Eng., Printing Engineering, Wuhan University, 2021
 
 ## Contact Information
 

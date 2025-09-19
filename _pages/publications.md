@@ -1,42 +1,72 @@
 ---
 layout: archive
-title: "Research Experiences"
+title: ""
 permalink: /publications/
 author_profile: true
 ---
 
-<!-- Check my [Google Scholar profile](https://scholar.google.com/citations?user=gkG4z3IAAAAJ) for more information! -->
-<!-- Listed reverse chronologically.  -->
-## Publication
+<style>
+.publications-container {
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000;
+  max-width: 800px;
+}
 
-1. **[Advances in Application of CDs Fluorescent Probe in Rapid Detection of Agriculture Products](https://doi.org/10.19554/j.cnki.1001-3563.2020.03.013)** **<font color="black">Tianlei Zhang</font>**, Yihua Zhou, and Sheng Cao\*. **<font color="red">Packaging Engineering</font>** (In Chinese), vol. 41, no. 03, 2020, pp. 82–91.
+.publications-container h2 {
+  font-family: Lato, Arial;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  margin: 24px 0 12px 0;
+}
 
-## Working paper
+.publications-container ul {
+  list-style-type: square;
+  padding-left: 20px;
+  margin: 0;
+}
 
-(**<font color="lightblue">$^\dagger$</font>** The authors contributed equally and are listed in alphabetical order. )
+.publications-container li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+  font-size: 16px;
+}
 
-1. **[White Death in Developing Countries: Evidence from a Tuberculosis Control Program in China$^\dagger$](https://ynbsztl.github.io/publications/)**  
-    Min Guo, Jingwei Huang\*, and **<font color="black">Tianlei Zhang</font>**. 
+.publications-container .journal {
+  font-weight: bold;
+}
 
-    Peer-Review History
-    
-    1. **<font color="red">Journal of Development Economics.</font>** 
-    2. **<font color="red">American Economic Journal: Economic Policy.</font>**
-    3. **<font color="red">Journal of Population Economics.</font>**
+.publications-container a {
+  color: #1155cc;
+  text-decoration: underline;
+  font-weight: 400;
+}
 
-2. **[Tuberculosis Testing and Treatment: Long-Lasting Effects of In Utero Exposure$^\dagger$](https://ynbsztl.github.io/publications/)**  
-    Min Guo, Jingwei Huang\*, and **<font color="black">Tianlei Zhang</font>**. Working paper.
-    
-3. **[Living Environment Improvement and Human Capital Accumulation: Evidence from A Schistosomiasis Control Policy in China$^\dagger$](https://ynbsztl.github.io/publications/)**  
-    Min Guo, Jingwei Huang\*, Fenghang Li, Xun Li, and **<font color="black">Tianlei Zhang</font>**. 
+.publications-container a:hover {
+  text-decoration: underline;
+}
 
-    Peer-Review History
+.publications-container .note {
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 12px;
+}
+</style>
 
-    1. **<font color="red">American Journal of Agricultural Economics.</font>**
+<div class="publications-container">
+  <h2>Publications</h2>
+  <ul>
+    <li><a href="#">Urban Land Marketization in China: The Spatiotemporal Evolution Characteristics and Convergence Trends</a> (with Fenghang Li, Peizhe Yan, Jia Li, Jiao Hou, and Min Guo), <span class="journal">Journal of Urban Planning and Development</span>, 2025.</li>
+    <li><a href="#">The impact of diet quality on cognitive ability of Chinese older adults: evidence from the China Health and Nutrition Survey (CHNS)</a> (with Ziwei Xu, Shuaizhen Chen, Min Guo, Xiaoxuan Niu, Yuxin Zhou, Jialong Tan, and Jian Wang), <span class="journal">BMC Geriatrics</span>, 2024.</li>
+    <li><a href="https://doi.org/10.19554/j.cnki.1001-3563.2020.03.013">Advances in Application of CDs Fluorescent Probe in Rapid Detection of Agriculture Products</a> (with Yihua Zhou and Sheng Cao), <span class="journal">Packaging Engineering</span>, 2020.</li>
+  </ul>
 
-## Research assistant
-
-At [**Wuhan University**](https://whu.edu.cn):
-
-- **[Neglected Tropical Diseases, Health, Education, and Cognition: Evidence from China](https://ynbsztl.github.io/publications/)**. 
-    Fenghang Li, Zeng Kangni, Guo Min, and Huang Jingwei\*. **<font color="red">Health Economics</font>**. 3<sup>rd</sup> round review.
+  <h2>Working Papers</h2>
+  <ul>
+    <li><a href="https://ynbsztl.github.io/publications/">White Death in Developing Countries: Evidence from a Tuberculosis Control Program in China</a> (with Min Guo and Jingwei Huang), under review. <span class="journal">Journal of Population Economics</span>.</li>
+    <li><a href="https://ynbsztl.github.io/publications/">Tuberculosis Testing and Treatment: Long-Lasting Effects of In Utero Exposure</a> (with Min Guo and Jingwei Huang), Working paper.</li>
+    <li><a href="https://ynbsztl.github.io/publications/">Living Environment Improvement and Human Capital Accumulation: Evidence from A Schistosomiasis Control Policy in China</a> (with Min Guo, Jingwei Huang, Fenghang Li, and Xun Li).</li>
+  </ul>
+</div>

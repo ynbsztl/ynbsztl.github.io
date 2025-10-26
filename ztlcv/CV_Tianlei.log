@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.7.26)  22 SEP 2025 21:42
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.7.26)  26 OCT 2025 11:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1137,40 +1137,23 @@ Overfull \hbox (24.59843pt too wide) in paragraph at lines 124--124
 , vol. 151, no. 4, Dec. 2025, p. 04025052. https://doi.org/[][]$10 . 
  []
 
-(./teaching.tex) (./awards.tex
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-[]|\T1/jkp/m/n/10.95 The $\OT1/jkp/m/n/10.95 2[]$ \T1/jkp/m/n/10.95 Na-tional G
-olden Print-ing Cup Uni-ver-sity Tech-no-log-i-cal In-no-va-tion Com-pe-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-[]|\T1/jkp/m/n/10.95 The $\OT1/jkp/m/n/10.95 1[]$ \T1/jkp/m/n/10.95 Na-tional G
-olden Print-ing Cup Uni-ver-sity Tech-no-log-i-cal In-no-va-tion Com-pe-
- []
-
-
-Overfull \hbox (17.99998pt too wide) in alignment at lines 3--17
-[] [] 
- []
-
-[1
+(./tools.tex [1
 
 
 
 
-]) (./tools.tex) [2] (./CV_Tianlei.aux (./colors.aux))
+]) [2] (./CV_Tianlei.aux (./colors.aux))
 Package logreq Info: Writing requests to 'CV_Tianlei.run.xml'.
 \openout1 = `CV_Tianlei.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23459 strings out of 476179
- 443781 string characters out of 5809544
- 1049659 words of memory out of 5000000
- 43933 multiletter control sequences out of 15000+600000
- 526155 words of font info for 73 fonts, out of 8000000 for 9000
+ 23442 strings out of 476179
+ 443575 string characters out of 5809544
+ 1047555 words of memory out of 5000000
+ 43923 multiletter control sequences out of 15000+600000
+ 526147 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 74i,7n,81p,1927b,4900s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 74i,5n,81p,1927b,4900s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on CV_Tianlei.pdf (2 pages).

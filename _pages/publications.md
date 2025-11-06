@@ -66,7 +66,14 @@ author_profile: true
   <h2>Working Papers</h2>
   <ul>
     <li>White Death in Developing Countries: Evidence from a Tuberculosis Control Program in China (with Min Guo and Jingwei Huang). <span class="journal">Journal of Population Economics</span>, under review.</li>
-    <li>TLong-term Effects of In-Utero Exposure to Tuberculosis and Its Mechanisms: Evidence from a Disease Control Program in China.<span class="journal">Economic Development and Cultural Change</span>, under review.</li>
-    <li>Living Environment Improvement and Human Capital Accumulation: Evidence from A Schistosomiasis Control Policy in China (with Min Guo, Jingwei Huang, Fenghang Li, et al.).</li>
+    <li>Long-term Effects of In-Utero Exposure to Tuberculosis and Its Mechanisms: Evidence from a Disease Control Program in China. <span class="journal">Economic Development and Cultural Change</span>, under review.</li>
   </ul>
+
+  <h2>Dormant working paper</h2>
+  <ul>
+  <li>Living Environment Improvement and Human Capital Accumulation: Evidence from A Schistosomiasis Control Policy in China (with Min Guo, Jingwei Huang, Fenghang Li, et al.).</li>
+  </ul>
+  
 </div>
+
+

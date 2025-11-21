@@ -71,7 +71,7 @@ author_profile: true
 
   <h2>Dormant working paper</h2>
   <ul>
-  <li>Living Environment Improvement and Human Capital Accumulation: Evidence from A Schistosomiasis Control Policy in China (with Min Guo, Jingwei Huang, Fenghang Li, et al.).</li>
+  <li>Living Environment Improvement and Human Capital Accumulation: Evidence from A Schistosomiasis Control Policy in China (with Min Guo, Jingwei Huang, Xun Li, et al.).</li>
   </ul>
   
 </div>

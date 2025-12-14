@@ -17,90 +17,6 @@
 \endgroup
 
 \datalist[entry]{ydnt/global//global/global}
-  \entry{Working2}{misc}{}
-    \name{author}{3}{}{%
-      {{hash=GM}{%
-         family={Guo},
-         familyi={G\bibinitperiod},
-         given={Min},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=HJ}{%
-         family={Huang},
-         familyi={H\bibinitperiod},
-         given={Jingwei},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=t}{%
-         family={\textbf{Tianlei, Zhang}},
-         familyi={t\bibinitperiod},
-      }}%
-    }
-    \list{language}{1}{%
-      {en}%
-    }
-    \keyw{R}
-    \strng{namehash}{GMHJt1}
-    \strng{fullhash}{GMHJt1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{7}
-    \field{sortinithash}{7}
-    \field{abstract}{%
-    Despite decades of efforts, while tuberculosis (TB) has largely been
-  eliminated in developed countries, it remains a significant public health
-  concern in developing countries. This study evaluates the impact of a TB
-  control program in China. In the early 1990s, TB continued to pose a threat
-  in China, prompting the government to launch a comprehensive program
-  incorporating the Directly Observed Treatment Short-Course (DOTS) across 13
-  provinces between 1992 and 2001. Our findings show that the program not only
-  increased the diagnosis of new TB cases but also reduced overall TB mortality
-  and infection rates. The results related to sickness, employment, and child
-  care align with the requirements and consequences of TB treatment, revealing
-  varying patterns across age groups and urban-rural differences. The program's
-  benefits extended to the next generation, increasing high school completion
-  rates. A backof-the-envelope cost-benefit analysis confirms the program's
-  cost-effectiveness. In conclusion, our findings underscore the success of TB
-  control efforts and provide valuable lessons for other developing countries
-  facing similar public health challenges.%
-    }
-    \field{title}{Tuberculosis {Testing} and {Treatment}: {Lasting} {Effects}
-  of {In}-{Utero} {Exposure}.}
-    \field{journaltitle}{Working Paper}
-    \field{year}{2025}
-  \endentry
-
-  \entry{Conf1}{inproceedings}{}
-    \name{author}{3}{}{%
-      {{hash=GM}{%
-         family={Guo},
-         familyi={G\bibinitperiod},
-         given={Min},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=HJ}{%
-         family={Huang},
-         familyi={H\bibinitperiod},
-         given={Jingwei},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=t}{%
-         family={\textbf{Tianlei, Zhang}},
-         familyi={t\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{GMHJt1}
-    \strng{fullhash}{GMHJt1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{7}
-    \field{sortinithash}{7}
-    \field{booktitle}{The Third Xiangjiang River Forum in Economics}
-    \field{title}{White {Death} in {Developing} {Countries}: {Evidence} from a
-  {Tuberculosis} {Control} {Program} in {China}.}
-    \field{year}{2025}
-  \endentry
-
   \entry{Working1}{misc}{}
     \name{author}{3}{}{%
       {{hash=GM}{%
@@ -148,8 +64,8 @@
   control efforts and provide valuable lessons for other developing countries
   facing similar public health challenges.%
     }
-    \field{title}{White {Death} in {Developing} {Countries}: {Evidence} from a
-  {Tuberculosis} {Control} {Program} in {China}.}
+    \field{title}{Fighting Disease: Intended and Unintended Consequences of a
+  Tuberculosis Control Program.}
     \verb{file}
     \verb PDF:/Users/ynbsztl/Library/Mobile Documents/com~apple~CloudDocs/Zoter
     \verb o_duplication/storage/D65GQCAV/Guo et al. - White Death in Developing
@@ -157,6 +73,90 @@
     \verb application/pdf
     \endverb
     \field{journaltitle}{Working Paper}
+    \field{year}{2025}
+  \endentry
+
+  \entry{Working2}{misc}{}
+    \name{author}{3}{}{%
+      {{hash=GM}{%
+         family={Guo},
+         familyi={G\bibinitperiod},
+         given={Min},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Jingwei},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={\textbf{Tianlei, Zhang}},
+         familyi={t\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \keyw{R}
+    \strng{namehash}{GMHJt1}
+    \strng{fullhash}{GMHJt1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{abstract}{%
+    Despite decades of efforts, while tuberculosis (TB) has largely been
+  eliminated in developed countries, it remains a significant public health
+  concern in developing countries. This study evaluates the impact of a TB
+  control program in China. In the early 1990s, TB continued to pose a threat
+  in China, prompting the government to launch a comprehensive program
+  incorporating the Directly Observed Treatment Short-Course (DOTS) across 13
+  provinces between 1992 and 2001. Our findings show that the program not only
+  increased the diagnosis of new TB cases but also reduced overall TB mortality
+  and infection rates. The results related to sickness, employment, and child
+  care align with the requirements and consequences of TB treatment, revealing
+  varying patterns across age groups and urban-rural differences. The program's
+  benefits extended to the next generation, increasing high school completion
+  rates. A backof-the-envelope cost-benefit analysis confirms the program's
+  cost-effectiveness. In conclusion, our findings underscore the success of TB
+  control efforts and provide valuable lessons for other developing countries
+  facing similar public health challenges.%
+    }
+    \field{title}{Long-term Effects of In-Utero Exposure to Tuberculosis and
+  Its Mechanisms: Evidence from a Disease Control Program in China.}
+    \field{journaltitle}{Working Paper}
+    \field{year}{2025}
+  \endentry
+
+  \entry{Conf1}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=GM}{%
+         family={Guo},
+         familyi={G\bibinitperiod},
+         given={Min},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Jingwei},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={\textbf{Tianlei, Zhang}},
+         familyi={t\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GMHJt1}
+    \strng{fullhash}{GMHJt1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{booktitle}{The Third Xiangjiang River Forum in Economics}
+    \field{title}{White {Death} in {Developing} {Countries}: {Evidence} from a
+  {Tuberculosis} {Control} {Program} in {China}.}
     \field{year}{2025}
   \endentry
 
@@ -229,6 +229,45 @@
     \field{urlday}{11}
     \field{urlmonth}{08}
     \field{urlyear}{2025}
+  \endentry
+
+  \entry{Working4}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=LXd}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Xun\bibnamedelima $^\dagger$},
+         giveni={X\bibinitperiod\bibinitdelim d\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={\textbf{Tianlei, Zhang}$^\dagger$},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=LX}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Xue},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=Yq}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={qikexin},
+         giveni={q\bibinitperiod},
+      }}%
+    }
+    \keyw{R}
+    \strng{namehash}{LXdtLXYq1}
+    \strng{fullhash}{LXdtLXYq1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \true{singletitle}
+    \field{title}{Health {Awareness} and {Digital} {Dining} {Environment} in
+  {China}}
+    \field{journaltitle}{working paper}
+    \field{year}{2025}
   \endentry
 
   \entry{Talk1}{misc}{}
@@ -371,7 +410,7 @@
          giveni={X\bibinitperiod},
       }}%
       {{hash=t}{%
-         family={\textbf{Zhang, Tianlei}},
+         family={\textbf{Tianlei, Zhang}},
          familyi={t\bibinitperiod},
       }}%
     }

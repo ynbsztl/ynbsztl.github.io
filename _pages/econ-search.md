@@ -221,14 +221,14 @@ author_profile: true
     <strong>关于此系统：</strong> 这是一个专门用于检索经济学期刊文献的工具，数据来源于RePEc，支持关键词搜索和AI语义搜索。
   </div>
 
-  <div id="api-status" class="info" style="display:none;">
-    <strong>API状态：</strong> <span id="status-text">检查中...</span>
+  <div id="data-status" class="info">
+    <strong>数据状态：</strong> <span id="status-text">等待搜索（将按年份范围自动加载所需数据分片）</span>
   </div>
 
   <div class="search-form">
     <div class="search-mode-toggle">
       <button class="toggle-btn active" onclick="switchMode('keyword')" id="keyword-btn">关键词搜索</button>
-      <button class="toggle-btn" onclick="switchMode('ai')" id="ai-btn">AI语义搜索</button>
+      <button class="toggle-btn" onclick="switchMode('ai')" id="ai-btn" disabled title="静态站点模式不支持AI语义检索">AI语义搜索（不可用）</button>
     </div>
 
     <form id="search-form">
@@ -260,10 +260,7 @@ author_profile: true
         </div>
       </div>
 
-      <div class="form-group" id="similarity-group" style="display:none;">
-        <label for="min-similarity">最小相似度阈值</label>
-        <input type="number" id="min-similarity" class="form-control" value="0.5" min="0" max="1" step="0.05">
-      </div>
+      <div class="form-group" id="similarity-group" style="display:none;"></div>
 
       <div class="form-group">
         <label>期刊选择</label>
@@ -309,8 +306,4 @@ author_profile: true
   </div>
 </div>
 
-<script>
-  // Injected by Jekyll from _config.yml
-  window.ECON_SEARCH_API_BASE_URL = "{{ site.econ_search_api_base_url | default: '' }}";
-</script>
-<script src="{{ '/assets/js/econ-search.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/econ-search-static.js' | relative_url }}"></script>

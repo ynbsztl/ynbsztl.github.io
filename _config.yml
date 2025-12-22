@@ -14,6 +14,7 @@ description              : &description ""
 url                      : https://ynbsztl.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ynbsztl/ynbsztl.github.io"
+econ_search_api_base_url : "" # 线上部署后端API地址（必须 https），例如: "https://your-api.example.com"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160

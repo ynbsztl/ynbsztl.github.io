@@ -218,7 +218,7 @@ author_profile: true
   <h1>经济学文献检索系统</h1>
   
   <div class="info">
-    <strong>关于此系统：</strong> 这是一个专门用于检索经济学期刊文献的工具，数据来源于RePEc，支持关键词搜索和AI语义搜索。
+    <strong>关于此系统：</strong> 这是一个专门用于检索经济学期刊文献的工具，数据来源于RePEc，支持关键词搜索。
   </div>
 
   <div id="data-status" class="info">

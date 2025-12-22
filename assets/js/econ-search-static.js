@@ -1,3 +1,4 @@
+// @ts-nocheck
 // Static (GitHub Pages only) keyword search for Econ Paper Search
 // Loads JSON shards by year-range to avoid loading all data at once.
 (() => {
@@ -110,12 +111,14 @@
     if (!container) return;
     container.innerHTML = '';
 
-    Object.keys(journalCategories).forEach((cat) => {
+    // Keep category order stable & intuitive
+    const catOrder = ['all', 'top5', 'general', 'survey'];
+    catOrder.forEach((cat) => {
       const div = document.createElement('div');
-      div.className = 'journal-item';
+      div.className = 'journal-item journal-item--cat';
       div.innerHTML = `
         <input type="checkbox" id="cat-${cat}" value="${cat}">
-        <label for="cat-${cat}"><strong>${cat.toUpperCase()}</strong></label>
+        <label for="cat-${cat}">${cat.toUpperCase()}</label>
       `;
       container.appendChild(div);
       const cb = div.querySelector('input');
@@ -124,10 +127,10 @@
 
     journalsAll.forEach((j) => {
       const div = document.createElement('div');
-      div.className = 'journal-item';
+      div.className = 'journal-item journal-item--journal';
       div.innerHTML = `
         <input type="checkbox" id="journal-${j}" value="${j}" checked>
-        <label for="journal-${j}">${j} - ${(journalNames[j] || j)}</label>
+        <label for="journal-${j}">${j.toUpperCase()}</label>
       `;
       container.appendChild(div);
     });

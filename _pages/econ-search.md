@@ -181,16 +181,45 @@ author_profile: true
   border: 2px solid #e1e5e9;
   border-radius: 6px;
   padding: 10px;
+  font-size: 13px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
 }
 
 .journal-item {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  margin-bottom: 5px;
+  margin: 0;
+  width: calc(25% - 14px);
+  min-width: 140px;
+  white-space: nowrap;
 }
 
 .journal-item input {
   margin-right: 8px;
+  transform: scale(0.95);
+}
+
+.journal-item label {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+.journal-item--cat label {
+  font-weight: 800;
+}
+
+@media (max-width: 900px) {
+  .journal-item { width: calc(33.333% - 14px); }
+}
+@media (max-width: 640px) {
+  .journal-item { width: calc(50% - 14px); }
+}
+@media (max-width: 420px) {
+  .journal-item { width: 100%; }
 }
 
 .help-section {
@@ -281,7 +310,7 @@ author_profile: true
 
   <div id="results-container" class="results-container"></div>
 
-  <div class="help-section">
+  <!-- <div class="help-section">
     <h3>使用帮助</h3>
     <div id="keyword-help">
       <h4>关键词搜索</h4>
@@ -303,7 +332,7 @@ author_profile: true
         <li><strong>相似度阈值</strong>用于过滤结果：0.5是经验法则</li>
       </ul>
     </div>
-  </div>
+  </div> -->
 </div>
 
 <script src="{{ '/assets/js/econ-search-static.js' | relative_url }}"></script>

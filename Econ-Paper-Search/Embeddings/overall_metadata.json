@@ -1,0 +1,55 @@
+{
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_dim": 384,
+  "creation_date": "2025-07-01T17:34:13.903591",
+  "last_update": "2025-12-01T15:22:22.938172",
+  "total_papers": 207066,
+  "note": "b2000 embeddings are split by index (not year) to maintain order and stay under 50MB",
+  "embedding_structure": [
+    "b2000_part1",
+    "b2000_part2",
+    "2000s",
+    "2010s",
+    "2015s",
+    "2020s"
+  ],
+  "files": {
+    "b2000_part1": {
+      "num_papers": 36717,
+      "file_size_mb": 26.8924560546875,
+      "year_range": "1850-1999",
+      "index_range": "0-36716 of b2000"
+    },
+    "b2000_part2": {
+      "num_papers": 36717,
+      "file_size_mb": 26.8924560546875,
+      "year_range": "1938-1999",
+      "index_range": "36717-73433 of b2000"
+    },
+    "2000s": {
+      "num_papers": 38415,
+      "file_size_mb": 28.1361083984375,
+      "year_range": "2000-2009"
+    },
+    "2010s": {
+      "num_papers": 26427,
+      "file_size_mb": 19.3558349609375,
+      "year_range": "2010-2014"
+    },
+    "2015s": {
+      "num_papers": 28351,
+      "file_size_mb": 20.7650146484375,
+      "year_range": "2015-2019"
+    },
+    "2020s": {
+      "num_papers": 40439,
+      "file_size_mb": 29.6185302734375,
+      "year_range": "2020-2026",
+      "source_csv": "papers_2020s.csv",
+      "creation_date": "2025-12-01T15:22:22.914434",
+      "last_efficient_update": "2025-12-01T15:22:22.914439",
+      "papers_added": 508
+    }
+  },
+  "total_size_mb": 151.660400390625
+}

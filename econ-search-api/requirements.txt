@@ -1,0 +1,17 @@
+# Flask API dependencies
+Flask==2.3.3
+Flask-CORS==4.0.0
+gunicorn==21.2.0
+
+# Core dependencies from Econ-Paper-Search
+numpy>=1.24.0
+pandas>=2.0.0
+
+# AI/Semantic search dependencies
+sentence-transformers>=2.2.0
+torch>=2.2.0
+transformers>=4.30.0
+scipy>=1.10.0
+
+# Additional utilities
+python-dotenv==1.0.0

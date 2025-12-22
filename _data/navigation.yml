@@ -6,6 +6,9 @@ main:
   - title: "Resources"
     url: /data/
     
+  - title: "Econ Search"
+    url: /econ-search/
+    
   - title: "Miscellaneous"
     url: /misc/
     

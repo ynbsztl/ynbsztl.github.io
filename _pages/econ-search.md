@@ -215,21 +215,21 @@ author_profile: true
 </style>
 
 <div class="search-container">
-  <h1>经济学文献检索系统</h1>
+  <!-- <h1>经济学文献检索系统</h1> -->
   
-  <div class="info">
+  <!-- <div class="info">
     <strong>关于此系统：</strong> 这是一个专门用于检索经济学期刊文献的工具，数据来源于RePEc，支持关键词搜索。
-  </div>
+  </div> -->
 
   <div id="data-status" class="info">
     <strong>数据状态：</strong> <span id="status-text">等待搜索（将按年份范围自动加载所需数据分片）</span>
   </div>
 
-  <div class="search-form">
+  <!-- <div class="search-form">
     <div class="search-mode-toggle">
       <button class="toggle-btn active" onclick="switchMode('keyword')" id="keyword-btn">关键词搜索</button>
       <button class="toggle-btn" onclick="switchMode('ai')" id="ai-btn" disabled title="静态站点模式不支持AI语义检索">AI语义搜索（不可用）</button>
-    </div>
+    </div> -->
 
     <form id="search-form">
       <div class="form-group">

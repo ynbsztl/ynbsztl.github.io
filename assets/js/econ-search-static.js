@@ -383,7 +383,7 @@
     sortResults(matched, sortBy);
     const shown = matched.slice(0, maxShow);
 
-    setStatus(`完成：匹配 ${total.toLocaleString()} 篇（已加载分片数据，前端本地检索）`);
+    setStatus(`完成：匹配 ${total.toLocaleString()} 篇`);
     renderResults(shown, total);
   }
 

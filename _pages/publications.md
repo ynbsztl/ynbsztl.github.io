@@ -60,13 +60,14 @@ author_profile: true
   <ul>
     <!-- <li>Urban Land Marketization in China: The Spatiotemporal Evolution Characteristics and Convergence Trends (with Fenghang Li, Peizhe Yan, Jia Li, et al.), <span class="journal">Journal of Urban Planning and Development</span>, 2025.</li>
     <li>The impact of diet quality on cognitive ability of Chinese older adults: evidence from the China Health and Nutrition Survey (CHNS) (with Ziwei Xu, Shuaizhen Chen, Min Guo, et al.), <span class="journal">BMC Geriatrics</span>, 2024.</li>-->
-    <li>Advances in Application of CDs Fluorescent Probe in Rapid Detection of Agriculture Products (with Yihua Zhou and Sheng Cao), <span class="journal">Packaging Engineering</span>, 2020.</li>
+    <li>With Yihua Zhou and Sheng Cao. Advances in Application of CDs Fluorescent Probe in Rapid Detection of Agriculture Products, <span class="journal">Packaging Engineering</span>, 2020.</li>
   </ul>
 
   <h2>Working Papers</h2>
   <ul>
-    <li>White Death in Developing Countries: Evidence from a Tuberculosis Control Program in China (with Min Guo and Jingwei Huang). <span class="journal">Journal of Population Economics</span>, under review.</li>
-    <li>Long-term Effects of In-Utero Exposure to Tuberculosis and Its Mechanisms: Evidence from a Disease Control Program in China (with Min Guo and Jingwei Huang). <span class="journal">Economic Development and Cultural Change</span>, under review.</li>
+    <li> With Min Guo and Jingwei Huang. White Death in Developing Countries: Evidence from a Tuberculosis Control Program in China.</li>
+    <li>With Min Guo and Jingwei Huang. Long-term Effects of In-Utero Exposure to Tuberculosis and Its Mechanisms: Evidence from a Disease Control Program in China. </li>
+  <li>With Xun Li and Xue Li et al. Health Awareness and Digital Dining Environment in China. </li>
   </ul>
 
   <h2>Dormant working paper</h2>

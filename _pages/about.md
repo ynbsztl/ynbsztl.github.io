@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "About"
 author_profile: true
 redirect_from: 
   - /about/
@@ -12,10 +12,10 @@ Hi!
 
 <!-- Prior to [**Dong Fureng Institute of Economics and Social Development**](http://www.whudfr.com/index.aspx), Wuhan University, I earned my Bachelor's degree from [**Printing and Package School, Wuhan University**](https://pps.whu.edu.cn/zxgk/zxjj.htm) in June 2021. I am extremely grateful to [**Prof. Yihua Zhou**](https://sns.whu.edu.cn/info/1019/20143.htm), **Prof. Min Guo**, **Dr. Jingwei Huang**, and [**Prof. Xun Li**](https://sites.google.com/site/xlihomepage/) who introduced me to the world of Printing and Economics! -->
 
-My research interests lie broadly in **Health Economics** -- check my [**Research**](publications) or [**CV (PDF)**](CV_Tianlei.pdf) for more information. I am open to other topics as well; feel free to shoot me an email if you'd like to chat!
+My research interests lie broadly in **Health Economics** -- check my [**Research**](publications) or [**CV (PDF)**](ztlcv/CV_Tianlei.pdf) for more information. I am open to other topics as well; feel free to shoot me an email if you'd like to chat!
 
 ## Education
-
+- Ph.D., Health Economics, Wuhan University, 2030 (Expected)
 - M.A., Health Economics, Wuhan University, 2025
 - B.A., Finance, Wuhan University, 2021
 - B.Eng., Printing Engineering, Wuhan University, 2021
@@ -25,7 +25,7 @@ My research interests lie broadly in **Health Economics** -- check my [**Researc
 * Luojiashan, 299 Bayi Road, Wuchang District, Wuhan, Hubei, P.R. China.
 
 * [zhangtianlei@whu.edu.cn](zhangtianlei@whu.edu.cn)
-
+* [zhangtianlei.cn@gmail.com](zhangtianlei.cn@gmail.com)
 
 
 

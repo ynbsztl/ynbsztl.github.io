@@ -1,5 +1,5 @@
-\documentclass[11pt]{article} % Choose the document class and font size
-\usepackage[margin=1in]{geometry} % Page layout settings
+\documentclass[12pt]{article} % Choose the document class and font size
+\usepackage[margin=0.75in]{geometry} % Page layout settings
 
 % Set the citation style
 
@@ -28,6 +28,19 @@
 % Use icons, if you want.
 % All available icons: http://mirrors.ibiblio.org/CTAN/fonts/fontawesome5/doc/fontawesome5.pdf
 \usepackage{fontawesome}
+
+\newfontfamily{\faBrands}{Font Awesome 6 Brands}
+\newfontfamily{\faFreeSolid}{Font Awesome 6 Free Solid}
+\newfontfamily{\faFreeRegular}{Font Awesome 6 Free Regular}
+\newcommand{\faIcon}[2]{{\csname fa#1\endcsname\symbol{"#2}}}
+
+
+\newfontfamily{\ai}{Academicons}
+
+% 手动根据 Unicode 编码定义图标（这些编码在官网可以查到）
+\newcommand{\aiStata}{{\ai \symbol{"E944}}}   % Stata 的编码
+\newcommand{\aiMatlab}{{\ai \symbol{"E93B}}}  % Matlab 的编码
+\newcommand{\aiOrcid}{{\ai \symbol{"E953}}}   % ORCID 编码
 
 % Allows font justification control (needed for clean pub-list formatting)
 \usepackage{ragged2e}
@@ -58,12 +71,13 @@
 
 %%% CONVENIENCE FUNCTIONS GO HERE %%%
 %%% ----------------------------- %%%
-\newcommand{\mytitle}[4]{
+\newcommand{\mytitle}[5]{
   \begin{center}
     \Large\textbf{#1}\normalsize \\ % Name in large bold font
-    \href{mailto:#2}{#2} \\ % Email with mailto: link
-    \href{https://#3}{#3} \\ % Website with link
-    #4 % Address
+    \href{mailto:#2}{\faEnvelope\,#2} % Email with mailto: link
+    \href{mailto:#3}{\faEnvelope\,#3} \\ % Email with mailto: link    
+    \href{#4}{\faGithub\,#4} \\ % Website with link
+    \href{https://orcid.org/#5}{{\ai }\,#5} % Website with link
   \end{center}
 }
 %%% ----------------------------- %%%
@@ -71,7 +85,9 @@
 
 \begin{document}
 \include{colors.tex} % Load custom colors from colors file
-\mytitle{Tianlei Zhang \\ \normalsize{\textnormal{/tee-ahn-lay jahng/}}}{zhangtianlei@whu.edu.cn}{ynbsztl.github.io} % Insert your custom title
+\mytitle{Tianlei Zhang \\ \normalsize{\textnormal{/tee-ahn-lay jahng/}}}{zhangtianlei@whu.edu.cn}{zhangtianlei.cn@gmail.com}{ ynbsztl.github.io} % Insert your custom title
+{0009-0006-0045-1487}
+
 
 
 % Ensure right side margin is not surpassed by bibliography and the right margin is aligned throughout
@@ -81,7 +97,7 @@
 % These \pdfbookmark lines create bookmarks in the exported PDF document that display in the left pane.
 % Value in [] sets the indentation level of the bookmark
 \pdfbookmark[1]{Education}{}
-\section*{Education}
+\section*{\faMortarBoard\,Education}
 \input{education.tex}
 
 %\pdfbookmark[1]{Research Experience}{exp_research}
@@ -89,7 +105,7 @@
 %\label{exp_research}
 %\input{exp_research.tex}
 
-\subsection*{Research Interests}\label{ri}
+\section*{\faBullseye\,Research Interests}\label{ri}
 
 \begin{longtable}[l]{@{}p{.1\textwidth} p{0.9\textwidth}}
 
@@ -99,13 +115,13 @@
 \end{longtable}
 
 \pdfbookmark[1]{Publications}{pubs}
-\section*{Publications}
+\section*{{\ai \,\,}\, Publications}
 \label{pubs}
 
 % Add equal contribution dagger
 \vspace{-.75em}
-\small
-\faGoogle~\href{https://scholar.google.com/citations?hl=zh-CN&user=zsO6zkYAAAAJ}{Google Scholar}\\
+
+{\ai }\,~\href{https://scholar.google.com/citations?hl=zh-CN&user=zsO6zkYAAAAJ}{\small Google Scholar page}\\
 %$\dagger \rightarrow$ Equal contribution
 \normalsize
 
@@ -130,7 +146,7 @@
 %\printbibliography[type=inproceedings,heading=none,resetnumbers=true,keyword=C]
 
 \pdfbookmark[2]{Working papers}{working-papers}
-\subsection*{Working Papers}
+\subsection*{{\ai }\,Working Papers}
 \label{working-papers}
 \newrefcontext[labelprefix=W]
 \printbibliography[type=misc,heading=none,resetnumbers=true,keyword=R]
@@ -181,7 +197,7 @@
 
 
 \pdfbookmark[1]{Tools \& Software}{tools}
-\section*{Tools \& Software}
+\section*{\faGears\, Skills \& Languages}
 \label{tools}
 \input{tools.tex}
 
@@ -220,6 +236,6 @@
 \centering
 \rule{0.25\linewidth}{0.4pt}\\
 \medskip
-Last updated: \today. \href{https://ynbsztl.github.io/ztlcv/CV_Tianlei.pdf}{[updating version]}
+Last updated: \today. \href{https://ynbsztl.github.io/ztlcv/CV_Tianlei.pdf}{[\faFilePdfO\,updating version]}
 
 \end{document}

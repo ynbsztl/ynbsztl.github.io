@@ -408,6 +408,7 @@ def sidebar_info():
     sje: Scandinavian Journal of Economics<br>
     smj: Strategic Management Journal<br>
     wber: World Bank Economic Review<br>
+    he: Health Economics<br>
     <br>
     top5: [aer+ecta+jpe+qje+restud]<br>
     general: top5+[aeri+restat+jeea+eer+ej+qe]<br>
@@ -474,7 +475,7 @@ def main():
             "jaere","jeem","wber","ijio","jleo","le","jpope","qme","ei","jedc","cej","obes","jems","jes","jmate",
             "rsue","eedur","jhc","efp","aler","jbes",
             "jf","jfe","rfs","ms","jbf","smj","rp","bpea","er","ijgt","ntj","md","jdeme","oxe","jei","riw","ajhe",
-            "nberma","aerpp",
+            "nberma","aerpp","he",
             ]
     if full_journal:
         js += js_

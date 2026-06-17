@@ -67,13 +67,9 @@ author_profile: true
   <ul>
     <li> With Min Guo and Jingwei Huang. White Death in Developing Countries: Evidence from a Tuberculosis Control Program in China.</li>
     <li>With Min Guo and Jingwei Huang. Long-term Effects of In-Utero Exposure to Tuberculosis and Its Mechanisms: Evidence from a Disease Control Program in China. </li>
-  <li>With Xun Li and Xue Li et al. Health Awareness and Digital Dining Environment in China. </li>
   </ul>
 
-  <h2>Dormant working paper</h2>
-  <ul>
-  <li>Living Environment Improvement and Human Capital Accumulation: Evidence from A Schistosomiasis Control Policy in China (with Min Guo, Jingwei Huang, Xun Li, et al.).</li>
-  </ul>
+
   
 </div>
 

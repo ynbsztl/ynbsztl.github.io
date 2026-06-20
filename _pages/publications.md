@@ -63,11 +63,11 @@ author_profile: true
     <li>With Yihua Zhou and Sheng Cao. Advances in Application of CDs Fluorescent Probe in Rapid Detection of Agriculture Products, <span class="journal">Packaging Engineering</span>, 2020.</li>
   </ul>
 
-  <h2>Working Papers</h2>
+  <!-- <h2>Working Papers</h2>
   <ul>
     <li> With Min Guo and Jingwei Huang. White Death in Developing Countries: Evidence from a Tuberculosis Control Program in China.</li>
     <li>With Min Guo and Jingwei Huang. Long-term Effects of In-Utero Exposure to Tuberculosis and Its Mechanisms: Evidence from a Disease Control Program in China. </li>
-  </ul>
+  </ul> -->
 
 
   

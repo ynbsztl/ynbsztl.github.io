@@ -10,3 +10,11 @@ Gemfile.lock
 # Ingore files created by npm
 node_modules
 package-lock.json
+
+# Local/generated files
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Large source CSV used to generate static Econ Search shards
+files/RePEc_list.csv

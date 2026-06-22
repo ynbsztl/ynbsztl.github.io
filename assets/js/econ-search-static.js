@@ -1,83 +1,27 @@
 // @ts-nocheck
-// Static (GitHub Pages only) keyword search for Econ Paper Search
-// Loads JSON shards by year-range to avoid loading all data at once.
+// Static keyword search for Econ Paper Search.
+// Data is built from files/RePEc_list.csv into assets/econ-search/*.json.
 (() => {
-  let currentMode = 'keyword'; // only keyword supported
-
-  // Shards that exist in assets/econ-search/
-  const SHARDS = [
-    { key: 'b2000', label: '1850–1999', from: -Infinity, to: 1999, url: '/assets/econ-search/papers_b2000.json' },
-    { key: '2000s', label: '2000–2009', from: 2000, to: 2009, url: '/assets/econ-search/papers_2000s.json' },
-    { key: '2010s', label: '2010–2014', from: 2010, to: 2014, url: '/assets/econ-search/papers_2010s.json' },
-    { key: '2015s', label: '2015–2019', from: 2015, to: 2019, url: '/assets/econ-search/papers_2015s.json' },
-    { key: '2020s', label: '2020+', from: 2020, to: Infinity, url: '/assets/econ-search/papers_2020s.json' },
-  ];
-
-  const shardCache = new Map(); // key -> array of papers
-  const shardLoading = new Map(); // key -> Promise
-
-  // Journal metadata (fallback; matches original app list)
-  const journalsAll = [
-    'aer', 'jpe', 'qje', 'ecta', 'restud',
-    'aejmac', 'aejmic', 'aejapp', 'aejpol', 'aeri', 'jpemic', 'jpemac',
-    'restat', 'jeea', 'eer', 'ej',
-    'jep', 'jel', 'are',
-    'qe', 'jeg',
-    'jet', 'te', 'joe',
-    'jme', 'red', 'rand', 'jole', 'jhr',
-    'jie', 'ier', 'jpube', 'jde',
-    'jeh', 'jue', 'jhe',
-    // Note: full set in original app is larger; can be extended later
-  ];
-
-  const journalCategories = {
-    all: journalsAll,
-    top5: ['aer', 'jpe', 'qje', 'ecta', 'restud'],
-    general: ['aer', 'jpe', 'qje', 'ecta', 'restud', 'aeri', 'restat', 'jeea', 'eer', 'ej', 'qe'],
-    survey: ['jep', 'jel', 'are'],
-  };
-
-  const journalNames = {
-    aer: 'American Economic Review',
-    jpe: 'Journal of Political Economy',
-    qje: 'Quarterly Journal of Economics',
-    ecta: 'Econometrica',
-    restud: 'Review of Economic Studies',
-    aejmac: 'AEJ Macroeconomics',
-    aejmic: 'AEJ Microeconomics',
-    aejapp: 'AEJ Applied Economics',
-    aejpol: 'AEJ Economic Policy',
-    aeri: 'AER Insights',
-    jpemic: 'JPE Microeconomics',
-    jpemac: 'JPE Macroeconomics',
-    restat: 'Review of Economics and Statistics',
-    jeea: 'Journal of the European Economic Association',
-    eer: 'European Economic Review',
-    ej: 'Economic Journal',
-    jep: 'Journal of Economic Perspectives',
-    jel: 'Journal of Economic Literature',
-    are: 'Annual Review of Economics',
-    qe: 'Quantitative Economics',
-    jeg: 'Journal of Economic Growth',
-    jet: 'Journal of Economic Theory',
-    te: 'Theoretical Economics',
-    joe: 'Journal of Econometrics',
-    jme: 'Journal of Monetary Economics',
-    red: 'Review of Economic Dynamics',
-    rand: 'RAND Journal of Economics',
-    jole: 'Journal of Labor Economics',
-    jhr: 'Journal of Human Resources',
-    jie: 'Journal of International Economics',
-    ier: 'International Economic Review',
-    jpube: 'Journal of Public Economics',
-    jde: 'Journal of Development Economics',
-    jeh: 'Journal of Economic History',
-    jue: 'Journal of Urban Economics',
-    jhe: 'Journal of Health Economics',
-  };
+  let yearMin = 1907;
+  let yearMax = 2030;
+  let shards = [];
+  let journals = [];
+  let dataVersion = '';
+  const defaultRanks = new Set([1, 2, 3]);
+  const shardCache = new Map();
+  const shardLoading = new Map();
 
   function $(id) {
     return document.getElementById(id);
+  }
+
+  function escapeHtml(s) {
+    return String(s || '')
+      .replaceAll('&', '&amp;')
+      .replaceAll('<', '&lt;')
+      .replaceAll('>', '&gt;')
+      .replaceAll('"', '&quot;')
+      .replaceAll("'", '&#39;');
   }
 
   function setStatus(text, kind = 'info') {
@@ -93,17 +37,60 @@
     if (submitBtn) submitBtn.disabled = disabled;
   }
 
-  function getYearMax() {
-    return new Date().getFullYear();
+  async function loadManifest() {
+    const resp = await fetch('/assets/econ-search/manifest.json', { cache: 'no-cache' });
+    if (!resp.ok) throw new Error(`Failed to load manifest.json (HTTP ${resp.status})`);
+    const manifest = await resp.json();
+
+    yearMin = Number(manifest.year_min || yearMin);
+    yearMax = Number(manifest.year_max || yearMax);
+    dataVersion = String(manifest.generated_at || manifest.source_mtime || '');
+
+    if (Array.isArray(manifest.default_ranks)) {
+      defaultRanks.clear();
+      manifest.default_ranks.forEach((rank) => defaultRanks.add(Number(rank)));
+    }
+
+    journals = Array.isArray(manifest.journals) ? manifest.journals : [];
+    shards = Array.isArray(manifest.shards)
+      ? manifest.shards.map((shard) => ({
+          key: shard.key,
+          label: shard.label,
+          from: shard.from == null ? -Infinity : Number(shard.from),
+          to: shard.to == null ? Infinity : Number(shard.to),
+          rank: Number(shard.rank),
+          url: shard.url,
+        }))
+      : [];
+
+    if (!journals.length || !shards.length) {
+      throw new Error('Econ search manifest is missing journals or shards.');
+    }
   }
 
   function initYears() {
-    const yearMax = getYearMax();
     const yf = $('year-from');
     const yt = $('year-to');
-    if (yf) yf.max = String(yearMax);
-    if (yt) yt.max = String(yearMax);
-    if (yt && (!yt.value || Number(yt.value) < yearMax)) yt.value = String(yearMax);
+    if (yf) {
+      yf.min = String(yearMin);
+      yf.max = String(yearMax);
+      yf.value = String(Math.max(1980, yearMin));
+    }
+    if (yt) {
+      yt.min = String(yearMin);
+      yt.max = String(yearMax);
+      yt.value = String(yearMax);
+    }
+  }
+
+  function rankGroups() {
+    const ranks = Array.from(new Set(journals.map((journal) => Number(journal.rank)).filter(Number.isFinite)));
+    ranks.sort((a, b) => a - b);
+    return ranks;
+  }
+
+  function journalId(abbr) {
+    return `journal-${String(abbr).replace(/[^\w-]/g, '-')}`;
   }
 
   function initJournalsUI() {
@@ -111,109 +98,114 @@
     if (!container) return;
     container.innerHTML = '';
 
-    // Keep category order stable & intuitive
-    const catOrder = ['all', 'top5', 'general', 'survey'];
-    catOrder.forEach((cat) => {
+    const actions = document.createElement('div');
+    actions.className = 'journal-item journal-item--cat';
+    actions.innerHTML = `
+      <input type="checkbox" id="cat-default" value="default" checked>
+      <label for="cat-default">DEFAULT RANKS 1-3</label>
+    `;
+    container.appendChild(actions);
+    const defaultCb = actions.querySelector('input');
+    if (defaultCb) defaultCb.addEventListener('change', () => toggleDefaultRanks(defaultCb.checked));
+
+    rankGroups().forEach((rank) => {
       const div = document.createElement('div');
       div.className = 'journal-item journal-item--cat';
+      const checked = defaultRanks.has(rank) ? 'checked' : '';
       div.innerHTML = `
-        <input type="checkbox" id="cat-${cat}" value="${cat}">
-        <label for="cat-${cat}">${cat.toUpperCase()}</label>
+        <input type="checkbox" id="cat-rank-${rank}" value="${rank}" ${checked}>
+        <label for="cat-rank-${rank}">RANK ${rank}</label>
       `;
       container.appendChild(div);
       const cb = div.querySelector('input');
-      if (cb) cb.addEventListener('change', () => toggleCategory(cat));
+      if (cb) cb.addEventListener('change', () => toggleRank(rank, cb.checked));
     });
 
-    journalsAll.forEach((j) => {
+    journals.forEach((journal) => {
+      const abbr = journal.abbr || journal.journal || '';
+      const rank = Number(journal.rank);
+      const checked = journal.default || defaultRanks.has(rank) ? 'checked' : '';
+      const title = journal.name ? `${abbr.toUpperCase()} - ${journal.name}` : abbr.toUpperCase();
       const div = document.createElement('div');
       div.className = 'journal-item journal-item--journal';
+      div.dataset.rank = String(rank);
       div.innerHTML = `
-        <input type="checkbox" id="journal-${j}" value="${j}" checked>
-        <label for="journal-${j}">${j.toUpperCase()}</label>
+        <input type="checkbox" id="${journalId(abbr)}" value="${escapeHtml(abbr)}" data-rank="${rank}" ${checked}>
+        <label for="${journalId(abbr)}" title="${escapeHtml(title)}">${escapeHtml(abbr.toUpperCase())}</label>
       `;
       container.appendChild(div);
     });
   }
 
-  function toggleCategory(cat) {
-    const cb = document.getElementById(`cat-${cat}`);
-    const checked = cb ? cb.checked : false;
-    (journalCategories[cat] || []).forEach((j) => {
-      const jcb = document.getElementById(`journal-${j}`);
-      if (jcb) jcb.checked = checked;
+  function toggleDefaultRanks(checked) {
+    rankGroups().forEach((rank) => {
+      const shouldCheck = checked && defaultRanks.has(rank);
+      const rankCb = document.getElementById(`cat-rank-${rank}`);
+      if (rankCb) rankCb.checked = shouldCheck;
+      toggleRank(rank, shouldCheck);
+    });
+  }
+
+  function toggleRank(rank, checked) {
+    document.querySelectorAll(`#journal-select input[data-rank="${rank}"]`).forEach((input) => {
+      input.checked = checked;
     });
   }
 
   function getSelectedJournals() {
-    const selected = [];
-    journalsAll.forEach((j) => {
-      const cb = document.getElementById(`journal-${j}`);
-      if (cb && cb.checked) selected.push(j);
-    });
-    return selected;
+    return Array.from(document.querySelectorAll('#journal-select input[type="checkbox"][data-rank]:checked'))
+      .map((input) => input.value);
   }
 
-  function switchMode(mode) {
-    // Only keyword supported; keep UI stable.
-    currentMode = 'keyword';
+  function getSelectedRanks() {
+    return new Set(
+      Array.from(document.querySelectorAll('#journal-select input[type="checkbox"][data-rank]:checked'))
+        .map((input) => Number(input.dataset.rank))
+        .filter(Number.isFinite)
+    );
+  }
+
+  function switchMode() {
     const keywordBtn = $('keyword-btn');
     const aiBtn = $('ai-btn');
     if (keywordBtn) keywordBtn.classList.add('active');
     if (aiBtn) aiBtn.classList.remove('active');
   }
 
-  // Query parsing compatible with original:
-  // - split by spaces unless contains quotes
-  // - quoted phrases kept together
-  // - token with "|" means OR of sub-tokens (no spaces)
   function parseQuery(q) {
     const query = (q || '').trim();
     if (!query) return { tokens: [], orGroups: [] };
 
-    let tokens;
-    if (query.includes(' ') && !query.includes('"')) {
-      tokens = query.split(/\s+/).filter(Boolean);
-    } else if (query.includes('"')) {
-      // match "..." or non-space chunks
-      tokens = query.match(/(?:"[^"]*"|[^\s"])+/g) || [];
-      tokens = tokens.map((t) => t.replace(/"/g, '')).filter(Boolean);
-    } else {
-      tokens = [query];
-    }
-
+    const rawTokens = query.match(/(?:"[^"]*"|[^\s"])+/g) || [];
+    const tokens = [];
     const orGroups = [];
-    const normal = [];
-    for (const t of tokens) {
-      if (t.includes('|')) {
-        const parts = t.split('|').map((x) => x.trim()).filter(Boolean);
-        if (parts.length) orGroups.push(parts);
-      } else {
-        normal.push(t);
-      }
-    }
 
-    return { tokens: normal, orGroups };
-  }
+    rawTokens
+      .map((token) => token.replace(/"/g, '').trim())
+      .filter(Boolean)
+      .forEach((token) => {
+        if (token.includes('|')) {
+          const parts = token.split('|').map((part) => part.trim()).filter(Boolean);
+          if (parts.length) orGroups.push(parts);
+        } else {
+          tokens.push(token);
+        }
+      });
 
-  function includesCI(hay, needle) {
-    return hay.indexOf(needle) !== -1;
+    return { tokens, orGroups };
   }
 
   function paperMatches(p, parsed) {
-    // search in title + abstract
     const info = `${p.title || ''} ${p.abstract || ''}`.toLowerCase();
 
-    // AND tokens
-    for (const t of parsed.tokens) {
-      if (!includesCI(info, t.toLowerCase())) return false;
+    for (const token of parsed.tokens) {
+      if (!info.includes(token.toLowerCase())) return false;
     }
 
-    // OR groups: each group must have at least one match
     for (const group of parsed.orGroups) {
       let any = false;
       for (const part of group) {
-        if (includesCI(info, part.toLowerCase())) {
+        if (info.includes(part.toLowerCase())) {
           any = true;
           break;
         }
@@ -232,33 +224,36 @@
     if (shardCache.has(shard.key)) return shardCache.get(shard.key);
     if (shardLoading.has(shard.key)) return shardLoading.get(shard.key);
 
-    const p = (async () => {
-      const resp = await fetch(shard.url, { cache: 'force-cache' });
+    const promise = (async () => {
+      const url = dataVersion
+        ? `${shard.url}${shard.url.includes('?') ? '&' : '?'}v=${encodeURIComponent(dataVersion)}`
+        : shard.url;
+      const resp = await fetch(url, { cache: 'no-cache' });
       if (!resp.ok) throw new Error(`Failed to load data: ${shard.url} (HTTP ${resp.status})`);
       const data = await resp.json();
       shardCache.set(shard.key, data);
       return data;
     })();
 
-    shardLoading.set(shard.key, p);
+    shardLoading.set(shard.key, promise);
     try {
-      return await p;
+      return await promise;
     } finally {
       shardLoading.delete(shard.key);
     }
   }
 
-  async function loadNeededData(yFrom, yTo) {
-    const need = SHARDS.filter((s) => shardOverlapsYears(s, yFrom, yTo));
-    if (need.length === 0) return [];
+  async function loadNeededData(yFrom, yTo, selectedRanks) {
+    const need = shards.filter((shard) => selectedRanks.has(shard.rank) && shardOverlapsYears(shard, yFrom, yTo));
+    if (!need.length) return [];
 
-    setStatus(`Loading data shards: ${need.map((s) => s.key).join(', ')} ...`);
+    setStatus(`Loading ${need.length} data shard(s): ${need.map((shard) => shard.key).join(', ')} ...`);
     setSubmitDisabled(true);
 
-    const arrays = await Promise.all(need.map((s) => loadShard(s)));
+    const arrays = await Promise.all(need.map((shard) => loadShard(shard)));
     const all = arrays.flat();
 
-    setStatus(`Loaded ${need.length} shard(s), ${all.length.toLocaleString()} records. Filtering now.`);
+    setStatus(`Loaded ${all.length.toLocaleString()} records. Filtering now.`);
     setSubmitDisabled(false);
     return all;
   }
@@ -267,7 +262,6 @@
     if (sortBy === 'early') {
       items.sort((a, b) => (a.year || 0) - (b.year || 0));
     } else {
-      // recent (default)
       items.sort((a, b) => (b.year || 0) - (a.year || 0));
     }
   }
@@ -282,37 +276,30 @@
     }
 
     const showAbstract = $('show-abstract') ? $('show-abstract').checked : false;
-
     let html = `<h3>Search results (${total.toLocaleString()} papers found; showing first ${results.length.toLocaleString()})</h3>`;
-    results.forEach((p, idx) => {
-      const title = p.title || '';
-      const authors = p.authors || '';
-      const year = p.year || '';
-      const journal = p.journal || '';
-      const url = p.url || '';
-      const abstract = p.abstract || '';
 
+    results.forEach((p, idx) => {
+      const title = escapeHtml(p.title || '');
+      const authors = escapeHtml(p.authors || '');
+      const year = escapeHtml(p.year || '');
+      const journal = escapeHtml(p.journal || '');
+      const rank = escapeHtml(p.rank || '');
+      const url = p.url || '';
+      const abstract = escapeHtml(p.abstract || '');
       const titleHtml = url
-        ? `<a href="${url}" target="_blank" rel="noopener noreferrer">${title}</a>`
-        : `${title}`;
+        ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${title}</a>`
+        : title;
 
       html += `
         <div class="result-item">
           <div class="result-title">${idx + 1}. ${titleHtml}</div>
-          <div class="result-meta">${authors} (${year}) - <strong>${journal}</strong></div>
-          ${showAbstract && abstract ? `<div class="result-abstract">${escapeHtml(abstract)}</div>` : ''}
+          <div class="result-meta">${authors} (${year}) - <strong>${journal}</strong>${rank ? ` · Rank ${rank}` : ''}</div>
+          ${showAbstract && abstract ? `<div class="result-abstract">${abstract}</div>` : ''}
         </div>
       `;
     });
 
     container.innerHTML = html;
-  }
-
-  function escapeHtml(s) {
-    return String(s)
-      .replaceAll('&', '&amp;')
-      .replaceAll('<', '&lt;')
-      .replaceAll('>', '&gt;');
   }
 
   function showError(msg) {
@@ -331,27 +318,27 @@
     e.preventDefault();
 
     const query = ($('query') ? $('query').value : '').trim();
-    const yFrom = parseInt($('year-from') ? $('year-from').value : '1980', 10);
-    const yTo = parseInt($('year-to') ? $('year-to').value : String(getYearMax()), 10);
+    const yFrom = parseInt($('year-from') ? $('year-from').value : String(yearMin), 10);
+    const yTo = parseInt($('year-to') ? $('year-to').value : String(yearMax), 10);
     const sortBy = $('sort-by') ? $('sort-by').value : 'recent';
     const maxShow = Math.min(200, Math.max(1, parseInt($('max-results') ? $('max-results').value : '50', 10)));
     const selectedJournals = new Set(getSelectedJournals());
+    const selectedRanks = getSelectedRanks();
 
     if (Number.isNaN(yFrom) || Number.isNaN(yTo) || yFrom > yTo) {
       showError('Invalid year range. Start year cannot be greater than end year.');
       return;
     }
 
-    if (selectedJournals.size === 0) {
+    if (!selectedJournals.size) {
       showError('Please select at least one journal.');
       return;
     }
 
-    // Load needed shards
     showLoading();
     let data;
     try {
-      data = await loadNeededData(yFrom, yTo);
+      data = await loadNeededData(yFrom, yTo, selectedRanks);
     } catch (err) {
       showError(err && err.message ? err.message : 'Failed to load data.');
       setStatus('Failed to load data.', 'error');
@@ -361,62 +348,66 @@
 
     setStatus('Filtering and searching. Large ranges may take a few seconds...');
 
-    // Filter + match
     const parsed = parseQuery(query);
     const matched = [];
-    let total = 0;
 
-    for (const p of data) {
-      const y = p.year;
+    for (const paper of data) {
+      const y = paper.year;
       if (y < yFrom || y > yTo) continue;
-      if (!selectedJournals.has(p.journal)) continue;
-
-      // blank query means return all in range
-      if (query) {
-        if (!paperMatches(p, parsed)) continue;
-      }
-
-      total += 1;
-      matched.push(p);
+      if (!selectedJournals.has(paper.journal)) continue;
+      if (query && !paperMatches(paper, parsed)) continue;
+      matched.push(paper);
     }
 
     sortResults(matched, sortBy);
     const shown = matched.slice(0, maxShow);
 
-    setStatus(`Done: ${total.toLocaleString()} matching paper(s).`);
-    renderResults(shown, total);
+    setStatus(`Done: ${matched.length.toLocaleString()} matching paper(s).`);
+    renderResults(shown, matched.length);
+  }
+
+  function resetForm() {
+    if ($('query')) $('query').value = '';
+    if ($('year-from')) $('year-from').value = String(Math.max(1980, yearMin));
+    if ($('year-to')) $('year-to').value = String(yearMax);
+    if ($('sort-by')) $('sort-by').value = 'recent';
+    if ($('max-results')) $('max-results').value = '50';
+    if ($('show-abstract')) $('show-abstract').checked = false;
+    document.querySelectorAll('#journal-select input[type="checkbox"][data-rank]').forEach((input) => {
+      input.checked = defaultRanks.has(Number(input.dataset.rank));
+    });
+    rankGroups().forEach((rank) => {
+      const cb = document.getElementById(`cat-rank-${rank}`);
+      if (cb) cb.checked = defaultRanks.has(rank);
+    });
+    const defaultCb = $('cat-default');
+    if (defaultCb) defaultCb.checked = true;
+    const container = $('results-container');
+    if (container) container.innerHTML = '';
+    setStatus('Ready to search. Rank 1-3 journals are selected by default.');
   }
 
   function bind() {
     const form = $('search-form');
     if (form) form.addEventListener('submit', handleSearchSubmit);
-
-    // Keep inline handlers working
     window.switchMode = switchMode;
-    window.clearForm = () => {
-      const yearMax = getYearMax();
-      if ($('query')) $('query').value = '';
-      if ($('year-from')) $('year-from').value = '1980';
-      if ($('year-to')) $('year-to').value = String(yearMax);
-      if ($('sort-by')) $('sort-by').value = 'recent';
-      if ($('max-results')) $('max-results').value = '50';
-      if ($('show-abstract')) $('show-abstract').checked = false;
-      journalsAll.forEach((j) => {
-        const cb = document.getElementById(`journal-${j}`);
-        if (cb) cb.checked = true;
-      });
-      const container = $('results-container');
-      if (container) container.innerHTML = '';
-      setStatus('Ready to search. Data shards will load automatically based on the selected year range.');
-    };
+    window.clearForm = resetForm;
   }
 
-  document.addEventListener('DOMContentLoaded', () => {
-    initYears();
-    initJournalsUI();
-    bind();
-    switchMode('keyword');
-    setStatus('Ready to search. Data shards will load automatically based on the selected year range.');
+  document.addEventListener('DOMContentLoaded', async () => {
+    setSubmitDisabled(true);
+    try {
+      await loadManifest();
+      initYears();
+      initJournalsUI();
+      bind();
+      switchMode();
+      setStatus('Ready to search. Rank 1-3 journals are selected by default.');
+      setSubmitDisabled(false);
+    } catch (err) {
+      setStatus('Failed to load Econ Search metadata.', 'error');
+      showError(err && err.message ? err.message : 'Failed to load Econ Search metadata.');
+      setSubmitDisabled(true);
+    }
   });
 })();
-

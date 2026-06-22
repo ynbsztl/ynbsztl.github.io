@@ -1,0 +1,2885 @@
+{
+  "source": "files/RePEc_list.csv",
+  "generated_at": 1782130110,
+  "source_mtime": 1782129540,
+  "total": 391336,
+  "year_min": 1907,
+  "year_max": 2030,
+  "default_ranks": [
+    1,
+    2,
+    3
+  ],
+  "rank_counts": {
+    "1": 15172,
+    "2": 33859,
+    "3": 115634,
+    "4": 134026,
+    "5": 92645
+  },
+  "journals": [
+    {
+      "abbr": "aecrev",
+      "name": "American Economic Review",
+      "rank": 1,
+      "count": 4830,
+      "default": true
+    },
+    {
+      "abbr": "emetrp",
+      "name": "Econometrica",
+      "rank": 1,
+      "count": 2242,
+      "default": true
+    },
+    {
+      "abbr": "jpolec",
+      "name": "Journal of Political Economy",
+      "rank": 1,
+      "count": 1986,
+      "default": true
+    },
+    {
+      "abbr": "qjecon",
+      "name": "Quarterly Journal of Economics",
+      "rank": 1,
+      "count": 3796,
+      "default": true
+    },
+    {
+      "abbr": "restud",
+      "name": "Review of Economic Studies",
+      "rank": 1,
+      "count": 2318,
+      "default": true
+    },
+    {
+      "abbr": "aejapp",
+      "name": "American Economic Journal: Applied Economics",
+      "rank": 2,
+      "count": 746,
+      "default": true
+    },
+    {
+      "abbr": "aejmac",
+      "name": "American Economic Journal: Macroeconomics",
+      "rank": 2,
+      "count": 642,
+      "default": true
+    },
+    {
+      "abbr": "biomet",
+      "name": "Biometrika",
+      "rank": 2,
+      "count": 1708,
+      "default": true
+    },
+    {
+      "abbr": "econjl",
+      "name": "Economic Journal",
+      "rank": 2,
+      "count": 3174,
+      "default": true
+    },
+    {
+      "abbr": "econom",
+      "name": "Economica",
+      "rank": 2,
+      "count": 4074,
+      "default": true
+    },
+    {
+      "abbr": "iecrev",
+      "name": "International Economic Review",
+      "rank": 2,
+      "count": 2088,
+      "default": true
+    },
+    {
+      "abbr": "inecon",
+      "name": "International Economics",
+      "rank": 2,
+      "count": 2129,
+      "default": true
+    },
+    {
+      "abbr": "jeclit",
+      "name": "Journal of Economic Literature",
+      "rank": 2,
+      "count": 712,
+      "default": true
+    },
+    {
+      "abbr": "jecper",
+      "name": "Journal of Economic Perspectives",
+      "rank": 2,
+      "count": 1590,
+      "default": true
+    },
+    {
+      "abbr": "jetheo",
+      "name": "Journal of Economic Theory",
+      "rank": 2,
+      "count": 2724,
+      "default": true
+    },
+    {
+      "abbr": "jeurec",
+      "name": "Journal of the European Economic Association",
+      "rank": 2,
+      "count": 1343,
+      "default": true
+    },
+    {
+      "abbr": "jlabec",
+      "name": "Journal of Labor Economics",
+      "rank": 2,
+      "count": 1293,
+      "default": true
+    },
+    {
+      "abbr": "jnlasa",
+      "name": "Journal of the American Statistical Association",
+      "rank": 2,
+      "count": 2209,
+      "default": true
+    },
+    {
+      "abbr": "jnlbes",
+      "name": "Journal of Business and Economic Statistics",
+      "rank": 2,
+      "count": 1818,
+      "default": true
+    },
+    {
+      "abbr": "jorssb",
+      "name": "Journal of the Royal Statistical Society. Series B: Statistical Methodology",
+      "rank": 2,
+      "count": 974,
+      "default": true
+    },
+    {
+      "abbr": "moneco",
+      "name": "Journal of Monetary Economics",
+      "rank": 2,
+      "count": 1956,
+      "default": true
+    },
+    {
+      "abbr": "publsh",
+      "name": "Theoretical Economics",
+      "rank": 2,
+      "count": 643,
+      "default": true
+    },
+    {
+      "abbr": "quante",
+      "name": "Quantitative Economics",
+      "rank": 2,
+      "count": 452,
+      "default": true
+    },
+    {
+      "abbr": "randje",
+      "name": "RAND Journal of Economics",
+      "rank": 2,
+      "count": 1499,
+      "default": true
+    },
+    {
+      "abbr": "restat",
+      "name": "Review of Economics and Statistics",
+      "rank": 2,
+      "count": 3016,
+      "default": true
+    },
+    {
+      "abbr": "aejmic",
+      "name": "American Economic Journal: Microeconomics",
+      "rank": 3,
+      "count": 763,
+      "default": true
+    },
+    {
+      "abbr": "aejpol",
+      "name": "American Economic Journal: Economic Policy",
+      "rank": 3,
+      "count": 814,
+      "default": true
+    },
+    {
+      "abbr": "aerins",
+      "name": "American Economic Review: Insights",
+      "rank": 3,
+      "count": 220,
+      "default": true
+    },
+    {
+      "abbr": "ajagec",
+      "name": "American Journal of Agricultural Economics",
+      "rank": 3,
+      "count": 4242,
+      "default": true
+    },
+    {
+      "abbr": "bpeajo",
+      "name": "Brookings Papers on Economic Activity",
+      "rank": 3,
+      "count": 247,
+      "default": true
+    },
+    {
+      "abbr": "cambje",
+      "name": "Cambridge Journal of Economics",
+      "rank": 3,
+      "count": 1860,
+      "default": true
+    },
+    {
+      "abbr": "deveco",
+      "name": "Journal of Development Economics",
+      "rank": 3,
+      "count": 2366,
+      "default": true
+    },
+    {
+      "abbr": "dyncon",
+      "name": "Journal of Economic Dynamics and Control",
+      "rank": 3,
+      "count": 2842,
+      "default": true
+    },
+    {
+      "abbr": "ecdecc",
+      "name": "Economic Development and Cultural Change",
+      "rank": 3,
+      "count": 769,
+      "default": true
+    },
+    {
+      "abbr": "ecinqu",
+      "name": "Economic Inquiry",
+      "rank": 3,
+      "count": 2398,
+      "default": true
+    },
+    {
+      "abbr": "ecolec",
+      "name": "Ecological Economics",
+      "rank": 3,
+      "count": 5081,
+      "default": true
+    },
+    {
+      "abbr": "ecolet",
+      "name": "Economics Letters",
+      "rank": 3,
+      "count": 8299,
+      "default": true
+    },
+    {
+      "abbr": "ecpoli",
+      "name": "Economic Policy",
+      "rank": 3,
+      "count": 438,
+      "default": true
+    },
+    {
+      "abbr": "eecrev",
+      "name": "European Economic Review",
+      "rank": 3,
+      "count": 3002,
+      "default": true
+    },
+    {
+      "abbr": "emetrv",
+      "name": "Econometric Reviews",
+      "rank": 3,
+      "count": 975,
+      "default": true
+    },
+    {
+      "abbr": "emjrnl",
+      "name": "Econometrics Journal",
+      "rank": 3,
+      "count": 599,
+      "default": true
+    },
+    {
+      "abbr": "eneeco",
+      "name": "Energy Economics",
+      "rank": 3,
+      "count": 6794,
+      "default": true
+    },
+    {
+      "abbr": "enreec",
+      "name": "Environmental and Resource Economics",
+      "rank": 3,
+      "count": 2482,
+      "default": true
+    },
+    {
+      "abbr": "erevae",
+      "name": "European Review of Agricultural Economics",
+      "rank": 3,
+      "count": 1250,
+      "default": true
+    },
+    {
+      "abbr": "expeco",
+      "name": "Experimental Economics",
+      "rank": 3,
+      "count": 771,
+      "default": true
+    },
+    {
+      "abbr": "gamebe",
+      "name": "Games and Economic Behavior",
+      "rank": 3,
+      "count": 2777,
+      "default": true
+    },
+    {
+      "abbr": "hlthec",
+      "name": "Health Economics (United Kingdom)",
+      "rank": 3,
+      "count": 3210,
+      "default": true
+    },
+    {
+      "abbr": "imfecr",
+      "name": "IMF Economic Review",
+      "rank": 3,
+      "count": 388,
+      "default": true
+    },
+    {
+      "abbr": "indorg",
+      "name": "International Journal of Industrial Organization",
+      "rank": 3,
+      "count": 1351,
+      "default": true
+    },
+    {
+      "abbr": "issued",
+      "name": "Canadian Journal of Economics",
+      "rank": 3,
+      "count": 3147,
+      "default": true
+    },
+    {
+      "abbr": "istatr",
+      "name": "International Statistical Review",
+      "rank": 3,
+      "count": 475,
+      "default": true
+    },
+    {
+      "abbr": "jaerec",
+      "name": "Journal of the Association of Environmental and Resource Economists",
+      "rank": 3,
+      "count": 448,
+      "default": true
+    },
+    {
+      "abbr": "jageco",
+      "name": "Journal of Agricultural Economics",
+      "rank": 3,
+      "count": 1083,
+      "default": true
+    },
+    {
+      "abbr": "japmet",
+      "name": "Journal of Applied Econometrics",
+      "rank": 3,
+      "count": 1709,
+      "default": true
+    },
+    {
+      "abbr": "jcecon",
+      "name": "Journal of Comparative Economics",
+      "rank": 3,
+      "count": 1086,
+      "default": true
+    },
+    {
+      "abbr": "jeborg",
+      "name": "Journal of Economic Behavior and Organization",
+      "rank": 3,
+      "count": 5286,
+      "default": true
+    },
+    {
+      "abbr": "jecgro",
+      "name": "Journal of Economic Growth",
+      "rank": 3,
+      "count": 371,
+      "default": true
+    },
+    {
+      "abbr": "jeeman",
+      "name": "Journal of Environmental Economics and Management",
+      "rank": 3,
+      "count": 1521,
+      "default": true
+    },
+    {
+      "abbr": "jhecon",
+      "name": "Journal of Health Economics",
+      "rank": 3,
+      "count": 1735,
+      "default": true
+    },
+    {
+      "abbr": "jhriss",
+      "name": "Journal of Human Resources",
+      "rank": 3,
+      "count": 1952,
+      "default": true
+    },
+    {
+      "abbr": "jhucap",
+      "name": "Journal of Human Capital",
+      "rank": 3,
+      "count": 282,
+      "default": true
+    },
+    {
+      "abbr": "jindec",
+      "name": "Journal of Industrial Economics",
+      "rank": 3,
+      "count": 1007,
+      "default": true
+    },
+    {
+      "abbr": "jinsec",
+      "name": "Journal of Institutional Economics",
+      "rank": 3,
+      "count": 800,
+      "default": true
+    },
+    {
+      "abbr": "jlawec",
+      "name": "Journal of Law and Economics",
+      "rank": 3,
+      "count": 898,
+      "default": true
+    },
+    {
+      "abbr": "jlstud",
+      "name": "Journal of Legal Studies",
+      "rank": 3,
+      "count": 636,
+      "default": true
+    },
+    {
+      "abbr": "jmvana",
+      "name": "Journal of Multivariate Analysis",
+      "rank": 3,
+      "count": 4875,
+      "default": true
+    },
+    {
+      "abbr": "joecth",
+      "name": "Economic Theory",
+      "rank": 3,
+      "count": 2381,
+      "default": true
+    },
+    {
+      "abbr": "jopoec",
+      "name": "Journal of Population Economics",
+      "rank": 3,
+      "count": 1264,
+      "default": true
+    },
+    {
+      "abbr": "jorssa",
+      "name": "Journal of the Royal Statistical Society. Series A: Statistics in Society",
+      "rank": 3,
+      "count": 1549,
+      "default": true
+    },
+    {
+      "abbr": "jorssc",
+      "name": "Journal of the Royal Statistical Society. Series C: Applied Statistics",
+      "rank": 3,
+      "count": 2745,
+      "default": true
+    },
+    {
+      "abbr": "jrisku",
+      "name": "Journal of Risk and Uncertainty",
+      "rank": 3,
+      "count": 833,
+      "default": true
+    },
+    {
+      "abbr": "jtsera",
+      "name": "Journal of Time Series Analysis",
+      "rank": 3,
+      "count": 1553,
+      "default": true
+    },
+    {
+      "abbr": "juecon",
+      "name": "Journal of Urban Economics",
+      "rank": 3,
+      "count": 1137,
+      "default": true
+    },
+    {
+      "abbr": "labeco",
+      "name": "Labour Economics",
+      "rank": 3,
+      "count": 1838,
+      "default": true
+    },
+    {
+      "abbr": "landec",
+      "name": "Land Economics",
+      "rank": 3,
+      "count": 1442,
+      "default": true
+    },
+    {
+      "abbr": "mateco",
+      "name": "Journal of Mathematical Economics",
+      "rank": 3,
+      "count": 1703,
+      "default": true
+    },
+    {
+      "abbr": "obuest",
+      "name": "Oxford Bulletin of Economics and Statistics",
+      "rank": 3,
+      "count": 1371,
+      "default": true
+    },
+    {
+      "abbr": "oxecpp",
+      "name": "Oxford Economic Papers",
+      "rank": 3,
+      "count": 1644,
+      "default": true
+    },
+    {
+      "abbr": "pubcho",
+      "name": "Public Choice",
+      "rank": 3,
+      "count": 3157,
+      "default": true
+    },
+    {
+      "abbr": "pubeco",
+      "name": "Journal of Public Economics",
+      "rank": 3,
+      "count": 2990,
+      "default": true
+    },
+    {
+      "abbr": "reesec",
+      "name": "Real Estate Economics",
+      "rank": 3,
+      "count": 1230,
+      "default": true
+    },
+    {
+      "abbr": "reveco",
+      "name": "Annual Review of Economics",
+      "rank": 3,
+      "count": 4764,
+      "default": true
+    },
+    {
+      "abbr": "revinw",
+      "name": "Review of Income and Wealth",
+      "rank": 3,
+      "count": 1695,
+      "default": true
+    },
+    {
+      "abbr": "scandj",
+      "name": "Scandinavian Journal of Economics",
+      "rank": 3,
+      "count": 1057,
+      "default": true
+    },
+    {
+      "abbr": "scjsta",
+      "name": "Scandinavian Journal of Statistics",
+      "rank": 3,
+      "count": 1124,
+      "default": true
+    },
+    {
+      "abbr": "sochwe",
+      "name": "Social Choice and Welfare",
+      "rank": 3,
+      "count": 1514,
+      "default": true
+    },
+    {
+      "abbr": "wbecrv",
+      "name": "World Bank Economic Review",
+      "rank": 3,
+      "count": 874,
+      "default": true
+    },
+    {
+      "abbr": "aareaj",
+      "name": "Australian Journal of Agricultural and Resource Economics",
+      "rank": 4,
+      "count": 747,
+      "default": false
+    },
+    {
+      "abbr": "agecon",
+      "name": "Agricultural Economics (United Kingdom)",
+      "rank": 4,
+      "count": 1825,
+      "default": false
+    },
+    {
+      "abbr": "ajarec",
+      "name": "Australian Journal of Agricultural and Resource Economics",
+      "rank": 4,
+      "count": 869,
+      "default": false
+    },
+    {
+      "abbr": "amjhec",
+      "name": "American Journal of Health Economics",
+      "rank": 4,
+      "count": 328,
+      "default": false
+    },
+    {
+      "abbr": "amlawe",
+      "name": "American Law and Economics Review",
+      "rank": 4,
+      "count": 340,
+      "default": false
+    },
+    {
+      "abbr": "annpce",
+      "name": "Annals of Public and Cooperative Economics",
+      "rank": 4,
+      "count": 610,
+      "default": false
+    },
+    {
+      "abbr": "apecpp",
+      "name": "Applied Economic Perspectives and Policy",
+      "rank": 4,
+      "count": 959,
+      "default": false
+    },
+    {
+      "abbr": "applec",
+      "name": "Applied Economics",
+      "rank": 4,
+      "count": 9613,
+      "default": false
+    },
+    {
+      "abbr": "bejeap",
+      "name": "B.E. Journal of Economic Analysis and Policy",
+      "rank": 4,
+      "count": 1482,
+      "default": false
+    },
+    {
+      "abbr": "bejmac",
+      "name": "B.E. Journal of Macroeconomics",
+      "rank": 4,
+      "count": 764,
+      "default": false
+    },
+    {
+      "abbr": "bejtec",
+      "name": "B.E. Journal of Theoretical Economics",
+      "rank": 4,
+      "count": 687,
+      "default": false
+    },
+    {
+      "abbr": "buecrs",
+      "name": "Bulletin of Economic Research",
+      "rank": 4,
+      "count": 917,
+      "default": false
+    },
+    {
+      "abbr": "canjag",
+      "name": "Canadian Journal of Agricultural Economics",
+      "rank": 4,
+      "count": 502,
+      "default": false
+    },
+    {
+      "abbr": "cesifo",
+      "name": "CESifo Economic Studies",
+      "rank": 4,
+      "count": 504,
+      "default": false
+    },
+    {
+      "abbr": "chieco",
+      "name": "China Economic Review",
+      "rank": 4,
+      "count": 1942,
+      "default": false
+    },
+    {
+      "abbr": "coecpo",
+      "name": "Contemporary Economic Policy",
+      "rank": 4,
+      "count": 1555,
+      "default": false
+    },
+    {
+      "abbr": "compst",
+      "name": "Computational Statistics",
+      "rank": 4,
+      "count": 1457,
+      "default": false
+    },
+    {
+      "abbr": "copoec",
+      "name": "Constitutional Political Economy",
+      "rank": 4,
+      "count": 593,
+      "default": false
+    },
+    {
+      "abbr": "defpea",
+      "name": "Defence and Peace Economics",
+      "rank": 4,
+      "count": 1124,
+      "default": false
+    },
+    {
+      "abbr": "ecinnt",
+      "name": "Economics of Innovation and New Technology",
+      "rank": 4,
+      "count": 1103,
+      "default": false
+    },
+    {
+      "abbr": "ecmode",
+      "name": "Economic Modelling",
+      "rank": 4,
+      "count": 5596,
+      "default": false
+    },
+    {
+      "abbr": "ecnphi",
+      "name": "Economics and Philosophy",
+      "rank": 4,
+      "count": 688,
+      "default": false
+    },
+    {
+      "abbr": "ecoedu",
+      "name": "Economics of Education Review",
+      "rank": 4,
+      "count": 1591,
+      "default": false
+    },
+    {
+      "abbr": "ecofin",
+      "name": "North American Journal of Economics and Finance",
+      "rank": 4,
+      "count": 1986,
+      "default": false
+    },
+    {
+      "abbr": "ecopol",
+      "name": "Economics and Politics",
+      "rank": 4,
+      "count": 964,
+      "default": false
+    },
+    {
+      "abbr": "ecorec",
+      "name": "Economic Record",
+      "rank": 4,
+      "count": 1340,
+      "default": false
+    },
+    {
+      "abbr": "ecosys",
+      "name": "Economic Systems",
+      "rank": 4,
+      "count": 818,
+      "default": false
+    },
+    {
+      "abbr": "ecsysr",
+      "name": "Economic Systems Research",
+      "rank": 4,
+      "count": 716,
+      "default": false
+    },
+    {
+      "abbr": "ectrin",
+      "name": "Economics of Transition and Institutional Change",
+      "rank": 4,
+      "count": 234,
+      "default": false
+    },
+    {
+      "abbr": "ehbiol",
+      "name": "Economics and Human Biology",
+      "rank": 4,
+      "count": 1201,
+      "default": false
+    },
+    {
+      "abbr": "empeco",
+      "name": "Empirical Economics",
+      "rank": 4,
+      "count": 3048,
+      "default": false
+    },
+    {
+      "abbr": "endeec",
+      "name": "Environment and Development Economics",
+      "rank": 4,
+      "count": 961,
+      "default": false
+    },
+    {
+      "abbr": "etbull",
+      "name": "Economic Theory Bulletin",
+      "rank": 4,
+      "count": 288,
+      "default": false
+    },
+    {
+      "abbr": "eujhec",
+      "name": "European Journal of Health Economics",
+      "rank": 4,
+      "count": 1345,
+      "default": false
+    },
+    {
+      "abbr": "fistud",
+      "name": "Fiscal Studies",
+      "rank": 4,
+      "count": 728,
+      "default": false
+    },
+    {
+      "abbr": "foreco",
+      "name": "Journal of Forest Economics",
+      "rank": 4,
+      "count": 237,
+      "default": false
+    },
+    {
+      "abbr": "genrir",
+      "name": "GENEVA Risk and Insurance Review",
+      "rank": 4,
+      "count": 325,
+      "default": false
+    },
+    {
+      "abbr": "germec",
+      "name": "German Economic Review",
+      "rank": 4,
+      "count": 1072,
+      "default": false
+    },
+    {
+      "abbr": "gnstxx",
+      "name": "Journal of Nonparametric Statistics",
+      "rank": 4,
+      "count": 856,
+      "default": false
+    },
+    {
+      "abbr": "hopeec",
+      "name": "History of Political Economy",
+      "rank": 4,
+      "count": 489,
+      "default": false
+    },
+    {
+      "abbr": "iepoli",
+      "name": "Information Economics and Policy",
+      "rank": 4,
+      "count": 473,
+      "default": false
+    },
+    {
+      "abbr": "ijecbs",
+      "name": "International Journal of the Economics of Business",
+      "rank": 4,
+      "count": 666,
+      "default": false
+    },
+    {
+      "abbr": "ijethy",
+      "name": "International Journal of Economic Theory",
+      "rank": 4,
+      "count": 431,
+      "default": false
+    },
+    {
+      "abbr": "ijhcfe",
+      "name": "International Journal of Health Economics and Management",
+      "rank": 4,
+      "count": 355,
+      "default": false
+    },
+    {
+      "abbr": "irlaec",
+      "name": "International Review of Law and Economics",
+      "rank": 4,
+      "count": 746,
+      "default": false
+    },
+    {
+      "abbr": "jafrec",
+      "name": "Journal of African Economies",
+      "rank": 4,
+      "count": 877,
+      "default": false
+    },
+    {
+      "abbr": "japsta",
+      "name": "Journal of Applied Statistics",
+      "rank": 4,
+      "count": 3763,
+      "default": false
+    },
+    {
+      "abbr": "jbecon",
+      "name": "Journal of Business Economics",
+      "rank": 4,
+      "count": 402,
+      "default": false
+    },
+    {
+      "abbr": "jculte",
+      "name": "Journal of Cultural Economics",
+      "rank": 4,
+      "count": 491,
+      "default": false
+    },
+    {
+      "abbr": "jecinq",
+      "name": "Journal of Economic Inequality",
+      "rank": 4,
+      "count": 262,
+      "default": false
+    },
+    {
+      "abbr": "jeciss",
+      "name": "Journal of Economic Issues",
+      "rank": 4,
+      "count": 1292,
+      "default": false
+    },
+    {
+      "abbr": "jecmet",
+      "name": "Journal of Economic Methodology",
+      "rank": 4,
+      "count": 614,
+      "default": false
+    },
+    {
+      "abbr": "jecsur",
+      "name": "Journal of Economic Surveys",
+      "rank": 4,
+      "count": 1047,
+      "default": false
+    },
+    {
+      "abbr": "jespps",
+      "name": "Journal of Economic Studies",
+      "rank": 4,
+      "count": 1641,
+      "default": false
+    },
+    {
+      "abbr": "jfamec",
+      "name": "Journal of Family and Economic Issues",
+      "rank": 4,
+      "count": 738,
+      "default": false
+    },
+    {
+      "abbr": "jhouse",
+      "name": "Journal of Housing Economics",
+      "rank": 4,
+      "count": 566,
+      "default": false
+    },
+    {
+      "abbr": "jinste",
+      "name": "Journal of Institutional and Theoretical Economics",
+      "rank": 4,
+      "count": 943,
+      "default": false
+    },
+    {
+      "abbr": "jintdv",
+      "name": "Journal of International Development",
+      "rank": 4,
+      "count": 1966,
+      "default": false
+    },
+    {
+      "abbr": "jirere",
+      "name": "International Review of Environmental and Resource Economics",
+      "rank": 4,
+      "count": 158,
+      "default": false
+    },
+    {
+      "abbr": "jjieco",
+      "name": "Journal of the Japanese and International Economies",
+      "rank": 4,
+      "count": 631,
+      "default": false
+    },
+    {
+      "abbr": "jlaare",
+      "name": "Journal of Agricultural and Resource Economics",
+      "rank": 4,
+      "count": 928,
+      "default": false
+    },
+    {
+      "abbr": "jmacro",
+      "name": "Journal of Macroeconomics",
+      "rank": 4,
+      "count": 1443,
+      "default": false
+    },
+    {
+      "abbr": "jnlage",
+      "name": "Agricultural Economics (United Kingdom)",
+      "rank": 4,
+      "count": 1470,
+      "default": false
+    },
+    {
+      "abbr": "jnljfe",
+      "name": "Journal of Forest Economics",
+      "rank": 4,
+      "count": 93,
+      "default": false
+    },
+    {
+      "abbr": "jnlrbe",
+      "name": "Review of Behavioral Economics",
+      "rank": 4,
+      "count": 207,
+      "default": false
+    },
+    {
+      "abbr": "joecag",
+      "name": "Journal of the Economics of Ageing",
+      "rank": 4,
+      "count": 401,
+      "default": false
+    },
+    {
+      "abbr": "joecin",
+      "name": "Journal of Economic Inequality",
+      "rank": 4,
+      "count": 318,
+      "default": false
+    },
+    {
+      "abbr": "joevec",
+      "name": "Journal of Evolutionary Economics",
+      "rank": 4,
+      "count": 1009,
+      "default": false
+    },
+    {
+      "abbr": "jogath",
+      "name": "International Journal of Game Theory",
+      "rank": 4,
+      "count": 1064,
+      "default": false
+    },
+    {
+      "abbr": "journl",
+      "name": "Annals of Economics and Finance",
+      "rank": 4,
+      "count": 5320,
+      "default": false
+    },
+    {
+      "abbr": "jpbect",
+      "name": "Journal of Public Economic Theory",
+      "rank": 4,
+      "count": 1116,
+      "default": false
+    },
+    {
+      "abbr": "jpolmo",
+      "name": "Journal of Policy Modeling",
+      "rank": 4,
+      "count": 1213,
+      "default": false
+    },
+    {
+      "abbr": "jproda",
+      "name": "Journal of Productivity Analysis",
+      "rank": 4,
+      "count": 857,
+      "default": false
+    },
+    {
+      "abbr": "jrpoli",
+      "name": "Resources Policy",
+      "rank": 4,
+      "count": 3759,
+      "default": false
+    },
+    {
+      "abbr": "jtsmet",
+      "name": "Journal of Time Series Econometrics",
+      "rank": 4,
+      "count": 146,
+      "default": false
+    },
+    {
+      "abbr": "macdyn",
+      "name": "Macroeconomic Dynamics",
+      "rank": 4,
+      "count": 1738,
+      "default": false
+    },
+    {
+      "abbr": "manchs",
+      "name": "Manchester School",
+      "rank": 4,
+      "count": 993,
+      "default": false
+    },
+    {
+      "abbr": "matsoc",
+      "name": "Mathematical Social Sciences",
+      "rank": 4,
+      "count": 1234,
+      "default": false
+    },
+    {
+      "abbr": "mgtdec",
+      "name": "Managerial and Decision Economics",
+      "rank": 4,
+      "count": 2316,
+      "default": false
+    },
+    {
+      "abbr": "nattax",
+      "name": "National Tax Journal",
+      "rank": 4,
+      "count": 158,
+      "default": false
+    },
+    {
+      "abbr": "netspa",
+      "name": "Networks and Spatial Economics",
+      "rank": 4,
+      "count": 515,
+      "default": false
+    },
+    {
+      "abbr": "openec",
+      "name": "Open Economies Review",
+      "rank": 4,
+      "count": 1036,
+      "default": false
+    },
+    {
+      "abbr": "oxdevs",
+      "name": "Oxford Development Studies",
+      "rank": 4,
+      "count": 701,
+      "default": false
+    },
+    {
+      "abbr": "oxford",
+      "name": "Oxford Review of Economic Policy",
+      "rank": 4,
+      "count": 1093,
+      "default": false
+    },
+    {
+      "abbr": "pacecr",
+      "name": "Pacific Economic Review",
+      "rank": 4,
+      "count": 492,
+      "default": false
+    },
+    {
+      "abbr": "pharme",
+      "name": "PharmacoEconomics",
+      "rank": 4,
+      "count": 1623,
+      "default": false
+    },
+    {
+      "abbr": "poleco",
+      "name": "European Journal of Political Economy",
+      "rank": 4,
+      "count": 1482,
+      "default": false
+    },
+    {
+      "abbr": "postke",
+      "name": "Journal of Post Keynesian Economics",
+      "rank": 4,
+      "count": 799,
+      "default": false
+    },
+    {
+      "abbr": "quaeco",
+      "name": "Quarterly Review of Economics and Finance",
+      "rank": 4,
+      "count": 1607,
+      "default": false
+    },
+    {
+      "abbr": "ratsoc",
+      "name": "Rationality and Society",
+      "rank": 4,
+      "count": 677,
+      "default": false
+    },
+    {
+      "abbr": "rdevec",
+      "name": "Review of Development Economics",
+      "rank": 4,
+      "count": 1570,
+      "default": false
+    },
+    {
+      "abbr": "reecde",
+      "name": "Review of Economic Design",
+      "rank": 4,
+      "count": 453,
+      "default": false
+    },
+    {
+      "abbr": "regeco",
+      "name": "Journal of Regulatory Economics",
+      "rank": 4,
+      "count": 817,
+      "default": false
+    },
+    {
+      "abbr": "renvpo",
+      "name": "Review of Environmental Economics and Policy",
+      "rank": 4,
+      "count": 320,
+      "default": false
+    },
+    {
+      "abbr": "reseco",
+      "name": "Annual Review of Resource Economics",
+      "rank": 4,
+      "count": 367,
+      "default": false
+    },
+    {
+      "abbr": "resene",
+      "name": "Resource and Energy Economics",
+      "rank": 4,
+      "count": 755,
+      "default": false
+    },
+    {
+      "abbr": "reveho",
+      "name": "Review of Economics of the Household",
+      "rank": 4,
+      "count": 713,
+      "default": false
+    },
+    {
+      "abbr": "reviec",
+      "name": "Review of International Economics",
+      "rank": 4,
+      "count": 1633,
+      "default": false
+    },
+    {
+      "abbr": "revind",
+      "name": "Review of Industrial Organization",
+      "rank": 4,
+      "count": 833,
+      "default": false
+    },
+    {
+      "abbr": "revpoe",
+      "name": "Review of Political Economy",
+      "rank": 4,
+      "count": 966,
+      "default": false
+    },
+    {
+      "abbr": "rneart",
+      "name": "Review of Network Economics",
+      "rank": 4,
+      "count": 368,
+      "default": false
+    },
+    {
+      "abbr": "scotjp",
+      "name": "Scottish Journal of Political Economy",
+      "rank": 4,
+      "count": 1043,
+      "default": false
+    },
+    {
+      "abbr": "sndecm",
+      "name": "Studies in Nonlinear Dynamics and Econometrics",
+      "rank": 4,
+      "count": 781,
+      "default": false
+    },
+    {
+      "abbr": "soceco",
+      "name": "Journal of Behavioral and Experimental Economics",
+      "rank": 4,
+      "count": 1848,
+      "default": false
+    },
+    {
+      "abbr": "soecon",
+      "name": "Southern Economic Journal",
+      "rank": 4,
+      "count": 1550,
+      "default": false
+    },
+    {
+      "abbr": "specan",
+      "name": "Spatial Economic Analysis",
+      "rank": 4,
+      "count": 495,
+      "default": false
+    },
+    {
+      "abbr": "stapro",
+      "name": "Statistics and Probability Letters",
+      "rank": 4,
+      "count": 9463,
+      "default": false
+    },
+    {
+      "abbr": "stataj",
+      "name": "Stata Journal",
+      "rank": 4,
+      "count": 1124,
+      "default": false
+    },
+    {
+      "abbr": "wbrobs",
+      "name": "World Bank Research Observer",
+      "rank": 4,
+      "count": 317,
+      "default": false
+    },
+    {
+      "abbr": "worlde",
+      "name": "World Economy",
+      "rank": 4,
+      "count": 2196,
+      "default": false
+    },
+    {
+      "abbr": "aeapps",
+      "name": "Applied Economic Analysis",
+      "rank": 5,
+      "count": 79,
+      "default": false
+    },
+    {
+      "abbr": "aeqccm",
+      "name": "Credit and Capital Markets",
+      "rank": 5,
+      "count": 23,
+      "default": false
+    },
+    {
+      "abbr": "agreko",
+      "name": "Agrekon",
+      "rank": 5,
+      "count": 1049,
+      "default": false
+    },
+    {
+      "abbr": "agrerw",
+      "name": "Agricultural and Resource Economics Review",
+      "rank": 5,
+      "count": 816,
+      "default": false
+    },
+    {
+      "abbr": "anecst",
+      "name": "Annals of Economics and Statistics",
+      "rank": 5,
+      "count": 1252,
+      "default": false
+    },
+    {
+      "abbr": "apeclt",
+      "name": "Applied Economics Letters",
+      "rank": 5,
+      "count": 8316,
+      "default": false
+    },
+    {
+      "abbr": "aphecp",
+      "name": "Applied Health Economics and Heath Policy",
+      "rank": 5,
+      "count": 967,
+      "default": false
+    },
+    {
+      "abbr": "arerjl",
+      "name": "Agricultural and Resource Economics Review",
+      "rank": 5,
+      "count": 693,
+      "default": false
+    },
+    {
+      "abbr": "arsjes",
+      "name": "Swiss Journal of Economics and Statistics",
+      "rank": 5,
+      "count": 580,
+      "default": false
+    },
+    {
+      "abbr": "articl",
+      "name": "Economic Issues",
+      "rank": 5,
+      "count": 279,
+      "default": false
+    },
+    {
+      "abbr": "asiaec",
+      "name": "Asian Economic Journal",
+      "rank": 5,
+      "count": 799,
+      "default": false
+    },
+    {
+      "abbr": "asieco",
+      "name": "Journal of Asian Economics",
+      "rank": 5,
+      "count": 1180,
+      "default": false
+    },
+    {
+      "abbr": "atlecj",
+      "name": "Atlantic Economic Journal",
+      "rank": 5,
+      "count": 876,
+      "default": false
+    },
+    {
+      "abbr": "ausecp",
+      "name": "Australian Economic Papers",
+      "rank": 5,
+      "count": 773,
+      "default": false
+    },
+    {
+      "abbr": "ausecr",
+      "name": "Australian Economic Review",
+      "rank": 5,
+      "count": 813,
+      "default": false
+    },
+    {
+      "abbr": "bindes",
+      "name": "Bulletin of Indonesian Economic Studies",
+      "rank": 5,
+      "count": 416,
+      "default": false
+    },
+    {
+      "abbr": "bjafio",
+      "name": "Journal of Agricultural and Food Industrial Organization",
+      "rank": 5,
+      "count": 321,
+      "default": false
+    },
+    {
+      "abbr": "bpubpo",
+      "name": "Behavioural Public Policy",
+      "rank": 5,
+      "count": 222,
+      "default": false
+    },
+    {
+      "abbr": "buseco",
+      "name": "Business Economics",
+      "rank": 5,
+      "count": 527,
+      "default": false
+    },
+    {
+      "abbr": "caerpp",
+      "name": "China Agricultural Economic Review",
+      "rank": 5,
+      "count": 605,
+      "default": false
+    },
+    {
+      "abbr": "cepiie",
+      "name": "International Economics",
+      "rank": 5,
+      "count": 443,
+      "default": false
+    },
+    {
+      "abbr": "chinae",
+      "name": "China and World Economy",
+      "rank": 5,
+      "count": 671,
+      "default": false
+    },
+    {
+      "abbr": "compec",
+      "name": "Computational Economics",
+      "rank": 5,
+      "count": 1927,
+      "default": false
+    },
+    {
+      "abbr": "compes",
+      "name": "Comparative Economic Studies",
+      "rank": 5,
+      "count": 822,
+      "default": false
+    },
+    {
+      "abbr": "decfin",
+      "name": "Decisions in Economics and Finance",
+      "rank": 5,
+      "count": 412,
+      "default": false
+    },
+    {
+      "abbr": "decono",
+      "name": "De Economist",
+      "rank": 5,
+      "count": 301,
+      "default": false
+    },
+    {
+      "abbr": "dyngam",
+      "name": "Dynamic Games and Applications",
+      "rank": 5,
+      "count": 543,
+      "default": false
+    },
+    {
+      "abbr": "eaeuec",
+      "name": "Eastern European Economics",
+      "rank": 5,
+      "count": 605,
+      "default": false
+    },
+    {
+      "abbr": "earnsa",
+      "name": "Economia Agraria y Recursos Naturales – Agricultural and Resource Economics",
+      "rank": 5,
+      "count": 217,
+      "default": false
+    },
+    {
+      "abbr": "easeco",
+      "name": "Eastern Economic Journal",
+      "rank": 5,
+      "count": 525,
+      "default": false
+    },
+    {
+      "abbr": "ecanpo",
+      "name": "Economic Analysis and Policy",
+      "rank": 5,
+      "count": 2475,
+      "default": false
+    },
+    {
+      "abbr": "ecnote",
+      "name": "Economic Notes",
+      "rank": 5,
+      "count": 322,
+      "default": false
+    },
+    {
+      "abbr": "ecogov",
+      "name": "Economics of Governance",
+      "rank": 5,
+      "count": 396,
+      "default": false
+    },
+    {
+      "abbr": "econpp",
+      "name": "EconomiA",
+      "rank": 5,
+      "count": 52,
+      "default": false
+    },
+    {
+      "abbr": "ecopln",
+      "name": "Economic Change and Restructuring",
+      "rank": 5,
+      "count": 1010,
+      "default": false
+    },
+    {
+      "abbr": "ecotra",
+      "name": "Economics of Transportation",
+      "rank": 5,
+      "count": 227,
+      "default": false
+    },
+    {
+      "abbr": "edecon",
+      "name": "Education Economics",
+      "rank": 5,
+      "count": 809,
+      "default": false
+    },
+    {
+      "abbr": "eeconj",
+      "name": "Eastern Economic Journal",
+      "rank": 5,
+      "count": 679,
+      "default": false
+    },
+    {
+      "abbr": "eeepjl",
+      "name": "Economics of Energy and Environmental Policy",
+      "rank": 5,
+      "count": 177,
+      "default": false
+    },
+    {
+      "abbr": "eejocm",
+      "name": "Journal of Choice Modelling",
+      "rank": 5,
+      "count": 362,
+      "default": false
+    },
+    {
+      "abbr": "ejeepi",
+      "name": "European Journal of Economics and Economic Policies: Intervention",
+      "rank": 5,
+      "count": 379,
+      "default": false
+    },
+    {
+      "abbr": "ejlwec",
+      "name": "European Journal of Law and Economics",
+      "rank": 5,
+      "count": 588,
+      "default": false
+    },
+    {
+      "abbr": "ekonom",
+      "name": "Ekonomista",
+      "rank": 5,
+      "count": 113,
+      "default": false
+    },
+    {
+      "abbr": "emeeco",
+      "name": "Global Journal of Emerging Market Economies",
+      "rank": 5,
+      "count": 257,
+      "default": false
+    },
+    {
+      "abbr": "empiri",
+      "name": "Empirica",
+      "rank": 5,
+      "count": 547,
+      "default": false
+    },
+    {
+      "abbr": "envpol",
+      "name": "Environmental Economics and Policy Studies",
+      "rank": 5,
+      "count": 655,
+      "default": false
+    },
+    {
+      "abbr": "epolin",
+      "name": "Journal of Industrial and Business Economics",
+      "rank": 5,
+      "count": 330,
+      "default": false
+    },
+    {
+      "abbr": "eurase",
+      "name": "Eurasian Economic Review",
+      "rank": 5,
+      "count": 333,
+      "default": false
+    },
+    {
+      "abbr": "evoice",
+      "name": "Economists' Voice",
+      "rank": 5,
+      "count": 527,
+      "default": false
+    },
+    {
+      "abbr": "fhecpo",
+      "name": "Forum for Health Economics and Policy",
+      "rank": 5,
+      "count": 218,
+      "default": false
+    },
+    {
+      "abbr": "finarc",
+      "name": "FinanzArchiv",
+      "rank": 5,
+      "count": 524,
+      "default": false
+    },
+    {
+      "abbr": "fnteco",
+      "name": "Foundations and Trends in Econometrics",
+      "rank": 5,
+      "count": 34,
+      "default": false
+    },
+    {
+      "abbr": "fosoec",
+      "name": "The Forum for Social Economics",
+      "rank": 5,
+      "count": 533,
+      "default": false
+    },
+    {
+      "abbr": "gejxxx",
+      "name": "Global Economy Journal",
+      "rank": 5,
+      "count": 286,
+      "default": false
+    },
+    {
+      "abbr": "glecon",
+      "name": "Global Economy Journal",
+      "rank": 5,
+      "count": 425,
+      "default": false
+    },
+    {
+      "abbr": "glecrv",
+      "name": "Global Economic Review",
+      "rank": 5,
+      "count": 640,
+      "default": false
+    },
+    {
+      "abbr": "iabjlr",
+      "name": "Journal for Labour Market Research",
+      "rank": 5,
+      "count": 470,
+      "default": false
+    },
+    {
+      "abbr": "iaecre",
+      "name": "International Advances in Economic Research",
+      "rank": 5,
+      "count": 907,
+      "default": false
+    },
+    {
+      "abbr": "igtrxx",
+      "name": "International Game Theory Review",
+      "rank": 5,
+      "count": 786,
+      "default": false
+    },
+    {
+      "abbr": "ijcome",
+      "name": "International Journal of Computational Economics and Econometrics",
+      "rank": 5,
+      "count": 300,
+      "default": false
+    },
+    {
+      "abbr": "ijhdev",
+      "name": "International Journal of Happiness and Development",
+      "rank": 5,
+      "count": 168,
+      "default": false
+    },
+    {
+      "abbr": "ijpoec",
+      "name": "International Journal of Political Economy",
+      "rank": 5,
+      "count": 349,
+      "default": false
+    },
+    {
+      "abbr": "ijsepp",
+      "name": "International Journal of Social Economics",
+      "rank": 5,
+      "count": 2614,
+      "default": false
+    },
+    {
+      "abbr": "intecj",
+      "name": "International Economic Journal",
+      "rank": 5,
+      "count": 932,
+      "default": false
+    },
+    {
+      "abbr": "inteco",
+      "name": "Intereconomics",
+      "rank": 5,
+      "count": 1368,
+      "default": false
+    },
+    {
+      "abbr": "integr",
+      "name": "Journal of Economic Integration",
+      "rank": 5,
+      "count": 927,
+      "default": false
+    },
+    {
+      "abbr": "intere",
+      "name": "Intereconomics",
+      "rank": 5,
+      "count": 562,
+      "default": false
+    },
+    {
+      "abbr": "irapec",
+      "name": "International Review of Applied Economics",
+      "rank": 5,
+      "count": 1017,
+      "default": false
+    },
+    {
+      "abbr": "jaecon",
+      "name": "Journal of Applied Economics",
+      "rank": 5,
+      "count": 382,
+      "default": false
+    },
+    {
+      "abbr": "jagaec",
+      "name": "Journal of Agricultural & Applied Economics",
+      "rank": 5,
+      "count": 2371,
+      "default": false
+    },
+    {
+      "abbr": "jaitra",
+      "name": "Journal of Air Transport Management",
+      "rank": 5,
+      "count": 2316,
+      "default": false
+    },
+    {
+      "abbr": "japwor",
+      "name": "Japan and the World Economy",
+      "rank": 5,
+      "count": 518,
+      "default": false
+    },
+    {
+      "abbr": "jbioec",
+      "name": "Journal of Bioeconomics",
+      "rank": 5,
+      "count": 216,
+      "default": false
+    },
+    {
+      "abbr": "jcomle",
+      "name": "Journal of Competition Law & Economics",
+      "rank": 5,
+      "count": 559,
+      "default": false
+    },
+    {
+      "abbr": "jeaspp",
+      "name": "Journal of Economic and Administrative Sciences",
+      "rank": 5,
+      "count": 424,
+      "default": false
+    },
+    {
+      "abbr": "jecnmx",
+      "name": "Econometrics",
+      "rank": 5,
+      "count": 505,
+      "default": false
+    },
+    {
+      "abbr": "jecome",
+      "name": "Journal of Econometric Methods",
+      "rank": 5,
+      "count": 114,
+      "default": false
+    },
+    {
+      "abbr": "jecomi",
+      "name": "Economies",
+      "rank": 5,
+      "count": 1923,
+      "default": false
+    },
+    {
+      "abbr": "jecprf",
+      "name": "Journal of Economic Policy Reform",
+      "rank": 5,
+      "count": 286,
+      "default": false
+    },
+    {
+      "abbr": "jecrev",
+      "name": "Japanese Economic Review",
+      "rank": 5,
+      "count": 750,
+      "default": false
+    },
+    {
+      "abbr": "jeduce",
+      "name": "Journal of Economic Education",
+      "rank": 5,
+      "count": 825,
+      "default": false
+    },
+    {
+      "abbr": "jeicoo",
+      "name": "Journal of Economic Interaction and Coordination",
+      "rank": 5,
+      "count": 350,
+      "default": false
+    },
+    {
+      "abbr": "jesaex",
+      "name": "Journal of the Economic Science Association",
+      "rank": 5,
+      "count": 172,
+      "default": false
+    },
+    {
+      "abbr": "jgames",
+      "name": "Games",
+      "rank": 5,
+      "count": 814,
+      "default": false
+    },
+    {
+      "abbr": "jgbeco",
+      "name": "Journal of Gambling Business and Economics",
+      "rank": 5,
+      "count": 127,
+      "default": false
+    },
+    {
+      "abbr": "jinter",
+      "name": "Journal of Interdisciplinary Economics",
+      "rank": 5,
+      "count": 566,
+      "default": false
+    },
+    {
+      "abbr": "jitecd",
+      "name": "Journal of International Trade and Economic Development",
+      "rank": 5,
+      "count": 1099,
+      "default": false
+    },
+    {
+      "abbr": "jmedec",
+      "name": "Journal of Media Economics",
+      "rank": 5,
+      "count": 322,
+      "default": false
+    },
+    {
+      "abbr": "jnlsbe",
+      "name": "Strategic Behavior and the Environment",
+      "rank": 5,
+      "count": 90,
+      "default": false
+    },
+    {
+      "abbr": "joaaec",
+      "name": "Journal of Agricultural & Applied Economics",
+      "rank": 5,
+      "count": 1057,
+      "default": false
+    },
+    {
+      "abbr": "joecas",
+      "name": "Journal of Economic Asymmetries",
+      "rank": 5,
+      "count": 482,
+      "default": false
+    },
+    {
+      "abbr": "jpolrf",
+      "name": "Journal of Economic Policy Reform",
+      "rank": 5,
+      "count": 260,
+      "default": false
+    },
+    {
+      "abbr": "jrujec",
+      "name": "Russian Journal of Economics",
+      "rank": 5,
+      "count": 168,
+      "default": false
+    },
+    {
+      "abbr": "maneco",
+      "name": "Man and the Economy",
+      "rank": 5,
+      "count": 94,
+      "default": false
+    },
+    {
+      "abbr": "metroe",
+      "name": "Metroeconomica",
+      "rank": 5,
+      "count": 619,
+      "default": false
+    },
+    {
+      "abbr": "miceco",
+      "name": "Studies in Microeconomics",
+      "rank": 5,
+      "count": 169,
+      "default": false
+    },
+    {
+      "abbr": "minecn",
+      "name": "Mineral Economics",
+      "rank": 5,
+      "count": 368,
+      "default": false
+    },
+    {
+      "abbr": "mjejnl",
+      "name": "Montenegrin Journal of Economics",
+      "rank": 5,
+      "count": 599,
+      "default": false
+    },
+    {
+      "abbr": "nierev",
+      "name": "National Institute Economic Review",
+      "rank": 5,
+      "count": 1651,
+      "default": false
+    },
+    {
+      "abbr": "niesru",
+      "name": "National Institute Economic Review",
+      "rank": 5,
+      "count": 858,
+      "default": false
+    },
+    {
+      "abbr": "nzecpp",
+      "name": "New Zealand Economic Papers",
+      "rank": 5,
+      "count": 459,
+      "default": false
+    },
+    {
+      "abbr": "oaefxx",
+      "name": "Cogent Economics and Finance",
+      "rank": 5,
+      "count": 2143,
+      "default": false
+    },
+    {
+      "abbr": "pepspp",
+      "name": "Peace Economics, Peace Science and Public Policy",
+      "rank": 5,
+      "count": 463,
+      "default": false
+    },
+    {
+      "abbr": "pocoec",
+      "name": "Post-Communist Economies",
+      "rank": 5,
+      "count": 906,
+      "default": false
+    },
+    {
+      "abbr": "portec",
+      "name": "Portuguese Economic Journal",
+      "rank": 5,
+      "count": 240,
+      "default": false
+    },
+    {
+      "abbr": "pslqrr",
+      "name": "PSL Quarterly Review",
+      "rank": 5,
+      "count": 271,
+      "default": false
+    },
+    {
+      "abbr": "ragrxx",
+      "name": "Agrekon",
+      "rank": 5,
+      "count": 353,
+      "default": false
+    },
+    {
+      "abbr": "rcejxx",
+      "name": "China Economic Journal",
+      "rank": 5,
+      "count": 342,
+      "default": false
+    },
+    {
+      "abbr": "recsxx",
+      "name": "Journal of Applied Economics",
+      "rank": 5,
+      "count": 647,
+      "default": false
+    },
+    {
+      "abbr": "reecon",
+      "name": "Research in Economics",
+      "rank": 5,
+      "count": 667,
+      "default": false
+    },
+    {
+      "abbr": "reorpe",
+      "name": "Review of Radical Political Economics",
+      "rank": 5,
+      "count": 1283,
+      "default": false
+    },
+    {
+      "abbr": "repspp",
+      "name": "Review of Economics and Political Science",
+      "rank": 5,
+      "count": 161,
+      "default": false
+    },
+    {
+      "abbr": "reroxx",
+      "name": "Economic Research-Ekonomska Istraživanja",
+      "rank": 5,
+      "count": 2155,
+      "default": false
+    },
+    {
+      "abbr": "retrec",
+      "name": "Research in Transportation Economics",
+      "rank": 5,
+      "count": 1334,
+      "default": false
+    },
+    {
+      "abbr": "revaec",
+      "name": "Review of Austrian Economics",
+      "rank": 5,
+      "count": 496,
+      "default": false
+    },
+    {
+      "abbr": "revfec",
+      "name": "Review of Financial Economics",
+      "rank": 5,
+      "count": 675,
+      "default": false
+    },
+    {
+      "abbr": "revfin",
+      "name": "Review of Financial Economics",
+      "rank": 5,
+      "count": 270,
+      "default": false
+    },
+    {
+      "abbr": "rjapxx",
+      "name": "Journal of the Asia Pacific Economy",
+      "rank": 5,
+      "count": 996,
+      "default": false
+    },
+    {
+      "abbr": "rujoec",
+      "name": "Russian Journal of Economics",
+      "rank": 5,
+      "count": 58,
+      "default": false
+    },
+    {
+      "abbr": "sajeco",
+      "name": "South African Journal of Economics",
+      "rank": 5,
+      "count": 637,
+      "default": false
+    },
+    {
+      "abbr": "sefpps",
+      "name": "Studies in Economics and Finance",
+      "rank": 5,
+      "count": 604,
+      "default": false
+    },
+    {
+      "abbr": "sjecst",
+      "name": "Swiss Journal of Economics and Statistics",
+      "rank": 5,
+      "count": 157,
+      "default": false
+    },
+    {
+      "abbr": "soueco",
+      "name": "South Asia Economic Journal",
+      "rank": 5,
+      "count": 330,
+      "default": false
+    },
+    {
+      "abbr": "stagec",
+      "name": "Studies in Agricultural Economics",
+      "rank": 5,
+      "count": 264,
+      "default": false
+    },
+    {
+      "abbr": "tvecsg",
+      "name": "Tijdschrift Voor Economische en Sociale Geografie",
+      "rank": 5,
+      "count": 868,
+      "default": false
+    },
+    {
+      "abbr": "wpaper",
+      "name": "Advances in Decision Sciences",
+      "rank": 5,
+      "count": 191,
+      "default": false
+    }
+  ],
+  "shards": [
+    {
+      "key": "b1980_r1",
+      "period": "b1980",
+      "label": "1907-1979",
+      "from": null,
+      "to": 1979,
+      "rank": 1,
+      "count": 1970,
+      "url": "/assets/econ-search/papers_b1980_r1.json"
+    },
+    {
+      "key": "b1980_r2",
+      "period": "b1980",
+      "label": "1907-1979",
+      "from": null,
+      "to": 1979,
+      "rank": 2,
+      "count": 44,
+      "url": "/assets/econ-search/papers_b1980_r2.json"
+    },
+    {
+      "key": "b1980_r3",
+      "period": "b1980",
+      "label": "1907-1979",
+      "from": null,
+      "to": 1979,
+      "rank": 3,
+      "count": 3144,
+      "url": "/assets/econ-search/papers_b1980_r3.json"
+    },
+    {
+      "key": "b1980_r4",
+      "period": "b1980",
+      "label": "1907-1979",
+      "from": null,
+      "to": 1979,
+      "rank": 4,
+      "count": 139,
+      "url": "/assets/econ-search/papers_b1980_r4.json"
+    },
+    {
+      "key": "b1980_r5",
+      "period": "b1980",
+      "label": "1907-1979",
+      "from": null,
+      "to": 1979,
+      "rank": 5,
+      "count": 1621,
+      "url": "/assets/econ-search/papers_b1980_r5.json"
+    },
+    {
+      "key": "1980s_r1",
+      "period": "1980s",
+      "label": "1980-1989",
+      "from": 1980,
+      "to": 1989,
+      "rank": 1,
+      "count": 1537,
+      "url": "/assets/econ-search/papers_1980s_r1.json"
+    },
+    {
+      "key": "1980s_r2",
+      "period": "1980s",
+      "label": "1980-1989",
+      "from": 1980,
+      "to": 1989,
+      "rank": 2,
+      "count": 1215,
+      "url": "/assets/econ-search/papers_1980s_r2.json"
+    },
+    {
+      "key": "1980s_r3",
+      "period": "1980s",
+      "label": "1980-1989",
+      "from": 1980,
+      "to": 1989,
+      "rank": 3,
+      "count": 4609,
+      "url": "/assets/econ-search/papers_1980s_r3.json"
+    },
+    {
+      "key": "1980s_r4",
+      "period": "1980s",
+      "label": "1980-1989",
+      "from": 1980,
+      "to": 1989,
+      "rank": 4,
+      "count": 1643,
+      "url": "/assets/econ-search/papers_1980s_r4.json"
+    },
+    {
+      "key": "1980s_r5",
+      "period": "1980s",
+      "label": "1980-1989",
+      "from": 1980,
+      "to": 1989,
+      "rank": 5,
+      "count": 1815,
+      "url": "/assets/econ-search/papers_1980s_r5.json"
+    },
+    {
+      "key": "1990s_r1",
+      "period": "1990s",
+      "label": "1990-1999",
+      "from": 1990,
+      "to": 1999,
+      "rank": 1,
+      "count": 2370,
+      "url": "/assets/econ-search/papers_1990s_r1.json"
+    },
+    {
+      "key": "1990s_r2",
+      "period": "1990s",
+      "label": "1990-1999",
+      "from": 1990,
+      "to": 1999,
+      "rank": 2,
+      "count": 4339,
+      "url": "/assets/econ-search/papers_1990s_r2.json"
+    },
+    {
+      "key": "1990s_r3",
+      "period": "1990s",
+      "label": "1990-1999",
+      "from": 1990,
+      "to": 1999,
+      "rank": 3,
+      "count": 11584,
+      "url": "/assets/econ-search/papers_1990s_r3.json"
+    },
+    {
+      "key": "1990s_r4",
+      "period": "1990s",
+      "label": "1990-1999",
+      "from": 1990,
+      "to": 1999,
+      "rank": 4,
+      "count": 10093,
+      "url": "/assets/econ-search/papers_1990s_r4.json"
+    },
+    {
+      "key": "1990s_r5",
+      "period": "1990s",
+      "label": "1990-1999",
+      "from": 1990,
+      "to": 1999,
+      "rank": 5,
+      "count": 7163,
+      "url": "/assets/econ-search/papers_1990s_r5.json"
+    },
+    {
+      "key": "2000_2004_r1",
+      "period": "2000_2004",
+      "label": "2000-2004",
+      "from": 2000,
+      "to": 2004,
+      "rank": 1,
+      "count": 1344,
+      "url": "/assets/econ-search/papers_2000_2004_r1.json"
+    },
+    {
+      "key": "2000_2004_r2",
+      "period": "2000_2004",
+      "label": "2000-2004",
+      "from": 2000,
+      "to": 2004,
+      "rank": 2,
+      "count": 3095,
+      "url": "/assets/econ-search/papers_2000_2004_r2.json"
+    },
+    {
+      "key": "2000_2004_r3",
+      "period": "2000_2004",
+      "label": "2000-2004",
+      "from": 2000,
+      "to": 2004,
+      "rank": 3,
+      "count": 8676,
+      "url": "/assets/econ-search/papers_2000_2004_r3.json"
+    },
+    {
+      "key": "2000_2004_r4",
+      "period": "2000_2004",
+      "label": "2000-2004",
+      "from": 2000,
+      "to": 2004,
+      "rank": 4,
+      "count": 11077,
+      "url": "/assets/econ-search/papers_2000_2004_r4.json"
+    },
+    {
+      "key": "2000_2004_r5",
+      "period": "2000_2004",
+      "label": "2000-2004",
+      "from": 2000,
+      "to": 2004,
+      "rank": 5,
+      "count": 7969,
+      "url": "/assets/econ-search/papers_2000_2004_r5.json"
+    },
+    {
+      "key": "2005_2009_r1",
+      "period": "2005_2009",
+      "label": "2005-2009",
+      "from": 2005,
+      "to": 2009,
+      "rank": 1,
+      "count": 1464,
+      "url": "/assets/econ-search/papers_2005_2009_r1.json"
+    },
+    {
+      "key": "2005_2009_r2",
+      "period": "2005_2009",
+      "label": "2005-2009",
+      "from": 2005,
+      "to": 2009,
+      "rank": 2,
+      "count": 4359,
+      "url": "/assets/econ-search/papers_2005_2009_r2.json"
+    },
+    {
+      "key": "2005_2009_r3",
+      "period": "2005_2009",
+      "label": "2005-2009",
+      "from": 2005,
+      "to": 2009,
+      "rank": 3,
+      "count": 12878,
+      "url": "/assets/econ-search/papers_2005_2009_r3.json"
+    },
+    {
+      "key": "2005_2009_r4",
+      "period": "2005_2009",
+      "label": "2005-2009",
+      "from": 2005,
+      "to": 2009,
+      "rank": 4,
+      "count": 16239,
+      "url": "/assets/econ-search/papers_2005_2009_r4.json"
+    },
+    {
+      "key": "2005_2009_r5",
+      "period": "2005_2009",
+      "label": "2005-2009",
+      "from": 2005,
+      "to": 2009,
+      "rank": 5,
+      "count": 10946,
+      "url": "/assets/econ-search/papers_2005_2009_r5.json"
+    },
+    {
+      "key": "2010_2012_r1",
+      "period": "2010_2012",
+      "label": "2010-2012",
+      "from": 2010,
+      "to": 2012,
+      "rank": 1,
+      "count": 1124,
+      "url": "/assets/econ-search/papers_2010_2012_r1.json"
+    },
+    {
+      "key": "2010_2012_r2",
+      "period": "2010_2012",
+      "label": "2010-2012",
+      "from": 2010,
+      "to": 2012,
+      "rank": 2,
+      "count": 3013,
+      "url": "/assets/econ-search/papers_2010_2012_r2.json"
+    },
+    {
+      "key": "2010_2012_r3",
+      "period": "2010_2012",
+      "label": "2010-2012",
+      "from": 2010,
+      "to": 2012,
+      "rank": 3,
+      "count": 10631,
+      "url": "/assets/econ-search/papers_2010_2012_r3.json"
+    },
+    {
+      "key": "2010_2012_r4",
+      "period": "2010_2012",
+      "label": "2010-2012",
+      "from": 2010,
+      "to": 2012,
+      "rank": 4,
+      "count": 12337,
+      "url": "/assets/econ-search/papers_2010_2012_r4.json"
+    },
+    {
+      "key": "2010_2012_r5",
+      "period": "2010_2012",
+      "label": "2010-2012",
+      "from": 2010,
+      "to": 2012,
+      "rank": 5,
+      "count": 7685,
+      "url": "/assets/econ-search/papers_2010_2012_r5.json"
+    },
+    {
+      "key": "2013_2015_r1",
+      "period": "2013_2015",
+      "label": "2013-2015",
+      "from": 2013,
+      "to": 2015,
+      "rank": 1,
+      "count": 1242,
+      "url": "/assets/econ-search/papers_2013_2015_r1.json"
+    },
+    {
+      "key": "2013_2015_r2",
+      "period": "2013_2015",
+      "label": "2013-2015",
+      "from": 2013,
+      "to": 2015,
+      "rank": 2,
+      "count": 3515,
+      "url": "/assets/econ-search/papers_2013_2015_r2.json"
+    },
+    {
+      "key": "2013_2015_r3",
+      "period": "2013_2015",
+      "label": "2013-2015",
+      "from": 2013,
+      "to": 2015,
+      "rank": 3,
+      "count": 13014,
+      "url": "/assets/econ-search/papers_2013_2015_r3.json"
+    },
+    {
+      "key": "2013_2015_r4",
+      "period": "2013_2015",
+      "label": "2013-2015",
+      "from": 2013,
+      "to": 2015,
+      "rank": 4,
+      "count": 15672,
+      "url": "/assets/econ-search/papers_2013_2015_r4.json"
+    },
+    {
+      "key": "2013_2015_r5",
+      "period": "2013_2015",
+      "label": "2013-2015",
+      "from": 2013,
+      "to": 2015,
+      "rank": 5,
+      "count": 9710,
+      "url": "/assets/econ-search/papers_2013_2015_r5.json"
+    },
+    {
+      "key": "2016_2018_r1",
+      "period": "2016_2018",
+      "label": "2016-2018",
+      "from": 2016,
+      "to": 2018,
+      "rank": 1,
+      "count": 1242,
+      "url": "/assets/econ-search/papers_2016_2018_r1.json"
+    },
+    {
+      "key": "2016_2018_r2",
+      "period": "2016_2018",
+      "label": "2016-2018",
+      "from": 2016,
+      "to": 2018,
+      "rank": 2,
+      "count": 3690,
+      "url": "/assets/econ-search/papers_2016_2018_r2.json"
+    },
+    {
+      "key": "2016_2018_r3",
+      "period": "2016_2018",
+      "label": "2016-2018",
+      "from": 2016,
+      "to": 2018,
+      "rank": 3,
+      "count": 13067,
+      "url": "/assets/econ-search/papers_2016_2018_r3.json"
+    },
+    {
+      "key": "2016_2018_r4",
+      "period": "2016_2018",
+      "label": "2016-2018",
+      "from": 2016,
+      "to": 2018,
+      "rank": 4,
+      "count": 15970,
+      "url": "/assets/econ-search/papers_2016_2018_r4.json"
+    },
+    {
+      "key": "2016_2018_r5",
+      "period": "2016_2018",
+      "label": "2016-2018",
+      "from": 2016,
+      "to": 2018,
+      "rank": 5,
+      "count": 11289,
+      "url": "/assets/econ-search/papers_2016_2018_r5.json"
+    },
+    {
+      "key": "2019_2020_r1",
+      "period": "2019_2020",
+      "label": "2019-2020",
+      "from": 2019,
+      "to": 2020,
+      "rank": 1,
+      "count": 788,
+      "url": "/assets/econ-search/papers_2019_2020_r1.json"
+    },
+    {
+      "key": "2019_2020_r2",
+      "period": "2019_2020",
+      "label": "2019-2020",
+      "from": 2019,
+      "to": 2020,
+      "rank": 2,
+      "count": 2694,
+      "url": "/assets/econ-search/papers_2019_2020_r2.json"
+    },
+    {
+      "key": "2019_2020_r3",
+      "period": "2019_2020",
+      "label": "2019-2020",
+      "from": 2019,
+      "to": 2020,
+      "rank": 3,
+      "count": 9852,
+      "url": "/assets/econ-search/papers_2019_2020_r3.json"
+    },
+    {
+      "key": "2019_2020_r4",
+      "period": "2019_2020",
+      "label": "2019-2020",
+      "from": 2019,
+      "to": 2020,
+      "rank": 4,
+      "count": 12762,
+      "url": "/assets/econ-search/papers_2019_2020_r4.json"
+    },
+    {
+      "key": "2019_2020_r5",
+      "period": "2019_2020",
+      "label": "2019-2020",
+      "from": 2019,
+      "to": 2020,
+      "rank": 5,
+      "count": 8497,
+      "url": "/assets/econ-search/papers_2019_2020_r5.json"
+    },
+    {
+      "key": "2021_2022_r1",
+      "period": "2021_2022",
+      "label": "2021-2022",
+      "from": 2021,
+      "to": 2022,
+      "rank": 1,
+      "count": 812,
+      "url": "/assets/econ-search/papers_2021_2022_r1.json"
+    },
+    {
+      "key": "2021_2022_r2",
+      "period": "2021_2022",
+      "label": "2021-2022",
+      "from": 2021,
+      "to": 2022,
+      "rank": 2,
+      "count": 3052,
+      "url": "/assets/econ-search/papers_2021_2022_r2.json"
+    },
+    {
+      "key": "2021_2022_r3",
+      "period": "2021_2022",
+      "label": "2021-2022",
+      "from": 2021,
+      "to": 2022,
+      "rank": 3,
+      "count": 10984,
+      "url": "/assets/econ-search/papers_2021_2022_r3.json"
+    },
+    {
+      "key": "2021_2022_r4",
+      "period": "2021_2022",
+      "label": "2021-2022",
+      "from": 2021,
+      "to": 2022,
+      "rank": 4,
+      "count": 13769,
+      "url": "/assets/econ-search/papers_2021_2022_r4.json"
+    },
+    {
+      "key": "2021_2022_r5",
+      "period": "2021_2022",
+      "label": "2021-2022",
+      "from": 2021,
+      "to": 2022,
+      "rank": 5,
+      "count": 9855,
+      "url": "/assets/econ-search/papers_2021_2022_r5.json"
+    },
+    {
+      "key": "2023_2024_r1",
+      "period": "2023_2024",
+      "label": "2023-2024",
+      "from": 2023,
+      "to": 2024,
+      "rank": 1,
+      "count": 817,
+      "url": "/assets/econ-search/papers_2023_2024_r1.json"
+    },
+    {
+      "key": "2023_2024_r2",
+      "period": "2023_2024",
+      "label": "2023-2024",
+      "from": 2023,
+      "to": 2024,
+      "rank": 2,
+      "count": 3293,
+      "url": "/assets/econ-search/papers_2023_2024_r2.json"
+    },
+    {
+      "key": "2023_2024_r3",
+      "period": "2023_2024",
+      "label": "2023-2024",
+      "from": 2023,
+      "to": 2024,
+      "rank": 3,
+      "count": 10641,
+      "url": "/assets/econ-search/papers_2023_2024_r3.json"
+    },
+    {
+      "key": "2023_2024_r4",
+      "period": "2023_2024",
+      "label": "2023-2024",
+      "from": 2023,
+      "to": 2024,
+      "rank": 4,
+      "count": 15551,
+      "url": "/assets/econ-search/papers_2023_2024_r4.json"
+    },
+    {
+      "key": "2023_2024_r5",
+      "period": "2023_2024",
+      "label": "2023-2024",
+      "from": 2023,
+      "to": 2024,
+      "rank": 5,
+      "count": 10657,
+      "url": "/assets/econ-search/papers_2023_2024_r5.json"
+    },
+    {
+      "key": "2025plus_r1",
+      "period": "2025plus",
+      "label": "2025+",
+      "from": 2025,
+      "to": null,
+      "rank": 1,
+      "count": 462,
+      "url": "/assets/econ-search/papers_2025plus_r1.json"
+    },
+    {
+      "key": "2025plus_r2",
+      "period": "2025plus",
+      "label": "2025+",
+      "from": 2025,
+      "to": null,
+      "rank": 2,
+      "count": 1550,
+      "url": "/assets/econ-search/papers_2025plus_r2.json"
+    },
+    {
+      "key": "2025plus_r3",
+      "period": "2025plus",
+      "label": "2025+",
+      "from": 2025,
+      "to": null,
+      "rank": 3,
+      "count": 6554,
+      "url": "/assets/econ-search/papers_2025plus_r3.json"
+    },
+    {
+      "key": "2025plus_r4",
+      "period": "2025plus",
+      "label": "2025+",
+      "from": 2025,
+      "to": null,
+      "rank": 4,
+      "count": 8774,
+      "url": "/assets/econ-search/papers_2025plus_r4.json"
+    },
+    {
+      "key": "2025plus_r5",
+      "period": "2025plus",
+      "label": "2025+",
+      "from": 2025,
+      "to": null,
+      "rank": 5,
+      "count": 5438,
+      "url": "/assets/econ-search/papers_2025plus_r5.json"
+    }
+  ]
+}

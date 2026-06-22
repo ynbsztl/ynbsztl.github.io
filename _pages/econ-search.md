@@ -251,7 +251,7 @@ author_profile: true
   </div> -->
 
   <div id="data-status" class="info">
-    <strong>Data status:</strong> <span id="status-text">Ready to search. Data shards will load automatically based on the selected year range.</span>
+    <strong>Data status:</strong> <span id="status-text">Loading metadata...</span>
   </div>
 
   <div class="search-form">

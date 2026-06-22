@@ -156,8 +156,8 @@
     if (queryInput) {
       queryInput.placeholder =
         mode === 'ai'
-          ? '输入自然语言查询，如："minimum wage impact on employment"...'
-          : '输入搜索关键词...';
+          ? 'Enter a natural-language query, e.g. "minimum wage impact on employment"...'
+          : 'Enter search keywords...';
     }
   }
 
@@ -193,13 +193,13 @@
     if (!container) return;
 
     if (!results || results.length === 0) {
-      container.innerHTML = '<div class="info">未找到匹配的文章。请尝试调整搜索条件。</div>';
+      container.innerHTML = '<div class="info">No matching papers found. Try adjusting the search criteria.</div>';
       return;
     }
 
     const showAbstract = $('show-abstract') ? $('show-abstract').checked : false;
 
-    let html = `<h3>搜索结果 (共找到 ${total} 篇文章)</h3>`;
+    let html = `<h3>Search results (${total} papers found)</h3>`;
 
     results.forEach((paper, index) => {
       const titleHtml = paper.url
@@ -236,13 +236,13 @@
   function showError(message) {
     const container = $('results-container');
     if (!container) return;
-    container.innerHTML = `<div class="error"><strong>错误：</strong> ${message}</div>`;
+    container.innerHTML = `<div class="error"><strong>Error:</strong> ${message}</div>`;
   }
 
   function showLoading() {
     const container = $('results-container');
     if (!container) return;
-    container.innerHTML = '<div class="loading">正在搜索中，请稍候...</div>';
+    container.innerHTML = '<div class="loading">Searching, please wait...</div>';
   }
 
   async function performSearch(searchParams) {
@@ -280,23 +280,23 @@
     const statusText = $('status-text');
     if (!statusDiv || !statusText) return;
 
-    // 未配置API（线上常见）
+    // No API configured. Common for static deployments.
     if (!API_BASE_URL) {
       statusText.innerHTML =
-        '❌ 未配置后端API。<br>' +
-        '这是静态站点页面，不能直接运行 Python/Flask。<br>' +
-        '请先部署 <code>econ-search-api</code>，然后在 <code>_config.yml</code> 设置 <code>econ_search_api_base_url</code>（https）。';
+        'Backend API is not configured.<br>' +
+        'This is a static site and cannot run Python/Flask directly.<br>' +
+        'Deploy <code>econ-search-api</code>, then set <code>econ_search_api_base_url</code> in <code>_config.yml</code> using HTTPS.';
       statusDiv.className = 'error';
       statusDiv.style.display = 'block';
       setDisabledSubmit(true);
       return;
     }
 
-    // https 页面调用 http API 会被浏览器拦截
+    // Browsers block HTTPS pages from calling HTTP APIs.
     if (location.protocol === 'https:' && API_BASE_URL.startsWith('http://')) {
       statusText.innerHTML =
-        `❌ 当前页面为 HTTPS，但API是 HTTP：<code>${API_BASE_URL}</code><br>` +
-        '浏览器会拦截混合内容请求。请把API部署为 HTTPS 并更新配置。';
+        `This page is served over HTTPS, but the API uses HTTP: <code>${API_BASE_URL}</code><br>` +
+        'Browsers will block mixed-content requests. Deploy the API over HTTPS and update the configuration.';
       statusDiv.className = 'error';
       statusDiv.style.display = 'block';
       setDisabledSubmit(true);
@@ -306,11 +306,11 @@
     try {
       const resp = await fetch(`${API_BASE_URL}/health`);
       if (!resp.ok) throw new Error('Health check failed');
-      statusText.textContent = `✅ API服务正常运行（${API_BASE_URL}）`;
+      statusText.textContent = `API service is available (${API_BASE_URL})`;
       statusDiv.className = 'info';
       setDisabledSubmit(false);
     } catch (_) {
-      statusText.textContent = `❌ API服务不可用（${API_BASE_URL}），请检查后端服务是否启动`;
+      statusText.textContent = `API service is unavailable (${API_BASE_URL}). Check whether the backend is running.`;
       statusDiv.className = 'error';
       setDisabledSubmit(true);
     }
@@ -355,17 +355,17 @@
       const selectedJournals = getSelectedJournals();
 
       if (!API_BASE_URL) {
-        showError('未配置后端API，无法搜索。');
+        showError('Backend API is not configured, so search cannot run.');
         return;
       }
 
       if (!query && currentMode === 'ai') {
-        showError('AI搜索模式下请输入查询内容');
+        showError('Please enter a query for AI search mode.');
         return;
       }
 
       if (selectedJournals.length === 0) {
-        showError('请至少选择一个期刊');
+        showError('Please select at least one journal.');
         return;
       }
 
@@ -384,7 +384,7 @@
         });
         displayResults(res.results, res.total);
       } catch (err) {
-        showError(`搜索失败：${err && err.message ? err.message : '未知错误'}`);
+        showError(`Search failed: ${err && err.message ? err.message : 'unknown error'}`);
       }
     });
   }
@@ -406,5 +406,4 @@
     loadJournalsFromApi();
   });
 })();
-
 

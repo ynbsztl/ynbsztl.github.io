@@ -234,7 +234,7 @@
 
     const p = (async () => {
       const resp = await fetch(shard.url, { cache: 'force-cache' });
-      if (!resp.ok) throw new Error(`加载数据失败：${shard.url} (HTTP ${resp.status})`);
+      if (!resp.ok) throw new Error(`Failed to load data: ${shard.url} (HTTP ${resp.status})`);
       const data = await resp.json();
       shardCache.set(shard.key, data);
       return data;
@@ -252,13 +252,13 @@
     const need = SHARDS.filter((s) => shardOverlapsYears(s, yFrom, yTo));
     if (need.length === 0) return [];
 
-    setStatus(`正在加载数据分片：${need.map((s) => s.key).join(', ')} ...`);
+    setStatus(`Loading data shards: ${need.map((s) => s.key).join(', ')} ...`);
     setSubmitDisabled(true);
 
     const arrays = await Promise.all(need.map((s) => loadShard(s)));
     const all = arrays.flat();
 
-    setStatus(`已加载 ${need.length} 个分片，共 ${all.length.toLocaleString()} 条记录（将按条件筛选）`);
+    setStatus(`Loaded ${need.length} shard(s), ${all.length.toLocaleString()} records. Filtering now.`);
     setSubmitDisabled(false);
     return all;
   }
@@ -277,13 +277,13 @@
     if (!container) return;
 
     if (!results.length) {
-      container.innerHTML = '<div class="info">未找到匹配的文章。请尝试调整搜索条件。</div>';
+      container.innerHTML = '<div class="info">No matching papers found. Try adjusting the search criteria.</div>';
       return;
     }
 
     const showAbstract = $('show-abstract') ? $('show-abstract').checked : false;
 
-    let html = `<h3>搜索结果 (共找到 ${total.toLocaleString()} 篇文章，展示前 ${results.length.toLocaleString()} 篇)</h3>`;
+    let html = `<h3>Search results (${total.toLocaleString()} papers found; showing first ${results.length.toLocaleString()})</h3>`;
     results.forEach((p, idx) => {
       const title = p.title || '';
       const authors = p.authors || '';
@@ -318,13 +318,13 @@
   function showError(msg) {
     const container = $('results-container');
     if (!container) return;
-    container.innerHTML = `<div class="error"><strong>错误：</strong> ${escapeHtml(msg)}</div>`;
+    container.innerHTML = `<div class="error"><strong>Error:</strong> ${escapeHtml(msg)}</div>`;
   }
 
   function showLoading() {
     const container = $('results-container');
     if (!container) return;
-    container.innerHTML = '<div class="loading">正在搜索中，请稍候...</div>';
+    container.innerHTML = '<div class="loading">Searching, please wait...</div>';
   }
 
   async function handleSearchSubmit(e) {
@@ -338,12 +338,12 @@
     const selectedJournals = new Set(getSelectedJournals());
 
     if (Number.isNaN(yFrom) || Number.isNaN(yTo) || yFrom > yTo) {
-      showError('年份范围不合法（Year from 不能大于 Year to）');
+      showError('Invalid year range. Start year cannot be greater than end year.');
       return;
     }
 
     if (selectedJournals.size === 0) {
-      showError('请至少选择一个期刊');
+      showError('Please select at least one journal.');
       return;
     }
 
@@ -353,13 +353,13 @@
     try {
       data = await loadNeededData(yFrom, yTo);
     } catch (err) {
-      showError(err && err.message ? err.message : '数据加载失败');
-      setStatus('数据加载失败', 'error');
+      showError(err && err.message ? err.message : 'Failed to load data.');
+      setStatus('Failed to load data.', 'error');
       setSubmitDisabled(false);
       return;
     }
 
-    setStatus('正在筛选与检索（数据量大时可能需要几十秒）...');
+    setStatus('Filtering and searching. Large ranges may take a few seconds...');
 
     // Filter + match
     const parsed = parseQuery(query);
@@ -383,7 +383,7 @@
     sortResults(matched, sortBy);
     const shown = matched.slice(0, maxShow);
 
-    setStatus(`完成：匹配 ${total.toLocaleString()} 篇`);
+    setStatus(`Done: ${total.toLocaleString()} matching paper(s).`);
     renderResults(shown, total);
   }
 
@@ -407,7 +407,7 @@
       });
       const container = $('results-container');
       if (container) container.innerHTML = '';
-      setStatus('等待搜索（将按年份范围自动加载所需数据分片）');
+      setStatus('Ready to search. Data shards will load automatically based on the selected year range.');
     };
   }
 
@@ -416,8 +416,7 @@
     initJournalsUI();
     bind();
     switchMode('keyword');
-    setStatus('等待搜索（将按年份范围自动加载所需数据分片）');
+    setStatus('Ready to search. Data shards will load automatically based on the selected year range.');
   });
 })();
-
 

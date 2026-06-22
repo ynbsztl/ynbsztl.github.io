@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "中文经济学文献检索"
+title: "Chinese Economics Paper Search"
 permalink: /cnki-search/
 author_profile: true
 ---
@@ -188,61 +188,61 @@ author_profile: true
 
 <div class="cnki-search-container">
   <div id="data-status" class="data-status">
-    <strong>数据状态：</strong> <span id="status-text">等待搜索（数据来源：files/cnki_list.csv，7 种中文期刊）</span>
+    <strong>Data status:</strong> <span id="status-text">Ready to search. Source: files/cnki_list.csv; 7 Chinese journals.</span>
   </div>
 
   <div class="search-form">
     <form id="cnki-search-form">
       <div class="form-group">
-        <label for="query">搜索查询</label>
-        <input type="text" id="query" class="form-control" placeholder="输入中文关键词、作者、标题或短语...">
+        <label for="query">Search query</label>
+        <input type="text" id="query" class="form-control" placeholder="Enter keywords, authors, titles, or phrases...">
       </div>
 
       <div class="form-row">
         <div class="form-col">
-          <label for="search-field">检索字段</label>
+          <label for="search-field">Search field</label>
           <select id="search-field" class="form-control">
-            <option value="all">标题、摘要、关键词、作者</option>
-            <option value="title">标题</option>
-            <option value="abstract">摘要</option>
-            <option value="keywords">关键词</option>
-            <option value="authors">作者</option>
+            <option value="all">Title, abstract, keywords, and authors</option>
+            <option value="title">Title</option>
+            <option value="abstract">Abstract</option>
+            <option value="keywords">Keywords</option>
+            <option value="authors">Authors</option>
           </select>
         </div>
         <div class="form-col">
-          <label for="year-from">起始年份</label>
+          <label for="year-from">Start year</label>
           <input type="number" id="year-from" class="form-control" value="1955" min="1955" max="2026">
         </div>
         <div class="form-col">
-          <label for="year-to">结束年份</label>
+          <label for="year-to">End year</label>
           <input type="number" id="year-to" class="form-control" value="2026" min="1955" max="2026">
         </div>
         <div class="form-col">
-          <label for="sort-by">排序方式</label>
+          <label for="sort-by">Sort by</label>
           <select id="sort-by" class="form-control">
-            <option value="recent">最新发表</option>
-            <option value="early">最早发表</option>
-            <option value="journal">期刊名称</option>
+            <option value="recent">Most recent</option>
+            <option value="early">Earliest</option>
+            <option value="journal">Journal name</option>
           </select>
         </div>
         <div class="form-col">
-          <label for="max-results">最大显示数量</label>
+          <label for="max-results">Maximum results</label>
           <input type="number" id="max-results" class="form-control" value="50" min="1" max="200">
         </div>
       </div>
 
       <div class="form-group">
-        <label>期刊选择</label>
+        <label>Journal selection</label>
         <div class="journal-select" id="journal-select"></div>
       </div>
 
       <div class="form-group">
         <input type="checkbox" id="show-abstract">
-        <label for="show-abstract" style="display:inline; margin-left:5px;">显示摘要</label>
+        <label for="show-abstract" style="display:inline; margin-left:5px;">Show abstracts</label>
       </div>
 
-      <button type="submit" class="btn">开始搜索</button>
-      <button type="button" class="btn btn-secondary" onclick="clearCnkiForm()">清空表单</button>
+      <button type="submit" class="btn">Search</button>
+      <button type="button" class="btn btn-secondary" onclick="clearCnkiForm()">Clear form</button>
     </form>
   </div>
 

@@ -1,34 +1,36 @@
 {
   "source": "files/cnki_list.csv",
-  "total": 46041,
+  "generated_at": 1782128685,
+  "source_mtime": 1782127981,
+  "total": 45820,
   "journals": [
     {
+      "name": "金融研究",
+      "count": 9195
+    },
+    {
       "name": "管理世界",
-      "count": 10526
+      "count": 8593
     },
     {
       "name": "经济研究",
-      "count": 9245
+      "count": 8235
     },
     {
       "name": "世界经济",
-      "count": 8346
-    },
-    {
-      "name": "中国工业经济",
-      "count": 6663
+      "count": 7696
     },
     {
       "name": "中国社会科学",
-      "count": 5361
+      "count": 5247
     },
     {
-      "name": "金融研究",
-      "count": 3919
+      "name": "中国工业经济",
+      "count": 4998
     },
     {
       "name": "经济学(季刊)",
-      "count": 1981
+      "count": 1856
     }
   ],
   "year_min": 1955,
@@ -39,7 +41,7 @@
       "label": "1955-1979",
       "from": null,
       "to": 1979,
-      "count": 1648,
+      "count": 1645,
       "url": "/assets/cnki-search/papers_b1980.json"
     },
     {
@@ -47,7 +49,7 @@
       "label": "1980-1989",
       "from": 1980,
       "to": 1989,
-      "count": 6047,
+      "count": 8183,
       "url": "/assets/cnki-search/papers_1980s.json"
     },
     {
@@ -55,7 +57,7 @@
       "label": "1990-1999",
       "from": 1990,
       "to": 1999,
-      "count": 8157,
+      "count": 10155,
       "url": "/assets/cnki-search/papers_1990s.json"
     },
     {
@@ -63,7 +65,7 @@
       "label": "2000-2009",
       "from": 2000,
       "to": 2009,
-      "count": 11596,
+      "count": 10651,
       "url": "/assets/cnki-search/papers_2000s.json"
     },
     {
@@ -71,7 +73,7 @@
       "label": "2010-2019",
       "from": 2010,
       "to": 2019,
-      "count": 11476,
+      "count": 9549,
       "url": "/assets/cnki-search/papers_2010s.json"
     },
     {
@@ -79,7 +81,7 @@
       "label": "2020+",
       "from": 2020,
       "to": null,
-      "count": 7117,
+      "count": 5637,
       "url": "/assets/cnki-search/papers_2020s.json"
     }
   ]

@@ -1,0 +1,53 @@
+---
+layout: default
+---
+{% assign photos = site.data.photography[page.album] %}
+{% if page.map %}<link rel="stylesheet" href="{{ '/assets/photography/leaflet/leaflet.css' | relative_url }}">{% endif %}
+<link rel="stylesheet" href="{{ '/assets/photography/photography.css' | relative_url }}">
+<main class="photo-shell" id="main" lang="zh-CN">
+  <a class="photo-back" href="{{ '/photography/' | relative_url }}">← Photography</a>
+  <header class="photo-header">
+    <p class="photo-eyebrow">PHOTOGRAPHY / 摄影手记</p>
+    <h1>{{ page.title }}</h1>
+    <p class="photo-intro"><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%Y 年 %-m 月 %-d 日' }}</time><span>·</span>{{ page.location }}<span>·</span>{{ photos.size }} 张照片</p>
+  </header>
+  {{ content }}
+  {% if page.map %}
+  <section class="photo-location" aria-labelledby="location-title">
+    <div class="photo-location-copy">
+      <p class="photo-eyebrow">LOCATION / 拍摄地点</p>
+      <h2 id="location-title">{{ page.location }}</h2>
+      <p>{{ page.map.latitude }}° N<br>{{ page.map.longitude }}° E</p>
+      <p class="photo-map-note">地图标记为园区位置。</p>
+      <a class="photo-text-link" href="{{ page.map.directions | escape }}" target="_blank" rel="noopener noreferrer">在高德地图中查看 ↗</a>
+    </div>
+    <div>
+      <div class="photo-map" id="photo-map" role="region" aria-label="{{ page.location | escape }}交互地图" data-lat="{{ page.map.latitude }}" data-lng="{{ page.map.longitude }}" data-location="{{ page.location | escape }}"></div>
+      <p class="photo-map-status" role="status">地图加载中；也可通过下方链接查看地点。</p>
+      <p class="photo-map-note">可拖动、缩放 · <a href="https://www.openstreetmap.org/?mlat={{ page.map.latitude }}&amp;mlon={{ page.map.longitude }}#map=16/{{ page.map.latitude }}/{{ page.map.longitude }}" target="_blank" rel="noopener noreferrer">打开完整地图</a> · <a href="{{ page.map.source }}">位置来源：OpenStreetMap</a></p>
+    </div>
+  </section>
+  {% endif %}
+  <div class="photo-gallery-heading"><h2>镜头记录</h2><p>点击照片放大浏览</p></div>
+  <div class="photo-grid">
+    {% for photo in photos %}
+    <figure class="photo-frame">
+      <a class="photo-open" href="{{ photo.large | relative_url }}" data-photo-index="{{ forloop.index0 }}" aria-label="放大照片 {{ forloop.index }}：{{ page.title | escape }}">
+        <img src="{{ photo.small | relative_url }}" srcset="{{ photo.small | relative_url }} 900w, {{ photo.large | relative_url }} 2000w" sizes="(max-width: 700px) 94vw, 46vw" width="{{ photo.width }}" height="{{ photo.height }}" alt="{{ page.title | escape }}，照片 {{ forloop.index }}" loading="lazy" decoding="async">
+      </a>
+      <figcaption>
+        <div class="photo-caption-top"><span>{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }} / {{ photo.id }}</span>{% if photo.taken %}<time datetime="{{ photo.taken }}">{{ photo.taken | date: '%H:%M:%S' }}</time>{% endif %}</div>
+        <p class="photo-settings">{% if photo.focal %}<span>{{ photo.focal }}</span>{% endif %}{% if photo.aperture %}<span>{{ photo.aperture }}</span>{% endif %}{% if photo.shutter %}<span>{{ photo.shutter }}</span>{% endif %}{% if photo.iso %}<span>ISO {{ photo.iso }}</span>{% endif %}</p>
+        <p class="photo-equipment">{{ photo.camera }}{% if photo.lens %} · {{ photo.lens }}{% endif %}</p>
+      </figcaption>
+    </figure>
+    {% endfor %}
+  </div>
+  <dialog class="photo-lightbox" aria-label="照片浏览器">
+    <button class="photo-close" type="button" aria-label="关闭照片浏览器">关闭 ×</button>
+    <img class="photo-lightbox-image" alt="">
+    <div class="photo-lightbox-footer"><button class="photo-prev" type="button" aria-label="上一张照片">←</button><p aria-live="polite"></p><button class="photo-next" type="button" aria-label="下一张照片">→</button></div>
+  </dialog>
+</main>
+{% if page.map %}<script src="{{ '/assets/photography/leaflet/leaflet.js' | relative_url }}" defer></script>{% endif %}
+<script src="{{ '/assets/photography/photography.js' | relative_url }}" defer></script>

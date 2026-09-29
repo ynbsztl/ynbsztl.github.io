@@ -1,0 +1,28 @@
+---
+layout: default
+title: Photography
+permalink: /photography/
+---
+<link rel="stylesheet" href="{{ '/assets/photography/photography.css' | relative_url }}">
+<main class="photo-shell" id="main">
+  <header class="photo-header">
+    <p class="photo-eyebrow">FIELD NOTES / 摄影手记</p>
+    <h1>Photography</h1>
+    <p class="photo-intro">用镜头记录遇见的风景与生命。</p>
+  </header>
+  <div class="photo-albums">
+    {% assign albums = site.photography | sort: 'date' | reverse %}
+    {% for album in albums %}
+    {% assign photos = site.data.photography[album.album] %}
+    <article class="photo-album">
+      <a class="photo-cover" href="{{ album.url | relative_url }}">
+        <img src="{{ album.cover | relative_url }}" alt="{{ album.cover_alt | escape }}" width="1500" height="1000" {% unless forloop.first %}loading="lazy"{% endunless %}>
+        <span class="photo-count">{{ photos.size }} photographs</span>
+      </a>
+      <p class="photo-eyebrow"><time datetime="{{ album.date | date: '%Y-%m-%d' }}">{{ album.date | date: '%Y.%m.%d' }}</time> / {{ album.location }}</p>
+      <h2><a href="{{ album.url | relative_url }}">{{ album.title }}</a></h2>
+      <a class="photo-text-link" href="{{ album.url | relative_url }}">浏览这次拍摄 <span aria-hidden="true">↗</span></a>
+    </article>
+    {% endfor %}
+  </div>
+</main>

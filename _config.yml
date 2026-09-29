@@ -125,6 +125,8 @@ include:
   - _pages
   - files
 exclude:
+  - files/Picture
+  - scripts
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -176,6 +178,9 @@ kramdown:
 
 # Collections
 collections:
+  photography:
+    output: true
+    permalink: /photography/:path/
   teaching:
     output: false
     permalink: /:collection/:path/

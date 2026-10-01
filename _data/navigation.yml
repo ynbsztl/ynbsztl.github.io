@@ -12,8 +12,9 @@ main:
   - title: "CNKI Search"
     url: /cnki-search/
 
-  - title: "Photography"
-    url: /photography/
+  # Temporarily hidden; restore together with photography output in _config.yml.
+  # - title: "Photography"
+  #   url: /photography/
      
   #- title: "Miscellaneous"
   #  url: /misc/

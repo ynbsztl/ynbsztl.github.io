@@ -125,6 +125,9 @@ include:
   - _pages
   - files
 exclude:
+  # Photography is paused; remove these two exclusions when restoring it.
+  - _pages/photography.html
+  - assets/photography
   - files/Picture
   - scripts
   - "*.sublime-project"
@@ -179,7 +182,7 @@ kramdown:
 # Collections
 collections:
   photography:
-    output: true
+    output: false
     permalink: /photography/:path/
   teaching:
     output: false

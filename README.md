@@ -22,6 +22,8 @@ published website, search tools, CV files, and supporting data.
   Source page: `_pages/cnki-search.md`; frontend script:
   `assets/js/cnki-search-static.js`; generated data:
   `assets/cnki-search/`.
+- **Packages**: downloadable software, including PDF reader for Apple silicon Macs.
+  Source: `_pages/packages.md`; installers: `files/packages/`.
 - **Curriculum Vitae**: PDF CV and LaTeX source files. Main PDF:
   `ztlcv/CV_Tianlei.pdf`.
 - **Optional / hidden pages**: data, talks, miscellaneous materials, sitemap,

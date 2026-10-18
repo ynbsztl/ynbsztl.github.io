@@ -9,11 +9,11 @@ main:
   - title: "Econ Search"
     url: /econ-search/
 
-  - title: "Packages"
-    url: /packages/
-
   - title: "CNKI Search"
     url: /cnki-search/
+
+  - title: "Packages"
+    url: /packages/
 
   # Temporarily hidden; restore together with photography output in _config.yml.
   # - title: "Photography"

@@ -13,16 +13,17 @@ Software and tools for research and everyday use.
 A customized macOS PDF reader based on [Skim](https://skim-app.sourceforge.io/), with a recent-reading list, chapter bookmarks, a page overview, text annotations, and full-screen slide presentations.
 
 **Platform:** Apple silicon (M1 or later), macOS 12 or later  
-**Release:** October 18, 2026 · **Download size:** 9.7 MB
+**Release:** October 18, 2026 (revision 2) · **Download size:** 9.7 MB
 
 <p>
-  <a class="btn btn--primary" href="{{ '/files/packages/PDF-reader-2026.10.18-arm64.dmg' | relative_url }}" download="PDF-reader-2026.10.18-arm64.dmg">Download PDF reader for Mac</a>
+  <a class="btn btn--primary" href="{{ '/files/packages/PDF-reader-2026.10.18-r2-arm64.dmg' | relative_url }}" download="PDF-reader-2026.10.18-r2-arm64.dmg">Download PDF reader for Mac</a>
 </p>
 
 ### Features
 
 - Resume recently read PDFs from the home screen. Closing a PDF no longer returns to the home screen automatically.
 - Browse embedded chapter bookmarks and all-page thumbnails.
+- Return to your previous reading position with the floating button in the lower-left corner, restoring the page, scroll position, and zoom.
 - Highlight selected text with **Control + Command + H**, or underline it with **Control + Command + U**.
 - Add text with **Control + Command + T**, with font and size controls.
 - Present slides from the current page with **Command + L** or the toolbar button. Use the arrow keys to change pages; press **Esc** or **Command + L** to return to reading.

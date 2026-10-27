@@ -11,19 +11,20 @@ description: "PDF reader for macOS: features, keyboard shortcuts, installation, 
 A customized macOS PDF reader based on [Skim](https://skim-app.sourceforge.io/), with a recent-reading list, chapter bookmarks, a page overview, text and LaTeX annotations, and full-screen slide presentations.
 
 **Platform:** Apple silicon (M1 or later), macOS 12 or later  
-**Release:** October 22, 2026 (revision 6) · **Download size:** 10.7 MB
+**Release:** October 27, 2026 · **Download size:** 10.7 MB
 
 <p>
-  <a class="btn btn--primary" href="{{ '/files/packages/PDF-reader-2026.10.22-r6-arm64.dmg' | relative_url }}" download="PDF-reader-2026.10.22-r6-arm64.dmg">Download PDF reader for Mac</a>
+  <a class="btn btn--primary" href="{{ '/files/packages/PDF-reader-2026.10.27-arm64.dmg' | relative_url }}" download="PDF-reader-2026.10.27-arm64.dmg">Download PDF reader for Mac</a>
 </p>
 
 ### Features
 
 - Resume recently read PDFs from the home screen. Closing a PDF no longer returns to the home screen automatically.
+- Open multiple PDFs as tabs in one window. Right-click a tab to reveal the file in Finder, close it, or close other tabs.
 - Browse embedded chapter bookmarks and all-page thumbnails.
 - Return to your previous reading position with the floating button in the lower-left corner, restoring the page, scroll position, and zoom.
 - Highlight selected text with **Control + Command + H**, or underline it with **Control + Command + U**.
-- Add text with **Control + Command + T**, with font and size controls, a transparent background, and a thin caret. Each activation places one text box, then returns to ordinary text selection.
+- Add text with **Control + Command + T**, with font, size, and color controls, a transparent background, and a thin caret. Each activation places one text box, then returns to ordinary text selection.
 - Insert LaTeX equations with an automatic offline preview, then double-click to edit the source later. No LaTeX installation is required.
 - Embed annotations in the PDF by default, or turn off **Embed annotations (嵌入批注)** to use separate notes. Pasted text also uses a transparent background.
 - Preserve text and equation layout in other PDF readers with fixed vector appearances. Text and equations remain editable in PDF reader; other readers treat them as stamp annotations.
@@ -31,7 +32,7 @@ A customized macOS PDF reader based on [Skim](https://skim-app.sourceforge.io/),
 
 ### Latest update
 
-This release fixes formulas becoming faint or showing raw LaTeX in PDF Expert, as well as Chinese text appearing as boxes in other renderers. It also includes single-use text placement and a thinner insertion caret.
+This release adds text color selection, including custom colors, for new and existing text annotations. It also opens multiple PDFs as tabs in a single window, with a tab context menu for Finder and closing documents.
 
 To update annotations in an existing PDF, open it in this version, keep **Embed annotations (嵌入批注)** enabled, and save once with **Command + S**. Close and reopen the file in the other reader to see the updated appearance.
 

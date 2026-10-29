@@ -11,10 +11,10 @@ description: "PDF reader for macOS: features, keyboard shortcuts, installation, 
 A customized macOS PDF reader based on [Skim](https://skim-app.sourceforge.io/), with a recent-reading list, chapter bookmarks, a page overview, text and LaTeX annotations, and full-screen slide presentations.
 
 **Platform:** Apple silicon (M1 or later), macOS 12 or later  
-**Release:** October 27, 2026 · **Download size:** 10.7 MB
+**Release:** October 29, 2026 · **Download size:** 11.5 MB
 
 <p>
-  <a class="btn btn--primary" href="{{ '/files/packages/PDF-reader-2026.10.27-arm64.dmg' | relative_url }}" download="PDF-reader-2026.10.27-arm64.dmg">Download PDF reader for Mac</a>
+  <a class="btn btn--primary" href="{{ '/files/packages/PDF-reader-2026.10.29-r2-arm64.dmg' | relative_url }}" download="PDF-reader-2026.10.29-r2-arm64.dmg">Download PDF reader for Mac</a>
 </p>
 
 ### Features
@@ -32,7 +32,7 @@ A customized macOS PDF reader based on [Skim](https://skim-app.sourceforge.io/),
 
 ### Latest update
 
-This release adds text color selection, including custom colors, for new and existing text annotations. It also opens multiple PDFs as tabs in a single window, with a tab context menu for Finder and closing documents.
+This release improves saving performance for annotated PDFs. When the document qualifies for a safe fast save, the app prepares a lightweight snapshot and generates the PDF in the background, allowing you to continue reading or editing. If the document requires additional checks, it uses the standard save process. It also avoids storing duplicate equation data to help keep files smaller.
 
 To update annotations in an existing PDF, open it in this version, keep **Embed annotations (嵌入批注)** enabled, and save once with **Command + S**. Close and reopen the file in the other reader to see the updated appearance.
 

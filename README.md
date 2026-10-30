@@ -25,6 +25,10 @@ published website, search tools, CV files, and supporting data.
 - **Packages**: downloadable software, including PDF reader for Apple silicon Macs.
   Listing: `_pages/packages.md`; PDF reader details: `_pages/package-pdf-reader.md`;
   installers: `files/packages/`.
+- **CLC Search / 中图法**: local classification code and name lookup, with hierarchy
+  browsing. Source: `_pages/clc-search.html`; script: `assets/js/clc-search.js`;
+  data and provenance: `assets/clc-search/`. Rebuild with
+  `python3 scripts/build_clc_search_data.py /path/to/clc.json`.
 - **Curriculum Vitae**: PDF CV and LaTeX source files. Main PDF:
   `ztlcv/CV_Tianlei.pdf`.
 - **Optional / hidden pages**: data, talks, miscellaneous materials, sitemap,

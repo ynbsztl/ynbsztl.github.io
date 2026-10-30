@@ -1,0 +1,53 @@
+---
+layout: single
+title: "中国图书馆分类法"
+permalink: /clc-search/
+author_profile: true
+description: "中图法分类号和名称查询，支持关键词搜索、22 大类筛选与逐级浏览。"
+---
+
+<link rel="stylesheet" href="{{ '/assets/css/clc-search.css' | relative_url }}">
+
+<div id="clc-app" class="clc-app" lang="zh-CN" data-index-url="{{ '/assets/clc-search/index.json' | relative_url }}">
+  <p class="clc-back"><a href="{{ '/cnki-search/' | relative_url }}">← CNKI Search</a></p>
+  <p class="clc-intro">查分类号，也查分类名称。按关键词检索，或从 22 个基本大类逐级浏览。</p>
+  <p class="clc-meta">第五版公开整理数据 · <span id="clc-total">45,785</span> 个类目 · 站内查询</p>
+
+  <form id="clc-form" class="clc-panel" role="search" aria-label="中图法查询">
+    <label for="clc-query">分类号或关键词</label>
+    <div class="clc-search-row">
+      <input id="clc-query" type="search" placeholder="例如：F062.5、信息经济学、统计" autocomplete="off" spellcheck="false" aria-describedby="clc-search-tip">
+      <button type="submit" class="clc-primary">查询</button>
+      <button id="clc-clear" type="button">重置</button>
+    </div>
+    <div class="clc-scope-row">
+      <label for="clc-scope">查询范围</label>
+      <select id="clc-scope"><option value="">全部大类</option></select>
+    </div>
+    <p id="clc-search-tip" class="clc-tip">支持小写分类号；多个关键词用空格分隔，同时匹配。保留来源中的 [ ] 等标记。</p>
+    <div class="clc-shortcuts" aria-label="常用分类">
+      <span>常用：</span>
+      <button type="button" data-query="F0">经济学</button>
+      <button type="button" data-query="C8">统计学</button>
+      <button type="button" data-query="C93">管理学</button>
+      <button type="button" data-query="F224">经济数学方法</button>
+      <button type="button" data-query="F83">金融、银行</button>
+      <button type="button" data-query="TP">计算机技术</button>
+    </div>
+  </form>
+
+  <p id="clc-status" class="clc-status" role="status" aria-live="polite">正在载入分类数据…</p>
+  <button id="clc-retry" type="button" hidden>重新加载数据</button>
+  <noscript><p>请启用 JavaScript 以使用站内查询，也可查阅下方图书馆简表。</p></noscript>
+  <section id="clc-results" aria-label="分类浏览与查询结果" aria-busy="true"></section>
+  <p id="clc-copy-status" class="clc-tip" role="status" aria-live="polite"></p>
+
+  <details class="clc-source">
+    <summary>版本、数据来源与标记说明</summary>
+    <p>本页使用 <a href="https://github.com/acdzh/Chinese-Library-Classification">acdzh / Chinese-Library-Classification</a> 的公开整理数据，来源标注为《中国图书馆分类法》第五版，更新日期为 2023 年 6 月 14 日。本站保留分类号、名称及原有层级，未逐条核验，不将其视为官方完整版本。正式编目请核对正式版本及复分规则。</p>
+    <p>方括号 [ ] 表示交替类号，参见<a href="https://lib.tsinghua.edu.cn/info/1049/3358.htm">清华大学图书馆第五版简表</a>；其余符号按来源保留。部分子类号不以父类号开头，请以页面显示的分类路径为准。</p>
+    <p>来源项目注明“禁止用于商业用途”。本页用于个人学习查询。分类数据由本站提供，搜索和浏览不调用外部查询服务。</p>
+  </details>
+</div>
+
+<script src="{{ '/assets/js/clc-search.js' | relative_url }}" defer></script>

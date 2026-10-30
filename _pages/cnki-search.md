@@ -187,6 +187,10 @@ author_profile: true
 </style>
 
 <div class="cnki-search-container">
+  <p style="padding: 14px 18px; background: #f4f8f8; border: 1px solid #dce5e7; border-radius: 8px;">
+    <a href="{{ '/clc-search/' | relative_url }}"><strong>中国图书馆分类法查询 →</strong></a>
+    <span style="display: block; margin-top: 5px; font-size: 14px; color: #586c72;">按分类号或名称查询中图法，支持逐级浏览。</span>
+  </p>
   <div id="data-status" class="data-status">
     <strong>Data status:</strong> <span id="status-text">Ready to search. Source: files/cnki_list.csv; 7 Chinese journals.</span>
   </div>
